@@ -1,0 +1,5413 @@
+test/in0
+Bruteforce:
+SO2 SO3 
+DP1:
+SO2 SO3 
+Greedy:
+SO2 SO3 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 
+
+---------------------------------------------------
+test/in1
+Bruteforce:
+SO1 SO2 SO5 
+DP1:
+SO1 SO2 SO5 
+Greedy:
+SO1 SO2 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in2
+Bruteforce:
+SO1 SO2 SO3 
+DP1:
+SO1 SO2 SO3 
+Greedy:
+SO1 SO2 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 
+
+---------------------------------------------------
+test/in3
+Bruteforce:
+SO4 SO5 
+DP1:
+SO4 SO5 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO4 SO5 
+
+---------------------------------------------------
+test/in4
+Bruteforce:
+SO1 SO3 
+DP1:
+SO1 SO3 
+Greedy:
+SO3 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO3 
+
+---------------------------------------------------
+test/in5
+Bruteforce:
+SO1 SO2 SO3 SO5 
+DP1:
+SO1 SO2 SO3 SO5 
+Greedy:
+SO1 SO2 SO5 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in6
+Bruteforce:
+SO1 SO3 SO5 
+DP1:
+SO1 SO3 SO5 
+Greedy:
+SO1 SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO5 
+
+---------------------------------------------------
+test/in7
+Bruteforce:
+SO2 SO5 
+DP1:
+SO2 SO5 
+Greedy:
+SO2 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO5 
+
+---------------------------------------------------
+test/in8
+Bruteforce:
+SO2 SO3 SO4 SO5 
+DP1:
+SO2 SO4 SO5 
+Greedy:
+SO2 SO3 SO4 SO5 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in9
+Bruteforce:
+SO4 SO5 
+DP1:
+SO4 SO5 
+Greedy:
+SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO4 SO5 
+
+---------------------------------------------------
+test/in10
+Bruteforce:
+SO3 SO4 
+DP1:
+SO3 SO4 
+Greedy:
+SO3 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO3 SO4 
+
+---------------------------------------------------
+test/in11
+Bruteforce:
+SO3 SO4 SO5 
+DP1:
+SO3 SO4 SO5 
+Greedy:
+SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in12
+Bruteforce:
+SO4 SO5 
+DP1:
+SO4 SO5 
+Greedy:
+SO5 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO4 SO5 
+
+---------------------------------------------------
+test/in13
+Bruteforce:
+SO1 SO2 SO4 
+DP1:
+SO1 SO2 SO4 
+Greedy:
+SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in14
+Bruteforce:
+SO1 SO4 SO5 
+DP1:
+SO3 SO5 
+Greedy:
+SO1 SO4 SO5 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO4 SO5 
+
+---------------------------------------------------
+test/in15
+Bruteforce:
+SO2 SO3 SO4 
+DP1:
+SO2 SO3 SO4 
+Greedy:
+SO2 SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in16
+Bruteforce:
+SO1 SO5 
+DP1:
+SO1 SO5 
+Greedy:
+SO1 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO5 
+
+---------------------------------------------------
+test/in17
+Bruteforce:
+SO2 SO3 
+DP1:
+SO2 SO3 
+Greedy:
+SO2 SO3 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 
+
+---------------------------------------------------
+test/in18
+Bruteforce:
+SO2 SO3 SO4 
+DP1:
+SO2 SO3 SO4 
+Greedy:
+SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in19
+Bruteforce:
+SO1 SO2 SO3 SO5 
+DP1:
+SO1 SO2 SO3 SO5 
+Greedy:
+SO1 SO2 SO5 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in20
+Bruteforce:
+SO6 SO7 SO9 
+DP1:
+SO6 SO7 SO9 
+Greedy:
+SO5 
+
+loss_dp1: 0
+loss_greedy: 2
+
+Best approximation --- loss = 0
+SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in21
+Bruteforce:
+SO1 SO6 SO10 
+DP1:
+SO1 SO6 SO10 
+Greedy:
+SO1 SO10 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO6 SO10 
+
+---------------------------------------------------
+test/in22
+Bruteforce:
+SO3 SO5 SO7 SO9 
+DP1:
+SO1 SO5 SO9 
+Greedy:
+SO4 SO7 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO5 SO9 
+
+---------------------------------------------------
+test/in23
+Bruteforce:
+SO1 SO3 SO5 SO8 
+DP1:
+SO1 SO4 SO5 SO9 
+Greedy:
+SO1 SO3 SO5 SO8 
+
+loss_dp1: 0.0550847
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO5 SO8 
+
+---------------------------------------------------
+test/in24
+Bruteforce:
+SO1 SO5 SO8 SO9 
+DP1:
+SO1 SO5 SO8 SO9 
+Greedy:
+SO1 SO5 SO8 SO9 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO5 SO8 SO9 
+
+---------------------------------------------------
+test/in25
+Bruteforce:
+SO2 SO5 SO9 SO10 
+DP1:
+SO5 SO6 SO9 
+Greedy:
+SO8 
+
+loss_dp1: 1
+loss_greedy: 3
+
+Best approximation --- loss = 1
+SO5 SO6 SO9 
+
+---------------------------------------------------
+test/in26
+Bruteforce:
+SO3 SO6 SO7 SO8 
+DP1:
+SO3 SO6 SO7 SO8 
+Greedy:
+SO3 SO6 SO7 SO8 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO6 SO7 SO8 
+
+---------------------------------------------------
+test/in27
+Bruteforce:
+SO1 SO3 SO6 SO10 
+DP1:
+SO1 SO3 SO6 SO10 
+Greedy:
+SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 2
+
+Best approximation --- loss = 0
+SO1 SO3 SO6 SO10 
+
+---------------------------------------------------
+test/in28
+Bruteforce:
+SO2 SO3 SO7 SO10 
+DP1:
+SO1 SO2 SO5 
+Greedy:
+SO4 SO6 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in29
+Bruteforce:
+SO2 SO4 SO6 SO10 
+DP1:
+SO2 SO4 SO6 SO10 
+Greedy:
+SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 2
+
+Best approximation --- loss = 0
+SO2 SO4 SO6 SO10 
+
+---------------------------------------------------
+test/in30
+Bruteforce:
+SO2 SO4 SO5 SO7 
+DP1:
+SO2 SO4 SO5 SO7 
+Greedy:
+SO2 SO4 SO7 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO4 SO5 SO7 
+
+---------------------------------------------------
+test/in31
+Bruteforce:
+SO2 SO9 SO10 
+DP1:
+SO2 SO9 SO10 
+Greedy:
+SO3 
+
+loss_dp1: 0
+loss_greedy: 2
+
+Best approximation --- loss = 0
+SO2 SO9 SO10 
+
+---------------------------------------------------
+test/in32
+Bruteforce:
+SO2 SO3 SO5 SO7 
+DP1:
+SO2 SO3 SO5 SO7 
+Greedy:
+SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 2
+
+Best approximation --- loss = 0
+SO2 SO3 SO5 SO7 
+
+---------------------------------------------------
+test/in33
+Bruteforce:
+SO2 SO3 SO7 SO8 
+DP1:
+SO2 SO3 SO7 SO8 
+Greedy:
+SO2 SO3 SO7 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 SO7 SO8 
+
+---------------------------------------------------
+test/in34
+Bruteforce:
+SO1 SO2 SO7 SO10 
+DP1:
+SO1 SO6 SO7 
+Greedy:
+SO1 SO6 SO7 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO6 SO7 
+
+---------------------------------------------------
+test/in35
+Bruteforce:
+SO2 SO3 SO7 SO10 
+DP1:
+SO2 SO7 SO10 
+Greedy:
+SO2 SO7 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO2 SO7 SO10 
+
+---------------------------------------------------
+test/in36
+Bruteforce:
+SO3 SO5 SO8 
+DP1:
+SO2 SO3 SO5 
+Greedy:
+SO3 SO8 
+
+loss_dp1: 0.240473
+loss_greedy: 1
+
+Best approximation --- loss = 0.240473
+SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in37
+Bruteforce:
+SO1 SO4 SO8 SO10 
+DP1:
+SO1 SO4 SO8 SO10 
+Greedy:
+SO1 SO4 SO8 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO4 SO8 SO10 
+
+---------------------------------------------------
+test/in38
+Bruteforce:
+SO2 SO4 SO10 
+DP1:
+SO2 SO4 SO10 
+Greedy:
+SO2 SO4 SO10 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO4 SO10 
+
+---------------------------------------------------
+test/in39
+Bruteforce:
+SO1 SO3 SO9 SO10 
+DP1:
+SO1 SO3 SO9 SO10 
+Greedy:
+SO3 SO9 SO10 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO3 SO9 SO10 
+
+---------------------------------------------------
+test/in40
+Bruteforce:
+SO2 SO7 SO8 SO14 
+DP1:
+SO2 SO7 SO8 SO14 
+Greedy:
+SO2 SO7 SO8 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO7 SO8 SO14 
+
+---------------------------------------------------
+test/in41
+Bruteforce:
+SO5 SO7 SO11 SO13 
+DP1:
+SO5 SO7 SO11 SO13 
+Greedy:
+SO4 
+
+loss_dp1: 0
+loss_greedy: 3
+
+Best approximation --- loss = 0
+SO5 SO7 SO11 SO13 
+
+---------------------------------------------------
+test/in42
+Bruteforce:
+SO2 SO6 SO10 SO11 SO12 SO14 
+DP1:
+SO1 SO2 SO5 SO7 SO8 
+Greedy:
+SO9 
+
+loss_dp1: 1
+loss_greedy: 5
+
+Best approximation --- loss = 1
+SO1 SO2 SO5 SO7 SO8 
+
+---------------------------------------------------
+test/in43
+Bruteforce:
+SO2 SO3 SO4 SO6 SO8 SO12 SO15 
+DP1:
+SO2 SO3 SO4 SO5 SO6 SO12 
+Greedy:
+SO3 SO6 SO8 SO12 
+
+loss_dp1: 1
+loss_greedy: 3
+
+Best approximation --- loss = 1
+SO2 SO3 SO4 SO5 SO6 SO12 
+
+---------------------------------------------------
+test/in44
+Bruteforce:
+SO3 SO8 SO9 SO12 
+DP1:
+SO7 SO8 SO12 
+Greedy:
+SO7 SO8 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO7 SO8 SO12 
+
+---------------------------------------------------
+test/in45
+Bruteforce:
+SO3 SO7 SO11 SO15 
+DP1:
+SO7 SO8 SO10 
+Greedy:
+SO2 SO7 SO15 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO2 SO7 SO15 
+
+---------------------------------------------------
+test/in46
+Bruteforce:
+SO1 SO10 SO11 SO14 
+DP1:
+SO1 SO2 SO9 SO11 
+Greedy:
+SO1 SO10 SO11 SO14 
+
+loss_dp1: 0.131048
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO10 SO11 SO14 
+
+---------------------------------------------------
+test/in47
+Bruteforce:
+SO7 SO8 SO12 SO13 SO14 
+DP1:
+SO10 SO13 SO14 
+Greedy:
+SO2 SO12 SO13 
+
+loss_dp1: 2
+loss_greedy: 2
+
+Best approximation --- loss = 2
+SO2 SO12 SO13 
+
+---------------------------------------------------
+test/in48
+Bruteforce:
+SO3 SO4 SO8 SO9 
+DP1:
+SO3 SO4 SO8 SO9 
+Greedy:
+SO7 
+
+loss_dp1: 0
+loss_greedy: 3
+
+Best approximation --- loss = 0
+SO3 SO4 SO8 SO9 
+
+---------------------------------------------------
+test/in49
+Bruteforce:
+SO1 SO7 SO13 SO14 
+DP1:
+SO3 SO5 SO8 
+Greedy:
+SO5 SO8 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO3 SO5 SO8 
+
+---------------------------------------------------
+test/in50
+Bruteforce:
+SO1 SO3 SO4 SO14 SO15 
+DP1:
+SO1 SO3 SO6 SO8 SO15 
+Greedy:
+SO5 SO9 SO14 
+
+loss_dp1: 0.160848
+loss_greedy: 2
+
+Best approximation --- loss = 0.160848
+SO1 SO3 SO6 SO8 SO15 
+
+---------------------------------------------------
+test/in51
+Bruteforce:
+SO2 SO4 SO8 SO9 SO10 SO15 
+DP1:
+SO1 SO2 SO13 SO14 
+Greedy:
+SO1 SO8 SO12 SO13 
+
+loss_dp1: 2
+loss_greedy: 2
+
+Best approximation --- loss = 2
+SO1 SO8 SO12 SO13 
+
+---------------------------------------------------
+test/in52
+Bruteforce:
+SO5 SO7 SO11 SO14 SO15 
+DP1:
+SO3 SO5 SO7 SO15 
+Greedy:
+SO11 SO13 SO15 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO3 SO5 SO7 SO15 
+
+---------------------------------------------------
+test/in53
+Bruteforce:
+SO1 SO4 SO11 SO12 SO13 
+DP1:
+SO1 SO3 SO4 SO11 
+Greedy:
+SO1 SO3 SO4 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO3 SO4 SO11 
+
+---------------------------------------------------
+test/in54
+Bruteforce:
+SO2 SO5 SO12 SO15 
+DP1:
+SO2 SO5 SO12 SO15 
+Greedy:
+SO11 
+
+loss_dp1: 0
+loss_greedy: 3
+
+Best approximation --- loss = 0
+SO2 SO5 SO12 SO15 
+
+---------------------------------------------------
+test/in55
+Bruteforce:
+SO1 SO4 SO5 SO6 SO11 SO13 SO15 
+DP1:
+SO4 SO6 SO7 SO13 SO15 
+Greedy:
+SO4 SO10 
+
+loss_dp1: 2
+loss_greedy: 5
+
+Best approximation --- loss = 2
+SO4 SO6 SO7 SO13 SO15 
+
+---------------------------------------------------
+test/in56
+Bruteforce:
+SO2 SO4 SO10 SO14 
+DP1:
+SO6 SO10 SO14 
+Greedy:
+SO15 
+
+loss_dp1: 1
+loss_greedy: 3
+
+Best approximation --- loss = 1
+SO6 SO10 SO14 
+
+---------------------------------------------------
+test/in57
+Bruteforce:
+SO4 SO5 SO11 SO12 SO14 
+DP1:
+SO1 SO4 SO5 SO14 
+Greedy:
+SO3 SO8 
+
+loss_dp1: 1
+loss_greedy: 3
+
+Best approximation --- loss = 1
+SO1 SO4 SO5 SO14 
+
+---------------------------------------------------
+test/in58
+Bruteforce:
+SO2 SO3 SO4 SO9 SO10 SO14 
+DP1:
+SO1 SO2 SO4 SO9 SO10 
+Greedy:
+SO2 SO3 SO4 SO10 SO14 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO2 SO3 SO4 SO10 SO14 
+
+---------------------------------------------------
+test/in59
+Bruteforce:
+SO8 SO11 SO12 SO14 
+DP1:
+SO2 SO4 SO5 SO14 
+Greedy:
+SO9 SO13 
+
+loss_dp1: 0.0654664
+loss_greedy: 2
+
+Best approximation --- loss = 0.0654664
+SO2 SO4 SO5 SO14 
+
+---------------------------------------------------
+test/in60
+Bruteforce:
+SO5 
+DP1:
+SO5 
+Greedy:
+SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO5 
+
+---------------------------------------------------
+test/in61
+Bruteforce:
+SO3 SO4 
+DP1:
+SO3 SO4 
+Greedy:
+SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO4 
+
+---------------------------------------------------
+test/in62
+Bruteforce:
+SO4 
+DP1:
+SO4 
+Greedy:
+SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO4 
+
+---------------------------------------------------
+test/in63
+Bruteforce:
+SO1 
+DP1:
+SO1 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 
+
+---------------------------------------------------
+test/in64
+Bruteforce:
+SO3 
+DP1:
+SO3 
+Greedy:
+SO3 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 
+
+---------------------------------------------------
+test/in65
+Bruteforce:
+SO3 SO5 
+DP1:
+SO3 SO5 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO3 SO5 
+
+---------------------------------------------------
+test/in66
+Bruteforce:
+SO1 
+DP1:
+SO1 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 
+
+---------------------------------------------------
+test/in67
+Bruteforce:
+SO2 SO4 
+DP1:
+SO2 SO4 
+Greedy:
+SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO4 
+
+---------------------------------------------------
+test/in68
+Bruteforce:
+SO4 SO5 
+DP1:
+SO4 SO5 
+Greedy:
+SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO4 SO5 
+
+---------------------------------------------------
+test/in69
+Bruteforce:
+SO5 
+DP1:
+SO5 
+Greedy:
+SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO5 
+
+---------------------------------------------------
+test/in70
+Bruteforce:
+SO5 
+DP1:
+SO5 
+Greedy:
+SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO5 
+
+---------------------------------------------------
+test/in71
+Bruteforce:
+SO3 SO4 
+DP1:
+SO3 SO4 
+Greedy:
+SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO4 
+
+---------------------------------------------------
+test/in72
+Bruteforce:
+SO1 
+DP1:
+SO1 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 
+
+---------------------------------------------------
+test/in73
+Bruteforce:
+SO3 SO4 
+DP1:
+SO3 SO4 
+Greedy:
+SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO4 
+
+---------------------------------------------------
+test/in74
+Bruteforce:
+SO3 
+DP1:
+SO3 
+Greedy:
+SO3 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 
+
+---------------------------------------------------
+test/in75
+Bruteforce:
+SO3 SO4 SO5 
+DP1:
+SO1 SO4 
+Greedy:
+SO3 SO4 SO5 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in76
+Bruteforce:
+SO1 
+DP1:
+SO1 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 
+
+---------------------------------------------------
+test/in77
+Bruteforce:
+SO2 
+DP1:
+SO2 
+Greedy:
+SO2 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 
+
+---------------------------------------------------
+test/in78
+Bruteforce:
+SO2 
+DP1:
+SO2 
+Greedy:
+SO2 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 
+
+---------------------------------------------------
+test/in79
+Bruteforce:
+SO1 SO4 
+DP1:
+SO1 SO4 
+Greedy:
+SO1 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO4 
+
+---------------------------------------------------
+test/in80
+Bruteforce:
+SO3 SO4 SO6 SO10 
+DP1:
+SO1 SO3 SO10 
+Greedy:
+SO1 SO3 SO10 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO3 SO10 
+
+---------------------------------------------------
+test/in81
+Bruteforce:
+SO5 SO8 SO9 
+DP1:
+SO5 SO9 
+Greedy:
+SO5 SO9 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO5 SO9 
+
+---------------------------------------------------
+test/in82
+Bruteforce:
+SO3 SO5 
+DP1:
+SO3 SO5 
+Greedy:
+SO8 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO3 SO5 
+
+---------------------------------------------------
+test/in83
+Bruteforce:
+SO3 SO7 SO9 
+DP1:
+SO3 SO5 SO7 
+Greedy:
+SO3 SO7 SO9 
+
+loss_dp1: 0.548587
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO7 SO9 
+
+---------------------------------------------------
+test/in84
+Bruteforce:
+SO4 
+DP1:
+SO4 
+Greedy:
+SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO4 
+
+---------------------------------------------------
+test/in85
+Bruteforce:
+SO3 SO9 
+DP1:
+SO3 SO9 
+Greedy:
+SO2 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO3 SO9 
+
+---------------------------------------------------
+test/in86
+Bruteforce:
+SO6 SO7 
+DP1:
+SO6 SO7 
+Greedy:
+SO7 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO6 SO7 
+
+---------------------------------------------------
+test/in87
+Bruteforce:
+SO2 SO3 SO9 
+DP1:
+SO2 SO3 SO9 
+Greedy:
+SO2 SO3 SO9 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 SO9 
+
+---------------------------------------------------
+test/in88
+Bruteforce:
+SO5 SO6 SO7 
+DP1:
+SO5 SO6 SO7 
+Greedy:
+SO5 SO6 SO7 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO5 SO6 SO7 
+
+---------------------------------------------------
+test/in89
+Bruteforce:
+SO2 
+DP1:
+SO2 
+Greedy:
+SO2 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 
+
+---------------------------------------------------
+test/in90
+Bruteforce:
+SO4 SO5 SO7 
+DP1:
+SO4 SO5 SO7 
+Greedy:
+SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO4 SO5 SO7 
+
+---------------------------------------------------
+test/in91
+Bruteforce:
+SO3 SO5 SO7 SO8 
+DP1:
+SO3 SO5 SO7 SO8 
+Greedy:
+SO3 SO5 SO7 SO8 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO5 SO7 SO8 
+
+---------------------------------------------------
+test/in92
+Bruteforce:
+SO2 SO6 SO9 
+DP1:
+SO2 SO4 
+Greedy:
+SO2 SO6 SO9 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO6 SO9 
+
+---------------------------------------------------
+test/in93
+Bruteforce:
+SO7 SO8 SO10 
+DP1:
+SO7 SO8 SO10 
+Greedy:
+SO6 SO7 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in94
+Bruteforce:
+SO2 SO5 SO8 SO10 
+DP1:
+SO2 SO4 SO5 SO10 
+Greedy:
+SO2 SO5 SO8 SO10 
+
+loss_dp1: 0.374408
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO5 SO8 SO10 
+
+---------------------------------------------------
+test/in95
+Bruteforce:
+SO6 SO7 SO8 SO10 
+DP1:
+SO1 SO7 SO8 
+Greedy:
+SO1 SO7 SO8 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO7 SO8 
+
+---------------------------------------------------
+test/in96
+Bruteforce:
+SO1 SO3 SO10 
+DP1:
+SO1 SO3 SO10 
+Greedy:
+SO1 SO3 SO10 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO10 
+
+---------------------------------------------------
+test/in97
+Bruteforce:
+SO6 SO9 
+DP1:
+SO6 SO9 
+Greedy:
+SO3 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO6 SO9 
+
+---------------------------------------------------
+test/in98
+Bruteforce:
+SO5 SO8 
+DP1:
+SO5 SO8 
+Greedy:
+SO5 SO8 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO5 SO8 
+
+---------------------------------------------------
+test/in99
+Bruteforce:
+SO2 SO3 SO10 
+DP1:
+SO2 SO3 SO10 
+Greedy:
+SO2 SO3 SO10 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 SO10 
+
+---------------------------------------------------
+test/in100
+Bruteforce:
+SO2 SO4 SO7 SO14 
+DP1:
+SO2 SO3 SO4 SO7 
+Greedy:
+SO2 SO4 SO7 SO14 
+
+loss_dp1: 0.298316
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO4 SO7 SO14 
+
+---------------------------------------------------
+test/in101
+Bruteforce:
+SO3 SO8 SO13 SO15 
+DP1:
+SO3 SO8 SO13 SO15 
+Greedy:
+SO3 SO8 SO13 SO15 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO8 SO13 SO15 
+
+---------------------------------------------------
+test/in102
+Bruteforce:
+SO8 SO13 SO15 
+DP1:
+SO8 SO13 SO15 
+Greedy:
+SO14 SO15 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO8 SO13 SO15 
+
+---------------------------------------------------
+test/in103
+Bruteforce:
+SO1 SO13 SO15 
+DP1:
+SO1 SO8 SO10 
+Greedy:
+SO1 SO13 SO15 
+
+loss_dp1: 0.203125
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO13 SO15 
+
+---------------------------------------------------
+test/in104
+Bruteforce:
+SO2 SO3 SO9 
+DP1:
+SO2 SO3 SO9 
+Greedy:
+SO12 SO14 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 SO9 
+
+---------------------------------------------------
+test/in105
+Bruteforce:
+SO4 SO15 
+DP1:
+SO4 SO15 
+Greedy:
+SO9 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO4 SO15 
+
+---------------------------------------------------
+test/in106
+Bruteforce:
+SO4 SO10 SO13 
+DP1:
+SO4 SO10 SO13 
+Greedy:
+SO4 SO10 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO4 SO10 SO13 
+
+---------------------------------------------------
+test/in107
+Bruteforce:
+SO6 SO13 SO15 
+DP1:
+SO5 SO6 SO13 
+Greedy:
+SO3 SO5 
+
+loss_dp1: 0.330409
+loss_greedy: 1
+
+Best approximation --- loss = 0.330409
+SO5 SO6 SO13 
+
+---------------------------------------------------
+test/in108
+Bruteforce:
+SO5 SO9 SO14 
+DP1:
+SO1 SO9 
+Greedy:
+SO1 SO9 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO9 
+
+---------------------------------------------------
+test/in109
+Bruteforce:
+SO2 SO3 SO5 
+DP1:
+SO2 SO3 SO5 
+Greedy:
+SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in110
+Bruteforce:
+SO4 SO7 
+DP1:
+SO4 SO7 
+Greedy:
+SO7 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO4 SO7 
+
+---------------------------------------------------
+test/in111
+Bruteforce:
+SO3 SO4 SO8 SO14 
+DP1:
+SO4 SO10 SO14 
+Greedy:
+SO4 SO10 SO14 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO4 SO10 SO14 
+
+---------------------------------------------------
+test/in112
+Bruteforce:
+SO7 SO10 
+DP1:
+SO7 SO10 
+Greedy:
+SO7 SO10 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO7 SO10 
+
+---------------------------------------------------
+test/in113
+Bruteforce:
+SO2 SO7 SO12 SO13 
+DP1:
+SO6 SO10 SO11 SO13 
+Greedy:
+SO7 SO12 SO13 
+
+loss_dp1: 0.034418
+loss_greedy: 1
+
+Best approximation --- loss = 0.034418
+SO6 SO10 SO11 SO13 
+
+---------------------------------------------------
+test/in114
+Bruteforce:
+SO1 SO13 
+DP1:
+SO1 SO13 
+Greedy:
+SO14 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO13 
+
+---------------------------------------------------
+test/in115
+Bruteforce:
+SO2 SO11 
+DP1:
+SO2 SO11 
+Greedy:
+SO2 SO11 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO11 
+
+---------------------------------------------------
+test/in116
+Bruteforce:
+SO6 SO14 SO15 
+DP1:
+SO3 SO8 SO13 
+Greedy:
+SO1 SO3 
+
+loss_dp1: 0.181061
+loss_greedy: 1
+
+Best approximation --- loss = 0.181061
+SO3 SO8 SO13 
+
+---------------------------------------------------
+test/in117
+Bruteforce:
+SO4 SO10 SO14 
+DP1:
+SO10 SO13 
+Greedy:
+SO8 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO10 SO13 
+
+---------------------------------------------------
+test/in118
+Bruteforce:
+SO1 SO2 SO3 SO7 SO12 SO13 
+DP1:
+SO1 SO2 SO3 SO7 SO12 SO13 
+Greedy:
+SO9 SO12 SO13 
+
+loss_dp1: 0
+loss_greedy: 3
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO7 SO12 SO13 
+
+---------------------------------------------------
+test/in119
+Bruteforce:
+SO5 SO6 SO11 
+DP1:
+SO5 SO6 SO11 
+Greedy:
+SO4 SO7 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO5 SO6 SO11 
+
+---------------------------------------------------
+test/in120
+Bruteforce:
+SO2 SO3 
+DP1:
+SO2 SO3 
+Greedy:
+SO3 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 
+
+---------------------------------------------------
+test/in121
+Bruteforce:
+SO3 SO4 
+DP1:
+SO3 SO4 
+Greedy:
+SO3 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO3 SO4 
+
+---------------------------------------------------
+test/in122
+Bruteforce:
+SO4 SO5 
+DP1:
+SO4 SO5 
+Greedy:
+SO5 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO4 SO5 
+
+---------------------------------------------------
+test/in123
+Bruteforce:
+SO2 
+DP1:
+SO2 
+Greedy:
+SO2 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 
+
+---------------------------------------------------
+test/in124
+Bruteforce:
+SO3 
+DP1:
+SO3 
+Greedy:
+SO3 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 
+
+---------------------------------------------------
+test/in125
+Bruteforce:
+SO2 
+DP1:
+SO2 
+Greedy:
+SO2 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 
+
+---------------------------------------------------
+test/in126
+Bruteforce:
+SO2 SO5 
+DP1:
+SO2 SO5 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO5 
+
+---------------------------------------------------
+test/in127
+Bruteforce:
+SO2 SO5 
+DP1:
+SO2 SO5 
+Greedy:
+SO2 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO5 
+
+---------------------------------------------------
+test/in128
+Bruteforce:
+SO1 SO5 
+DP1:
+SO1 SO5 
+Greedy:
+SO1 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO5 
+
+---------------------------------------------------
+test/in129
+Bruteforce:
+SO1 SO3 SO5 
+DP1:
+SO1 SO3 SO5 
+Greedy:
+SO1 SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO5 
+
+---------------------------------------------------
+test/in130
+Bruteforce:
+SO1 
+DP1:
+SO1 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 
+
+---------------------------------------------------
+test/in131
+Bruteforce:
+SO3 
+DP1:
+SO3 
+Greedy:
+SO3 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 
+
+---------------------------------------------------
+test/in132
+Bruteforce:
+SO4 
+DP1:
+SO4 
+Greedy:
+SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO4 
+
+---------------------------------------------------
+test/in133
+Bruteforce:
+SO1 SO2 
+DP1:
+SO1 SO2 
+Greedy:
+SO1 SO2 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 
+
+---------------------------------------------------
+test/in134
+Bruteforce:
+SO3 SO5 
+DP1:
+SO3 SO5 
+Greedy:
+SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO5 
+
+---------------------------------------------------
+test/in135
+Bruteforce:
+SO2 
+DP1:
+SO2 
+Greedy:
+SO2 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 
+
+---------------------------------------------------
+test/in136
+Bruteforce:
+SO3 SO5 
+DP1:
+SO3 SO5 
+Greedy:
+SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO5 
+
+---------------------------------------------------
+test/in137
+Bruteforce:
+SO3 SO4 
+DP1:
+SO3 SO4 
+Greedy:
+SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO4 
+
+---------------------------------------------------
+test/in138
+Bruteforce:
+SO2 SO4 
+DP1:
+SO2 SO4 
+Greedy:
+SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO4 
+
+---------------------------------------------------
+test/in139
+Bruteforce:
+SO5 
+DP1:
+SO5 
+Greedy:
+SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO5 
+
+---------------------------------------------------
+test/in140
+Bruteforce:
+SO5 SO8 
+DP1:
+SO5 SO8 
+Greedy:
+SO2 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO5 SO8 
+
+---------------------------------------------------
+test/in141
+Bruteforce:
+SO2 
+DP1:
+SO2 
+Greedy:
+SO2 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 
+
+---------------------------------------------------
+test/in142
+Bruteforce:
+SO5 SO6 SO8 
+DP1:
+SO5 SO6 SO8 
+Greedy:
+SO5 SO8 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO5 SO6 SO8 
+
+---------------------------------------------------
+test/in143
+Bruteforce:
+SO4 SO8 
+DP1:
+SO4 SO8 
+Greedy:
+SO4 SO8 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO4 SO8 
+
+---------------------------------------------------
+test/in144
+Bruteforce:
+SO1 SO4 SO5 
+DP1:
+SO1 SO4 SO5 
+Greedy:
+SO1 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO4 SO5 
+
+---------------------------------------------------
+test/in145
+Bruteforce:
+SO3 SO5 SO8 
+DP1:
+SO2 SO5 
+Greedy:
+SO2 SO5 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO2 SO5 
+
+---------------------------------------------------
+test/in146
+Bruteforce:
+SO4 SO6 
+DP1:
+SO4 SO6 
+Greedy:
+SO4 SO6 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO4 SO6 
+
+---------------------------------------------------
+test/in147
+Bruteforce:
+SO3 SO7 
+DP1:
+SO3 SO7 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO3 SO7 
+
+---------------------------------------------------
+test/in148
+Bruteforce:
+SO8 SO10 
+DP1:
+SO8 SO10 
+Greedy:
+SO8 SO10 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO8 SO10 
+
+---------------------------------------------------
+test/in149
+Bruteforce:
+SO1 
+DP1:
+SO1 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 
+
+---------------------------------------------------
+test/in150
+Bruteforce:
+SO2 SO6 
+DP1:
+SO2 SO6 
+Greedy:
+SO2 SO6 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO6 
+
+---------------------------------------------------
+test/in151
+Bruteforce:
+SO5 SO6 
+DP1:
+SO5 SO6 
+Greedy:
+SO7 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO5 SO6 
+
+---------------------------------------------------
+test/in152
+Bruteforce:
+SO2 SO4 SO5 
+DP1:
+SO2 SO4 SO5 
+Greedy:
+SO9 
+
+loss_dp1: 0
+loss_greedy: 2
+
+Best approximation --- loss = 0
+SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in153
+Bruteforce:
+SO8 
+DP1:
+SO8 
+Greedy:
+SO8 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO8 
+
+---------------------------------------------------
+test/in154
+Bruteforce:
+SO4 SO5 
+DP1:
+SO4 SO5 
+Greedy:
+SO2 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO4 SO5 
+
+---------------------------------------------------
+test/in155
+Bruteforce:
+SO3 SO5 
+DP1:
+SO3 SO5 
+Greedy:
+SO9 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO3 SO5 
+
+---------------------------------------------------
+test/in156
+Bruteforce:
+SO3 SO10 
+DP1:
+SO3 SO10 
+Greedy:
+SO3 SO10 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO10 
+
+---------------------------------------------------
+test/in157
+Bruteforce:
+SO6 
+DP1:
+SO6 
+Greedy:
+SO6 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO6 
+
+---------------------------------------------------
+test/in158
+Bruteforce:
+SO4 SO8 
+DP1:
+SO4 SO8 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO4 SO8 
+
+---------------------------------------------------
+test/in159
+Bruteforce:
+SO2 SO9 
+DP1:
+SO2 SO9 
+Greedy:
+SO2 SO9 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO9 
+
+---------------------------------------------------
+test/in160
+Bruteforce:
+SO4 SO10 SO11 SO15 
+DP1:
+SO4 SO5 SO10 
+Greedy:
+SO4 SO5 SO10 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO4 SO5 SO10 
+
+---------------------------------------------------
+test/in161
+Bruteforce:
+SO1 SO9 SO10 
+DP1:
+SO1 SO9 SO10 
+Greedy:
+SO1 SO8 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO9 SO10 
+
+---------------------------------------------------
+test/in162
+Bruteforce:
+SO2 SO11 SO13 SO15 
+DP1:
+SO2 SO4 SO11 SO15 
+Greedy:
+SO9 SO15 
+
+loss_dp1: 0.147416
+loss_greedy: 2
+
+Best approximation --- loss = 0.147416
+SO2 SO4 SO11 SO15 
+
+---------------------------------------------------
+test/in163
+Bruteforce:
+SO12 SO15 
+DP1:
+SO12 SO15 
+Greedy:
+SO12 SO15 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO12 SO15 
+
+---------------------------------------------------
+test/in164
+Bruteforce:
+SO9 SO10 
+DP1:
+SO9 SO10 
+Greedy:
+SO9 SO10 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO9 SO10 
+
+---------------------------------------------------
+test/in165
+Bruteforce:
+SO9 SO11 SO13 SO15 
+DP1:
+SO9 SO11 SO13 SO15 
+Greedy:
+SO9 SO11 SO13 SO15 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO9 SO11 SO13 SO15 
+
+---------------------------------------------------
+test/in166
+Bruteforce:
+SO14 
+DP1:
+SO14 
+Greedy:
+SO14 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO14 
+
+---------------------------------------------------
+test/in167
+Bruteforce:
+SO3 SO14 
+DP1:
+SO3 SO14 
+Greedy:
+SO3 SO14 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO14 
+
+---------------------------------------------------
+test/in168
+Bruteforce:
+SO2 SO14 
+DP1:
+SO2 SO14 
+Greedy:
+SO2 SO14 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO14 
+
+---------------------------------------------------
+test/in169
+Bruteforce:
+SO5 SO12 
+DP1:
+SO5 SO12 
+Greedy:
+SO5 SO12 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO5 SO12 
+
+---------------------------------------------------
+test/in170
+Bruteforce:
+SO4 
+DP1:
+SO4 
+Greedy:
+SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO4 
+
+---------------------------------------------------
+test/in171
+Bruteforce:
+SO1 SO4 SO9 
+DP1:
+SO1 SO4 SO9 
+Greedy:
+SO1 SO4 SO9 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO4 SO9 
+
+---------------------------------------------------
+test/in172
+Bruteforce:
+SO2 SO14 
+DP1:
+SO2 SO14 
+Greedy:
+SO2 SO14 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO14 
+
+---------------------------------------------------
+test/in173
+Bruteforce:
+SO12 SO13 
+DP1:
+SO12 SO13 
+Greedy:
+SO6 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO12 SO13 
+
+---------------------------------------------------
+test/in174
+Bruteforce:
+SO6 SO13 
+DP1:
+SO6 SO13 
+Greedy:
+SO6 SO13 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO6 SO13 
+
+---------------------------------------------------
+test/in175
+Bruteforce:
+SO2 SO11 
+DP1:
+SO2 SO11 
+Greedy:
+SO2 SO11 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO11 
+
+---------------------------------------------------
+test/in176
+Bruteforce:
+SO12 SO14 
+DP1:
+SO12 SO14 
+Greedy:
+SO10 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO12 SO14 
+
+---------------------------------------------------
+test/in177
+Bruteforce:
+SO2 SO3 SO4 SO5 
+DP1:
+SO2 SO3 SO4 SO5 
+Greedy:
+SO2 SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in178
+Bruteforce:
+SO5 SO10 SO11 
+DP1:
+SO3 SO5 SO11 
+Greedy:
+SO13 
+
+loss_dp1: 0.0667849
+loss_greedy: 2
+
+Best approximation --- loss = 0.0667849
+SO3 SO5 SO11 
+
+---------------------------------------------------
+test/in179
+Bruteforce:
+SO7 SO9 SO12 
+DP1:
+SO7 SO9 SO12 
+Greedy:
+SO6 SO12 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO7 SO9 SO12 
+
+---------------------------------------------------
+test/in180
+Bruteforce:
+SO1 SO2 SO5 
+DP1:
+SO1 SO2 SO5 
+Greedy:
+SO1 SO2 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in181
+Bruteforce:
+SO1 SO2 SO4 
+DP1:
+SO1 SO2 SO4 
+Greedy:
+SO1 
+
+loss_dp1: 0
+loss_greedy: 2
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in182
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 
+DP1:
+SO1 SO2 SO3 SO4 SO5 
+Greedy:
+SO1 SO2 SO3 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in183
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO1 SO2 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in184
+Bruteforce:
+SO1 SO2 SO3 SO5 
+DP1:
+SO1 SO2 SO3 SO5 
+Greedy:
+SO1 SO2 SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in185
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 
+DP1:
+SO1 SO2 SO3 SO4 SO5 
+Greedy:
+SO1 SO2 SO3 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in186
+Bruteforce:
+SO1 SO2 SO3 SO4 
+DP1:
+SO1 SO2 SO3 SO4 
+Greedy:
+SO1 SO2 SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in187
+Bruteforce:
+SO2 SO3 SO5 
+DP1:
+SO2 SO3 SO5 
+Greedy:
+SO2 SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in188
+Bruteforce:
+SO1 SO3 SO4 SO5 
+DP1:
+SO1 SO2 SO3 SO5 
+Greedy:
+SO1 SO3 SO4 SO5 
+
+loss_dp1: 0.275281
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in189
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO3 SO4 
+Greedy:
+SO1 SO2 SO4 SO5 
+
+loss_dp1: 0.0791789
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in190
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO1 SO2 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in191
+Bruteforce:
+SO1 SO2 SO3 SO5 
+DP1:
+SO1 SO2 SO3 SO5 
+Greedy:
+SO1 SO2 SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in192
+Bruteforce:
+SO2 SO3 SO4 SO5 
+DP1:
+SO1 SO2 SO3 SO4 
+Greedy:
+SO2 SO3 SO4 SO5 
+
+loss_dp1: 0.295547
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in193
+Bruteforce:
+SO1 SO2 SO3 SO4 
+DP1:
+SO1 SO2 SO3 SO4 
+Greedy:
+SO1 SO2 SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in194
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO1 SO2 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in195
+Bruteforce:
+SO1 SO2 SO3 SO4 
+DP1:
+SO1 SO2 SO3 SO4 
+Greedy:
+SO1 SO2 SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in196
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 
+DP1:
+SO1 SO2 SO3 SO4 SO5 
+Greedy:
+SO1 SO2 SO3 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in197
+Bruteforce:
+SO1 SO3 SO4 
+DP1:
+SO1 SO3 SO4 
+Greedy:
+SO1 SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in198
+Bruteforce:
+SO1 SO2 SO5 
+DP1:
+SO1 SO2 SO5 
+Greedy:
+SO1 SO2 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in199
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 
+DP1:
+SO1 SO2 SO3 SO4 SO5 
+Greedy:
+SO1 SO2 SO3 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in200
+Bruteforce:
+SO1 SO3 SO5 SO8 SO9 
+DP1:
+SO1 SO3 SO5 SO8 SO9 
+Greedy:
+SO1 SO3 SO10 
+
+loss_dp1: 0
+loss_greedy: 2
+
+Best approximation --- loss = 0
+SO1 SO3 SO5 SO8 SO9 
+
+---------------------------------------------------
+test/in201
+Bruteforce:
+SO1 SO5 SO6 SO7 SO8 SO9 
+DP1:
+SO1 SO2 SO6 SO9 SO10 
+Greedy:
+SO3 SO4 SO7 SO8 SO10 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO3 SO4 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in202
+Bruteforce:
+SO3 SO4 SO5 SO6 SO7 SO8 SO10 
+DP1:
+SO1 SO2 SO3 SO4 SO5 SO6 SO10 
+Greedy:
+SO3 SO4 SO5 SO7 SO8 
+
+loss_dp1: 0.285515
+loss_greedy: 2
+
+Best approximation --- loss = 0.285515
+SO1 SO2 SO3 SO4 SO5 SO6 SO10 
+
+---------------------------------------------------
+test/in203
+Bruteforce:
+SO1 SO2 SO3 SO6 SO7 SO9 SO10 
+DP1:
+SO1 SO2 SO3 SO4 SO6 SO10 
+Greedy:
+SO1 SO2 SO3 SO6 SO7 SO9 SO10 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO6 SO7 SO9 SO10 
+
+---------------------------------------------------
+test/in204
+Bruteforce:
+SO2 SO4 SO5 SO6 SO7 SO8 SO9 
+DP1:
+SO1 SO2 SO4 SO5 SO6 SO8 
+Greedy:
+SO1 SO2 SO4 SO5 SO6 SO8 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO2 SO4 SO5 SO6 SO8 
+
+---------------------------------------------------
+test/in205
+Bruteforce:
+SO1 SO3 SO4 SO5 SO10 
+DP1:
+SO2 SO3 SO5 SO10 
+Greedy:
+SO3 SO5 SO10 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO2 SO3 SO5 SO10 
+
+---------------------------------------------------
+test/in206
+Bruteforce:
+SO1 SO2 SO3 SO4 SO6 SO7 SO9 SO10 
+DP1:
+SO1 SO2 SO3 SO4 SO6 SO7 SO9 SO10 
+Greedy:
+SO1 SO3 SO4 SO6 SO7 SO8 SO9 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 SO6 SO7 SO9 SO10 
+
+---------------------------------------------------
+test/in207
+Bruteforce:
+SO1 SO2 SO6 SO7 SO8 
+DP1:
+SO1 SO2 SO6 SO7 SO8 
+Greedy:
+SO6 SO8 
+
+loss_dp1: 0
+loss_greedy: 3
+
+Best approximation --- loss = 0
+SO1 SO2 SO6 SO7 SO8 
+
+---------------------------------------------------
+test/in208
+Bruteforce:
+SO2 SO3 SO5 SO6 SO7 SO9 
+DP1:
+SO1 SO2 SO3 SO5 SO6 SO7 
+Greedy:
+SO4 SO5 SO6 SO9 
+
+loss_dp1: 0.108025
+loss_greedy: 2
+
+Best approximation --- loss = 0.108025
+SO1 SO2 SO3 SO5 SO6 SO7 
+
+---------------------------------------------------
+test/in209
+Bruteforce:
+SO1 SO2 SO3 SO7 SO8 SO9 
+DP1:
+SO1 SO3 SO4 SO5 SO8 
+Greedy:
+SO3 SO4 SO5 SO9 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO3 SO4 SO5 SO8 
+
+---------------------------------------------------
+test/in210
+Bruteforce:
+SO1 SO3 SO4 SO5 SO7 SO8 SO9 SO10 
+DP1:
+SO1 SO2 SO3 SO4 SO5 SO6 SO7 SO9 
+Greedy:
+SO1 SO3 SO4 SO5 SO7 SO8 SO9 SO10 
+
+loss_dp1: 0.157175
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO4 SO5 SO7 SO8 SO9 SO10 
+
+---------------------------------------------------
+test/in211
+Bruteforce:
+SO1 SO2 SO5 SO6 SO7 SO9 SO10 
+DP1:
+SO1 SO2 SO5 SO6 SO7 SO9 SO10 
+Greedy:
+SO1 SO2 SO7 SO9 SO10 
+
+loss_dp1: 0
+loss_greedy: 2
+
+Best approximation --- loss = 0
+SO1 SO2 SO5 SO6 SO7 SO9 SO10 
+
+---------------------------------------------------
+test/in212
+Bruteforce:
+SO1 SO4 SO5 SO6 SO8 SO9 SO10 
+DP1:
+SO1 SO2 SO3 SO4 SO8 SO9 SO10 
+Greedy:
+SO1 SO5 SO6 SO8 SO9 SO10 
+
+loss_dp1: 0.192496
+loss_greedy: 1
+
+Best approximation --- loss = 0.192496
+SO1 SO2 SO3 SO4 SO8 SO9 SO10 
+
+---------------------------------------------------
+test/in213
+Bruteforce:
+SO2 SO3 SO4 SO5 SO6 SO9 SO10 
+DP1:
+SO2 SO3 SO4 SO5 SO6 SO9 SO10 
+Greedy:
+SO2 SO3 SO4 SO5 SO9 SO10 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 SO4 SO5 SO6 SO9 SO10 
+
+---------------------------------------------------
+test/in214
+Bruteforce:
+SO1 SO7 SO8 SO9 SO10 
+DP1:
+SO1 SO2 SO4 SO8 SO9 
+Greedy:
+SO1 SO7 SO8 SO9 SO10 
+
+loss_dp1: 0.153846
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO7 SO8 SO9 SO10 
+
+---------------------------------------------------
+test/in215
+Bruteforce:
+SO1 SO2 SO3 SO7 SO8 SO9 SO10 
+DP1:
+SO3 SO4 SO5 SO7 SO8 
+Greedy:
+SO2 SO3 SO4 SO5 SO7 SO8 
+
+loss_dp1: 2
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO2 SO3 SO4 SO5 SO7 SO8 
+
+---------------------------------------------------
+test/in216
+Bruteforce:
+SO1 SO2 SO4 SO5 SO6 SO7 SO9 SO10 
+DP1:
+SO2 SO3 SO4 SO6 SO7 SO9 SO10 
+Greedy:
+SO1 SO2 SO4 SO5 SO6 SO7 SO9 SO10 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 SO6 SO7 SO9 SO10 
+
+---------------------------------------------------
+test/in217
+Bruteforce:
+SO2 SO3 SO4 SO5 SO6 SO10 
+DP1:
+SO2 SO3 SO4 SO5 SO6 SO10 
+Greedy:
+SO5 SO7 SO10 
+
+loss_dp1: 0
+loss_greedy: 3
+
+Best approximation --- loss = 0
+SO2 SO3 SO4 SO5 SO6 SO10 
+
+---------------------------------------------------
+test/in218
+Bruteforce:
+SO3 SO4 SO5 SO6 SO7 SO8 SO9 
+DP1:
+SO1 SO2 SO3 SO4 SO5 SO9 
+Greedy:
+SO5 SO6 SO7 SO8 SO9 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO2 SO3 SO4 SO5 SO9 
+
+---------------------------------------------------
+test/in219
+Bruteforce:
+SO1 SO2 SO3 SO4 SO6 SO7 SO8 SO9 
+DP1:
+SO1 SO2 SO3 SO4 SO5 SO6 SO7 
+Greedy:
+SO1 SO2 SO3 SO4 SO6 SO7 SO8 SO9 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 SO6 SO7 SO8 SO9 
+
+---------------------------------------------------
+test/in220
+Bruteforce:
+SO1 SO4 SO6 SO7 SO8 SO10 SO11 SO12 SO14 SO15 
+DP1:
+SO2 SO3 SO4 SO6 SO7 SO10 SO14 SO15 
+Greedy:
+SO1 SO3 SO5 SO6 SO10 SO12 SO14 
+
+loss_dp1: 2
+loss_greedy: 3
+
+Best approximation --- loss = 2
+SO2 SO3 SO4 SO6 SO7 SO10 SO14 SO15 
+
+---------------------------------------------------
+test/in221
+Bruteforce:
+SO3 SO6 SO7 SO8 SO9 SO10 SO11 SO12 SO15 
+DP1:
+SO1 SO2 SO4 SO6 SO7 SO9 SO10 SO12 
+Greedy:
+SO9 SO11 SO14 SO15 
+
+loss_dp1: 1
+loss_greedy: 5
+
+Best approximation --- loss = 1
+SO1 SO2 SO4 SO6 SO7 SO9 SO10 SO12 
+
+---------------------------------------------------
+test/in222
+Bruteforce:
+SO1 SO2 SO6 SO7 SO10 SO11 SO12 SO14 SO15 
+DP1:
+SO2 SO6 SO7 SO9 SO10 SO12 SO14 
+Greedy:
+SO2 SO6 SO7 SO9 SO10 SO12 SO14 
+
+loss_dp1: 2
+loss_greedy: 2
+
+Best approximation --- loss = 2
+SO2 SO6 SO7 SO9 SO10 SO12 SO14 
+
+---------------------------------------------------
+test/in223
+Bruteforce:
+SO1 SO3 SO7 SO9 SO11 SO13 SO14 
+DP1:
+SO2 SO3 SO5 SO7 SO9 
+Greedy:
+SO1 SO4 SO7 SO9 SO12 SO14 
+
+loss_dp1: 2
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO4 SO7 SO9 SO12 SO14 
+
+---------------------------------------------------
+test/in224
+Bruteforce:
+SO2 SO3 SO5 SO6 SO7 SO9 SO13 
+DP1:
+SO1 SO2 SO3 SO4 SO5 SO7 
+Greedy:
+SO10 SO11 SO13 
+
+loss_dp1: 1
+loss_greedy: 4
+
+Best approximation --- loss = 1
+SO1 SO2 SO3 SO4 SO5 SO7 
+
+---------------------------------------------------
+test/in225
+Bruteforce:
+SO1 SO4 SO6 SO7 SO10 SO13 SO15 
+DP1:
+SO1 SO2 SO4 SO5 SO7 SO15 
+Greedy:
+SO6 SO9 SO11 
+
+loss_dp1: 1
+loss_greedy: 4
+
+Best approximation --- loss = 1
+SO1 SO2 SO4 SO5 SO7 SO15 
+
+---------------------------------------------------
+test/in226
+Bruteforce:
+SO2 SO4 SO5 SO7 SO8 SO10 SO13 SO15 
+DP1:
+SO1 SO3 SO5 SO8 SO13 SO15 
+Greedy:
+SO2 SO3 SO5 SO7 SO10 SO15 
+
+loss_dp1: 2
+loss_greedy: 2
+
+Best approximation --- loss = 2
+SO2 SO3 SO5 SO7 SO10 SO15 
+
+---------------------------------------------------
+test/in227
+Bruteforce:
+SO2 SO3 SO4 SO6 SO7 SO9 SO10 SO14 SO15 
+DP1:
+SO1 SO2 SO3 SO4 SO5 SO12 SO14 SO15 
+Greedy:
+SO1 SO2 SO3 SO4 SO10 SO12 SO15 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO2 SO3 SO4 SO5 SO12 SO14 SO15 
+
+---------------------------------------------------
+test/in228
+Bruteforce:
+SO4 SO5 SO6 SO7 SO8 SO10 SO11 SO15 
+DP1:
+SO1 SO2 SO3 SO4 SO6 SO7 SO11 
+Greedy:
+SO4 SO5 SO6 SO7 SO8 SO10 SO11 SO15 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO4 SO5 SO6 SO7 SO8 SO10 SO11 SO15 
+
+---------------------------------------------------
+test/in229
+Bruteforce:
+SO1 SO2 SO3 SO5 SO7 SO8 SO9 SO10 SO11 SO15 
+DP1:
+SO1 SO3 SO4 SO5 SO6 SO7 SO8 SO12 
+Greedy:
+SO1 SO3 SO4 SO6 SO8 SO14 
+
+loss_dp1: 2
+loss_greedy: 4
+
+Best approximation --- loss = 2
+SO1 SO3 SO4 SO5 SO6 SO7 SO8 SO12 
+
+---------------------------------------------------
+test/in230
+Bruteforce:
+SO5 SO6 SO7 SO8 SO14 SO15 
+DP1:
+SO2 SO4 SO5 SO6 SO7 
+Greedy:
+SO8 SO10 SO13 SO14 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO2 SO4 SO5 SO6 SO7 
+
+---------------------------------------------------
+test/in231
+Bruteforce:
+SO6 SO8 SO9 SO10 SO11 SO14 SO15 
+DP1:
+SO5 SO6 SO7 SO8 SO11 SO14 
+Greedy:
+SO5 SO6 SO7 SO11 SO14 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO5 SO6 SO7 SO8 SO11 SO14 
+
+---------------------------------------------------
+test/in232
+Bruteforce:
+SO1 SO3 SO4 SO5 SO6 SO7 SO8 SO9 SO11 SO13 SO15 
+DP1:
+SO1 SO2 SO3 SO4 SO5 SO6 SO7 SO8 SO11 SO13 
+Greedy:
+SO3 SO4 SO7 SO8 SO11 SO12 SO13 SO14 SO15 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO2 SO3 SO4 SO5 SO6 SO7 SO8 SO11 SO13 
+
+---------------------------------------------------
+test/in233
+Bruteforce:
+SO1 SO2 SO3 SO4 SO6 SO7 SO8 SO10 SO11 SO12 
+DP1:
+SO1 SO2 SO3 SO4 SO5 SO6 SO14 SO15 
+Greedy:
+SO2 SO3 SO4 SO7 SO10 SO11 SO12 SO14 SO15 
+
+loss_dp1: 2
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO2 SO3 SO4 SO7 SO10 SO11 SO12 SO14 SO15 
+
+---------------------------------------------------
+test/in234
+Bruteforce:
+SO4 SO6 SO7 SO9 SO10 SO11 SO12 SO13 SO14 
+DP1:
+SO1 SO2 SO3 SO4 SO5 SO7 SO9 SO10 SO13 
+Greedy:
+SO6 SO8 SO12 SO13 
+
+loss_dp1: 0.214976
+loss_greedy: 5
+
+Best approximation --- loss = 0.214976
+SO1 SO2 SO3 SO4 SO5 SO7 SO9 SO10 SO13 
+
+---------------------------------------------------
+test/in235
+Bruteforce:
+SO1 SO2 SO5 SO7 SO8 SO9 SO10 SO11 SO12 
+DP1:
+SO1 SO2 SO4 SO5 SO7 SO9 SO11 SO12 
+Greedy:
+SO1 SO3 SO8 
+
+loss_dp1: 1
+loss_greedy: 6
+
+Best approximation --- loss = 1
+SO1 SO2 SO4 SO5 SO7 SO9 SO11 SO12 
+
+---------------------------------------------------
+test/in236
+Bruteforce:
+SO1 SO3 SO5 SO7 SO9 
+DP1:
+SO4 SO10 SO13 SO14 
+Greedy:
+SO3 SO4 
+
+loss_dp1: 1
+loss_greedy: 3
+
+Best approximation --- loss = 1
+SO4 SO10 SO13 SO14 
+
+---------------------------------------------------
+test/in237
+Bruteforce:
+SO1 SO2 SO5 SO6 SO8 SO10 SO11 SO15 
+DP1:
+SO1 SO2 SO5 SO6 SO8 SO10 SO11 SO15 
+Greedy:
+SO4 SO5 SO6 SO13 SO15 
+
+loss_dp1: 0
+loss_greedy: 3
+
+Best approximation --- loss = 0
+SO1 SO2 SO5 SO6 SO8 SO10 SO11 SO15 
+
+---------------------------------------------------
+test/in238
+Bruteforce:
+SO3 SO5 SO6 SO10 SO11 SO12 SO13 SO15 
+DP1:
+SO1 SO6 SO7 SO9 SO12 SO13 SO15 
+Greedy:
+SO6 SO9 SO13 
+
+loss_dp1: 1
+loss_greedy: 5
+
+Best approximation --- loss = 1
+SO1 SO6 SO7 SO9 SO12 SO13 SO15 
+
+---------------------------------------------------
+test/in239
+Bruteforce:
+SO1 SO2 SO4 SO7 SO8 SO9 SO10 SO11 SO12 SO13 SO15 
+DP1:
+SO1 SO2 SO3 SO4 SO6 SO7 SO8 SO10 SO11 SO15 
+Greedy:
+SO1 SO2 SO4 SO6 SO7 SO9 SO11 SO13 SO15 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO2 SO3 SO4 SO6 SO7 SO8 SO10 SO11 SO15 
+
+---------------------------------------------------
+test/in240
+Bruteforce:
+SO2 SO3 SO5 
+DP1:
+SO2 SO3 SO5 
+Greedy:
+SO2 SO3 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in241
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO3 SO4 
+Greedy:
+SO1 SO2 SO4 SO5 
+
+loss_dp1: 0.00570125
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in242
+Bruteforce:
+SO1 SO2 SO3 SO4 
+DP1:
+SO1 SO2 SO3 SO4 
+Greedy:
+SO1 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in243
+Bruteforce:
+SO1 SO2 SO4 
+DP1:
+SO1 SO2 SO4 
+Greedy:
+SO1 SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in244
+Bruteforce:
+SO1 SO3 SO5 
+DP1:
+SO1 SO2 SO5 
+Greedy:
+SO1 SO3 SO5 
+
+loss_dp1: 0.204602
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO5 
+
+---------------------------------------------------
+test/in245
+Bruteforce:
+SO2 SO3 SO5 
+DP1:
+SO2 SO3 SO5 
+Greedy:
+SO2 SO5 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in246
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO1 SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in247
+Bruteforce:
+SO1 SO2 SO5 
+DP1:
+SO1 SO2 SO5 
+Greedy:
+SO1 SO2 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in248
+Bruteforce:
+SO1 SO2 SO3 SO5 
+DP1:
+SO1 SO2 SO3 SO5 
+Greedy:
+SO1 SO2 SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in249
+Bruteforce:
+SO1 SO2 SO3 
+DP1:
+SO1 SO2 SO3 
+Greedy:
+SO1 SO2 SO3 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 
+
+---------------------------------------------------
+test/in250
+Bruteforce:
+SO2 SO4 SO5 
+DP1:
+SO2 SO4 SO5 
+Greedy:
+SO2 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in251
+Bruteforce:
+SO1 SO3 SO5 
+DP1:
+SO1 SO3 SO5 
+Greedy:
+SO1 SO3 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO3 SO5 
+
+---------------------------------------------------
+test/in252
+Bruteforce:
+SO1 SO2 SO3 SO5 
+DP1:
+SO1 SO2 SO3 SO5 
+Greedy:
+SO1 SO2 SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in253
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO1 SO2 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in254
+Bruteforce:
+SO1 SO3 SO5 
+DP1:
+SO1 SO2 SO5 
+Greedy:
+SO1 SO3 SO5 
+
+loss_dp1: 0.187721
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO5 
+
+---------------------------------------------------
+test/in255
+Bruteforce:
+SO1 SO2 SO3 
+DP1:
+SO1 SO2 SO3 
+Greedy:
+SO1 SO2 SO3 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 
+
+---------------------------------------------------
+test/in256
+Bruteforce:
+SO2 SO3 SO4 SO5 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO2 SO3 SO4 SO5 
+
+loss_dp1: 0.127835
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in257
+Bruteforce:
+SO2 SO3 SO4 
+DP1:
+SO2 SO3 SO4 
+Greedy:
+SO1 SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in258
+Bruteforce:
+SO1 SO2 SO4 
+DP1:
+SO1 SO2 SO4 
+Greedy:
+SO1 SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in259
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO1 SO2 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in260
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO3 SO4 
+Greedy:
+SO1 SO2 SO4 SO5 
+
+loss_dp1: 0.0700333
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in261
+Bruteforce:
+SO2 SO3 SO6 SO8 SO10 
+DP1:
+SO1 SO3 SO5 SO10 
+Greedy:
+SO1 SO6 SO7 SO9 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in262
+Bruteforce:
+SO3 SO5 SO7 SO8 SO10 
+DP1:
+SO5 SO7 SO8 SO10 
+Greedy:
+SO5 SO7 SO8 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO5 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in263
+Bruteforce:
+SO1 SO3 SO5 SO6 SO10 
+DP1:
+SO1 SO3 SO5 SO6 SO10 
+Greedy:
+SO1 SO3 SO5 SO6 SO10 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO5 SO6 SO10 
+
+---------------------------------------------------
+test/in264
+Bruteforce:
+SO1 SO2 SO4 SO7 SO8 SO9 
+DP1:
+SO1 SO2 SO7 SO8 SO9 
+Greedy:
+SO1 SO2 SO7 SO8 SO9 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO2 SO7 SO8 SO9 
+
+---------------------------------------------------
+test/in265
+Bruteforce:
+SO1 SO3 SO4 SO5 SO6 SO8 
+DP1:
+SO1 SO3 SO4 SO5 SO6 SO8 
+Greedy:
+SO4 SO6 SO7 SO9 
+
+loss_dp1: 0
+loss_greedy: 2
+
+Best approximation --- loss = 0
+SO1 SO3 SO4 SO5 SO6 SO8 
+
+---------------------------------------------------
+test/in266
+Bruteforce:
+SO1 SO2 SO6 SO10 
+DP1:
+SO1 SO2 SO6 SO10 
+Greedy:
+SO8 
+
+loss_dp1: 0
+loss_greedy: 3
+
+Best approximation --- loss = 0
+SO1 SO2 SO6 SO10 
+
+---------------------------------------------------
+test/in267
+Bruteforce:
+SO2 SO4 SO5 SO7 SO8 SO9 
+DP1:
+SO1 SO3 SO5 SO7 
+Greedy:
+SO2 SO4 SO5 SO7 SO8 SO9 
+
+loss_dp1: 2
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO4 SO5 SO7 SO8 SO9 
+
+---------------------------------------------------
+test/in268
+Bruteforce:
+SO7 SO8 SO9 SO10 
+DP1:
+SO1 SO4 SO10 
+Greedy:
+SO7 SO8 SO9 SO10 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO7 SO8 SO9 SO10 
+
+---------------------------------------------------
+test/in269
+Bruteforce:
+SO3 SO6 SO7 SO8 SO10 
+DP1:
+SO1 SO2 SO6 SO7 SO8 
+Greedy:
+SO3 SO6 SO7 SO8 SO10 
+
+loss_dp1: 0.092128
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO3 SO6 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in270
+Bruteforce:
+SO1 SO4 SO5 SO9 SO10 
+DP1:
+SO2 SO4 SO7 SO10 
+Greedy:
+SO1 SO4 SO5 SO9 SO10 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO4 SO5 SO9 SO10 
+
+---------------------------------------------------
+test/in271
+Bruteforce:
+SO1 SO2 SO3 SO4 SO6 
+DP1:
+SO1 SO2 SO3 SO4 SO6 
+Greedy:
+SO1 SO2 SO3 SO4 SO6 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 SO6 
+
+---------------------------------------------------
+test/in272
+Bruteforce:
+SO2 SO5 SO6 SO10 
+DP1:
+SO4 SO5 SO6 
+Greedy:
+SO4 SO6 SO7 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO4 SO6 SO7 
+
+---------------------------------------------------
+test/in273
+Bruteforce:
+SO2 SO5 SO7 SO8 SO9 SO10 
+DP1:
+SO1 SO2 SO3 SO4 SO7 SO9 
+Greedy:
+SO2 SO4 SO7 SO8 
+
+loss_dp1: 0.0835427
+loss_greedy: 2
+
+Best approximation --- loss = 0.0835427
+SO1 SO2 SO3 SO4 SO7 SO9 
+
+---------------------------------------------------
+test/in274
+Bruteforce:
+SO4 SO5 SO7 SO8 SO9 SO10 
+DP1:
+SO1 SO4 SO5 SO8 SO10 
+Greedy:
+SO4 SO5 SO7 SO8 SO10 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO4 SO5 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in275
+Bruteforce:
+SO1 SO2 SO6 SO9 SO10 
+DP1:
+SO2 SO3 SO6 SO9 
+Greedy:
+SO1 SO2 SO6 SO9 SO10 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO6 SO9 SO10 
+
+---------------------------------------------------
+test/in276
+Bruteforce:
+SO1 SO3 SO4 SO8 SO9 
+DP1:
+SO1 SO2 SO8 SO10 
+Greedy:
+SO1 SO3 SO4 SO8 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO3 SO4 SO8 
+
+---------------------------------------------------
+test/in277
+Bruteforce:
+SO4 SO6 SO8 
+DP1:
+SO1 SO3 SO7 
+Greedy:
+SO6 SO9 
+
+loss_dp1: 0.20069
+loss_greedy: 1
+
+Best approximation --- loss = 0.20069
+SO1 SO3 SO7 
+
+---------------------------------------------------
+test/in278
+Bruteforce:
+SO2 SO3 SO4 SO6 SO9 SO10 
+DP1:
+SO2 SO3 SO4 SO5 SO6 SO10 
+Greedy:
+SO2 SO3 SO4 SO6 SO9 SO10 
+
+loss_dp1: 0.0298137
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 SO4 SO6 SO9 SO10 
+
+---------------------------------------------------
+test/in279
+Bruteforce:
+SO1 SO4 SO5 SO8 SO10 
+DP1:
+SO1 SO4 SO7 SO10 
+Greedy:
+SO1 SO4 SO7 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO4 SO7 SO10 
+
+---------------------------------------------------
+test/in280
+Bruteforce:
+SO1 SO2 SO6 SO7 SO8 SO9 SO11 
+DP1:
+SO1 SO2 SO4 SO5 SO8 SO14 
+Greedy:
+SO1 SO2 SO6 SO7 SO8 SO9 SO11 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO6 SO7 SO8 SO9 SO11 
+
+---------------------------------------------------
+test/in281
+Bruteforce:
+SO1 SO2 SO5 SO7 SO12 SO13 SO14 SO15 
+DP1:
+SO5 SO6 SO7 SO11 SO12 SO15 
+Greedy:
+SO1 SO4 SO5 SO10 
+
+loss_dp1: 2
+loss_greedy: 4
+
+Best approximation --- loss = 2
+SO5 SO6 SO7 SO11 SO12 SO15 
+
+---------------------------------------------------
+test/in282
+Bruteforce:
+SO1 SO3 SO4 SO8 SO9 SO10 SO12 SO15 
+DP1:
+SO1 SO2 SO3 SO6 SO9 SO13 
+Greedy:
+SO5 SO7 SO10 SO11 SO13 
+
+loss_dp1: 2
+loss_greedy: 3
+
+Best approximation --- loss = 2
+SO1 SO2 SO3 SO6 SO9 SO13 
+
+---------------------------------------------------
+test/in283
+Bruteforce:
+SO1 SO5 SO6 SO8 SO10 SO11 SO13 SO14 SO15 
+DP1:
+SO2 SO3 SO5 SO8 SO11 SO13 SO14 
+Greedy:
+SO1 SO5 SO6 SO8 SO10 SO11 SO13 SO14 SO15 
+
+loss_dp1: 2
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO5 SO6 SO8 SO10 SO11 SO13 SO14 SO15 
+
+---------------------------------------------------
+test/in284
+Bruteforce:
+SO2 SO4 SO5 SO11 SO12 SO13 SO14 
+DP1:
+SO2 SO4 SO5 SO13 SO14 
+Greedy:
+SO2 SO4 SO5 SO12 SO13 
+
+loss_dp1: 2
+loss_greedy: 2
+
+Best approximation --- loss = 2
+SO2 SO4 SO5 SO12 SO13 
+
+---------------------------------------------------
+test/in285
+Bruteforce:
+SO1 SO2 SO5 SO9 
+DP1:
+SO1 SO2 SO4 SO10 
+Greedy:
+SO1 SO4 SO5 
+
+loss_dp1: 0.155411
+loss_greedy: 1
+
+Best approximation --- loss = 0.155411
+SO1 SO2 SO4 SO10 
+
+---------------------------------------------------
+test/in286
+Bruteforce:
+SO2 SO3 SO8 SO10 SO11 SO14 SO15 
+DP1:
+SO1 SO3 SO6 SO8 SO11 
+Greedy:
+SO2 SO3 SO8 SO10 SO11 SO14 SO15 
+
+loss_dp1: 2
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 SO8 SO10 SO11 SO14 SO15 
+
+---------------------------------------------------
+test/in287
+Bruteforce:
+SO2 SO9 SO12 SO13 SO14 
+DP1:
+SO5 SO7 SO10 SO13 
+Greedy:
+SO2 SO9 SO12 SO13 SO14 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO9 SO12 SO13 SO14 
+
+---------------------------------------------------
+test/in288
+Bruteforce:
+SO1 SO2 SO3 SO4 SO10 SO11 SO12 
+DP1:
+SO1 SO2 SO3 SO4 SO11 SO12 
+Greedy:
+SO1 SO5 SO6 SO10 SO14 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO2 SO3 SO4 SO11 SO12 
+
+---------------------------------------------------
+test/in289
+Bruteforce:
+SO4 SO5 SO7 SO12 SO13 
+DP1:
+SO3 SO5 SO7 SO13 
+Greedy:
+SO5 SO6 SO7 SO14 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO5 SO6 SO7 SO14 
+
+---------------------------------------------------
+test/in290
+Bruteforce:
+SO1 SO8 SO10 SO11 SO14 SO15 
+DP1:
+SO3 SO6 SO7 SO8 SO10 
+Greedy:
+SO3 SO6 SO8 
+
+loss_dp1: 1
+loss_greedy: 3
+
+Best approximation --- loss = 1
+SO3 SO6 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in291
+Bruteforce:
+SO3 SO4 SO9 SO10 SO13 
+DP1:
+SO2 SO4 SO10 SO13 
+Greedy:
+SO2 SO4 SO10 SO13 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO2 SO4 SO10 SO13 
+
+---------------------------------------------------
+test/in292
+Bruteforce:
+SO2 SO3 SO6 SO7 SO8 SO10 SO15 
+DP1:
+SO3 SO4 SO7 SO8 SO12 SO15 
+Greedy:
+SO3 SO4 SO7 SO8 SO12 SO15 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO3 SO4 SO7 SO8 SO12 SO15 
+
+---------------------------------------------------
+test/in293
+Bruteforce:
+SO1 SO3 SO5 SO9 SO10 SO15 
+DP1:
+SO3 SO6 SO7 SO9 SO15 
+Greedy:
+SO1 SO3 SO5 SO9 SO10 SO15 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO5 SO9 SO10 SO15 
+
+---------------------------------------------------
+test/in294
+Bruteforce:
+SO1 SO5 SO6 SO8 SO10 SO12 
+DP1:
+SO1 SO2 SO4 SO5 SO10 
+Greedy:
+SO6 SO7 SO11 SO12 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO2 SO4 SO5 SO10 
+
+---------------------------------------------------
+test/in295
+Bruteforce:
+SO3 SO5 SO7 SO8 SO13 SO14 
+DP1:
+SO3 SO4 SO7 SO8 SO13 
+Greedy:
+SO3 SO7 SO8 SO13 SO14 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO3 SO7 SO8 SO13 SO14 
+
+---------------------------------------------------
+test/in296
+Bruteforce:
+SO2 SO4 SO6 SO8 SO9 SO10 SO13 
+DP1:
+SO2 SO3 SO5 SO8 SO9 SO14 
+Greedy:
+SO2 SO4 SO6 SO8 SO9 SO10 SO13 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO4 SO6 SO8 SO9 SO10 SO13 
+
+---------------------------------------------------
+test/in297
+Bruteforce:
+SO5 SO6 SO7 SO12 SO13 SO14 SO15 
+DP1:
+SO1 SO3 SO5 SO7 SO13 
+Greedy:
+SO5 SO6 SO12 SO13 SO14 SO15 
+
+loss_dp1: 2
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO5 SO6 SO12 SO13 SO14 SO15 
+
+---------------------------------------------------
+test/in298
+Bruteforce:
+SO3 SO4 SO7 SO9 SO11 SO12 SO14 
+DP1:
+SO1 SO2 SO8 SO9 SO12 
+Greedy:
+SO1 SO4 SO9 SO12 SO13 
+
+loss_dp1: 2
+loss_greedy: 2
+
+Best approximation --- loss = 2
+SO1 SO4 SO9 SO12 SO13 
+
+---------------------------------------------------
+test/in299
+Bruteforce:
+SO1 SO2 SO3 SO9 SO10 SO13 SO14 
+DP1:
+SO1 SO4 SO7 SO9 SO10 
+Greedy:
+SO1 SO2 SO4 SO9 SO10 SO13 
+
+loss_dp1: 2
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO2 SO4 SO9 SO10 SO13 
+
+---------------------------------------------------
+test/in300
+Bruteforce:
+SO2 SO4 SO5 
+DP1:
+SO2 SO4 SO5 
+Greedy:
+SO2 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in301
+Bruteforce:
+SO2 SO5 
+DP1:
+SO2 SO5 
+Greedy:
+SO2 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO5 
+
+---------------------------------------------------
+test/in302
+Bruteforce:
+SO1 SO4 SO5 
+DP1:
+SO1 SO4 SO5 
+Greedy:
+SO1 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO4 SO5 
+
+---------------------------------------------------
+test/in303
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO1 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in304
+Bruteforce:
+SO2 SO3 SO5 
+DP1:
+SO2 SO3 SO5 
+Greedy:
+SO2 SO3 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in305
+Bruteforce:
+SO3 SO4 
+DP1:
+SO3 SO4 
+Greedy:
+SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO3 SO4 
+
+---------------------------------------------------
+test/in306
+Bruteforce:
+SO1 SO3 SO4 SO5 
+DP1:
+SO2 SO4 SO5 
+Greedy:
+SO1 SO3 SO4 SO5 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in307
+Bruteforce:
+SO1 SO3 SO4 SO5 
+DP1:
+SO1 SO3 SO4 SO5 
+Greedy:
+SO1 SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in308
+Bruteforce:
+SO2 SO4 SO5 
+DP1:
+SO2 SO3 SO4 
+Greedy:
+SO4 SO5 
+
+loss_dp1: 0.20625
+loss_greedy: 1
+
+Best approximation --- loss = 0.20625
+SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in309
+Bruteforce:
+SO2 SO4 SO5 
+DP1:
+SO2 SO4 SO5 
+Greedy:
+SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in310
+Bruteforce:
+SO1 SO2 SO4 
+DP1:
+SO1 SO2 SO4 
+Greedy:
+SO1 SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in311
+Bruteforce:
+SO1 SO2 SO4 SO5 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO2 SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in312
+Bruteforce:
+SO1 SO3 SO5 
+DP1:
+SO1 SO2 SO3 
+Greedy:
+SO1 SO3 SO5 
+
+loss_dp1: 0.285765
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO5 
+
+---------------------------------------------------
+test/in313
+Bruteforce:
+SO1 SO2 SO4 
+DP1:
+SO1 SO2 SO4 
+Greedy:
+SO1 SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in314
+Bruteforce:
+SO4 SO5 
+DP1:
+SO4 SO5 
+Greedy:
+SO4 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO4 SO5 
+
+---------------------------------------------------
+test/in315
+Bruteforce:
+SO1 SO2 SO3 SO4 
+DP1:
+SO1 SO2 SO3 SO4 
+Greedy:
+SO1 SO2 SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in316
+Bruteforce:
+SO1 SO2 SO3 SO4 
+DP1:
+SO1 SO2 SO3 SO4 
+Greedy:
+SO1 SO3 SO4 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in317
+Bruteforce:
+SO1 SO2 SO4 
+DP1:
+SO1 SO2 SO4 
+Greedy:
+SO1 SO2 SO4 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in318
+Bruteforce:
+SO1 SO3 
+DP1:
+SO1 SO3 
+Greedy:
+SO1 SO3 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 
+
+---------------------------------------------------
+test/in319
+Bruteforce:
+SO1 SO5 
+DP1:
+SO1 SO5 
+Greedy:
+SO1 SO5 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO5 
+
+---------------------------------------------------
+test/in320
+Bruteforce:
+SO2 SO3 SO6 SO9 
+DP1:
+SO2 SO3 SO6 SO9 
+Greedy:
+SO2 SO3 SO7 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO3 SO6 SO9 
+
+---------------------------------------------------
+test/in321
+Bruteforce:
+SO1 SO4 SO5 SO8 SO10 
+DP1:
+SO3 SO4 SO5 SO8 
+Greedy:
+SO5 SO6 SO7 SO9 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO5 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in322
+Bruteforce:
+SO2 SO5 SO9 SO10 
+DP1:
+SO1 SO3 SO7 
+Greedy:
+SO2 SO5 SO9 SO10 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO5 SO9 SO10 
+
+---------------------------------------------------
+test/in323
+Bruteforce:
+SO5 SO6 SO8 SO10 
+DP1:
+SO1 SO2 SO5 SO10 
+Greedy:
+SO4 SO8 
+
+loss_dp1: 0.100671
+loss_greedy: 2
+
+Best approximation --- loss = 0.100671
+SO1 SO2 SO5 SO10 
+
+---------------------------------------------------
+test/in324
+Bruteforce:
+SO2 SO5 SO6 SO7 SO8 SO10 
+DP1:
+SO1 SO2 SO4 SO5 SO6 SO10 
+Greedy:
+SO2 SO5 SO6 SO7 SO8 SO10 
+
+loss_dp1: 0.304533
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO5 SO6 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in325
+Bruteforce:
+SO1 SO3 SO4 SO7 SO8 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO1 SO3 SO4 SO7 SO8 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO4 SO7 SO8 
+
+---------------------------------------------------
+test/in326
+Bruteforce:
+SO2 SO5 SO8 SO10 
+DP1:
+SO1 SO2 SO8 
+Greedy:
+SO2 SO5 SO8 SO10 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO2 SO5 SO8 SO10 
+
+---------------------------------------------------
+test/in327
+Bruteforce:
+SO4 SO5 SO6 SO7 SO10 
+DP1:
+SO1 SO3 SO4 SO5 SO6 
+Greedy:
+SO1 SO6 SO7 
+
+loss_dp1: 0.102436
+loss_greedy: 2
+
+Best approximation --- loss = 0.102436
+SO1 SO3 SO4 SO5 SO6 
+
+---------------------------------------------------
+test/in328
+Bruteforce:
+SO3 SO6 SO7 SO8 
+DP1:
+SO2 SO3 SO5 SO8 
+Greedy:
+SO3 SO4 SO10 
+
+loss_dp1: 0.229504
+loss_greedy: 1
+
+Best approximation --- loss = 0.229504
+SO2 SO3 SO5 SO8 
+
+---------------------------------------------------
+test/in329
+Bruteforce:
+SO1 SO2 SO6 SO7 SO8 
+DP1:
+SO1 SO2 SO6 SO7 SO8 
+Greedy:
+SO1 SO2 SO6 SO7 SO8 
+
+loss_dp1: 0
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO2 SO6 SO7 SO8 
+
+---------------------------------------------------
+test/in330
+Bruteforce:
+SO1 SO2 SO4 SO6 SO8 SO9 
+DP1:
+SO1 SO3 SO4 SO9 
+Greedy:
+SO1 SO3 SO4 SO8 SO9 
+
+loss_dp1: 2
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO3 SO4 SO8 SO9 
+
+---------------------------------------------------
+test/in331
+Bruteforce:
+SO1 SO5 SO6 SO8 SO10 
+DP1:
+SO3 SO5 SO7 SO10 
+Greedy:
+SO5 SO7 SO8 SO10 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO5 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in332
+Bruteforce:
+SO4 SO7 SO8 
+DP1:
+SO1 SO4 SO7 
+Greedy:
+SO4 SO7 SO8 
+
+loss_dp1: 0.104109
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO4 SO7 SO8 
+
+---------------------------------------------------
+test/in333
+Bruteforce:
+SO1 SO3 SO5 SO6 SO10 
+DP1:
+SO1 SO3 SO6 SO10 
+Greedy:
+SO1 SO3 SO6 SO10 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO3 SO6 SO10 
+
+---------------------------------------------------
+test/in334
+Bruteforce:
+SO2 SO3 SO5 SO6 SO7 SO8 SO9 
+DP1:
+SO1 SO2 SO3 SO5 SO6 SO7 
+Greedy:
+SO2 SO4 SO5 SO6 SO7 SO9 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO2 SO4 SO5 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in335
+Bruteforce:
+SO1 SO5 SO6 SO10 
+DP1:
+SO2 SO3 SO8 
+Greedy:
+SO2 SO3 SO8 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO2 SO3 SO8 
+
+---------------------------------------------------
+test/in336
+Bruteforce:
+SO3 SO4 SO7 SO8 SO10 
+DP1:
+SO2 SO4 SO7 
+Greedy:
+SO3 SO4 SO7 SO10 
+
+loss_dp1: 2
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO3 SO4 SO7 SO10 
+
+---------------------------------------------------
+test/in337
+Bruteforce:
+SO2 SO3 SO6 SO7 SO9 SO10 
+DP1:
+SO1 SO3 SO9 SO10 
+Greedy:
+SO2 SO3 SO6 SO9 SO10 
+
+loss_dp1: 2
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO2 SO3 SO6 SO9 SO10 
+
+---------------------------------------------------
+test/in338
+Bruteforce:
+SO2 SO3 SO4 SO5 SO6 SO7 
+DP1:
+SO1 SO2 SO3 SO5 SO6 
+Greedy:
+SO3 SO5 SO6 SO7 SO9 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO3 SO5 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in339
+Bruteforce:
+SO3 SO8 SO9 SO10 
+DP1:
+SO1 SO2 SO4 SO5 
+Greedy:
+SO3 SO8 SO9 
+
+loss_dp1: 0.166496
+loss_greedy: 1
+
+Best approximation --- loss = 0.166496
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in340
+Bruteforce:
+SO4 SO6 SO7 SO11 SO12 SO13 
+DP1:
+SO1 SO6 SO8 SO9 SO13 
+Greedy:
+SO1 SO3 SO6 SO9 SO13 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO3 SO6 SO9 SO13 
+
+---------------------------------------------------
+test/in341
+Bruteforce:
+SO2 SO4 SO8 SO10 SO14 
+DP1:
+SO2 SO4 SO8 SO10 SO14 
+Greedy:
+SO4 SO10 SO11 SO12 
+
+loss_dp1: 0
+loss_greedy: 1
+
+Best approximation --- loss = 0
+SO2 SO4 SO8 SO10 SO14 
+
+---------------------------------------------------
+test/in342
+Bruteforce:
+SO4 SO6 SO7 SO10 SO11 SO13 SO15 
+DP1:
+SO1 SO3 SO4 SO6 SO7 SO10 
+Greedy:
+SO1 SO3 SO4 SO6 SO7 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO3 SO4 SO6 SO7 SO10 
+
+---------------------------------------------------
+test/in343
+Bruteforce:
+SO2 SO3 SO7 SO8 SO11 SO12 
+DP1:
+SO1 SO2 SO3 SO6 SO11 
+Greedy:
+SO2 SO3 SO7 SO8 SO12 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO2 SO3 SO7 SO8 SO12 
+
+---------------------------------------------------
+test/in344
+Bruteforce:
+SO5 SO12 SO14 SO15 
+DP1:
+SO1 SO5 SO14 
+Greedy:
+SO1 SO5 SO14 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO5 SO14 
+
+---------------------------------------------------
+test/in345
+Bruteforce:
+SO1 SO4 SO6 SO7 SO11 
+DP1:
+SO4 SO5 SO6 SO7 SO13 
+Greedy:
+SO2 SO11 SO15 
+
+loss_dp1: 0.339192
+loss_greedy: 2
+
+Best approximation --- loss = 0.339192
+SO4 SO5 SO6 SO7 SO13 
+
+---------------------------------------------------
+test/in346
+Bruteforce:
+SO1 SO3 SO4 SO5 SO10 SO13 
+DP1:
+SO1 SO2 SO3 SO7 SO14 
+Greedy:
+SO1 SO3 SO4 SO5 SO10 SO13 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO1 SO3 SO4 SO5 SO10 SO13 
+
+---------------------------------------------------
+test/in347
+Bruteforce:
+SO1 SO3 SO6 SO10 SO12 
+DP1:
+SO4 SO7 SO9 SO14 
+Greedy:
+SO4 SO10 SO12 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO4 SO7 SO9 SO14 
+
+---------------------------------------------------
+test/in348
+Bruteforce:
+SO4 SO6 SO14 SO15 
+DP1:
+SO2 SO4 SO5 
+Greedy:
+SO9 SO11 SO12 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO9 SO11 SO12 
+
+---------------------------------------------------
+test/in349
+Bruteforce:
+SO1 SO2 SO3 SO5 SO14 
+DP1:
+SO1 SO3 SO4 SO5 
+Greedy:
+SO1 SO5 SO6 SO7 
+
+loss_dp1: 1
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO1 SO5 SO6 SO7 
+
+---------------------------------------------------
+test/in350
+Bruteforce:
+SO2 SO5 SO8 SO9 SO10 SO12 SO13 
+DP1:
+SO1 SO5 SO7 SO8 SO10 SO12 
+Greedy:
+SO2 SO5 SO9 SO13 
+
+loss_dp1: 1
+loss_greedy: 3
+
+Best approximation --- loss = 1
+SO1 SO5 SO7 SO8 SO10 SO12 
+
+---------------------------------------------------
+test/in351
+Bruteforce:
+SO4 SO6 SO7 SO11 SO13 SO14 
+DP1:
+SO5 SO8 SO11 SO13 
+Greedy:
+SO1 SO5 SO11 SO12 
+
+loss_dp1: 2
+loss_greedy: 2
+
+Best approximation --- loss = 2
+SO1 SO5 SO11 SO12 
+
+---------------------------------------------------
+test/in352
+Bruteforce:
+SO4 SO5 SO7 SO8 SO10 SO11 
+DP1:
+SO1 SO5 SO7 SO8 SO10 
+Greedy:
+SO5 SO11 SO13 
+
+loss_dp1: 1
+loss_greedy: 3
+
+Best approximation --- loss = 1
+SO1 SO5 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in353
+Bruteforce:
+SO6 SO7 SO11 SO14 
+DP1:
+SO4 SO6 SO11 SO14 
+Greedy:
+SO7 SO9 
+
+loss_dp1: 0.0769023
+loss_greedy: 2
+
+Best approximation --- loss = 0.0769023
+SO4 SO6 SO11 SO14 
+
+---------------------------------------------------
+test/in354
+Bruteforce:
+SO6 SO7 SO8 SO10 SO11 
+DP1:
+SO1 SO7 SO12 SO14 
+Greedy:
+SO6 SO7 SO8 SO10 SO11 
+
+loss_dp1: 1
+loss_greedy: 0
+
+Best approximation --- loss = 0
+SO6 SO7 SO8 SO10 SO11 
+
+---------------------------------------------------
+test/in355
+Bruteforce:
+SO2 SO9 SO11 SO12 
+DP1:
+SO2 SO3 SO9 
+Greedy:
+SO10 SO13 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO2 SO3 SO9 
+
+---------------------------------------------------
+test/in356
+Bruteforce:
+SO1 SO2 SO6 SO11 SO12 
+DP1:
+SO1 SO2 SO4 SO9 
+Greedy:
+SO3 SO10 SO11 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO2 SO4 SO9 
+
+---------------------------------------------------
+test/in357
+Bruteforce:
+SO3 SO5 SO6 SO11 SO14 
+DP1:
+SO4 SO5 SO9 
+Greedy:
+SO4 SO9 SO11 SO14 
+
+loss_dp1: 2
+loss_greedy: 1
+
+Best approximation --- loss = 1
+SO4 SO9 SO11 SO14 
+
+---------------------------------------------------
+test/in358
+Bruteforce:
+SO3 SO7 SO8 SO10 SO14 SO15 
+DP1:
+SO1 SO2 SO7 SO15 
+Greedy:
+SO6 SO13 
+
+loss_dp1: 2
+loss_greedy: 4
+
+Best approximation --- loss = 2
+SO1 SO2 SO7 SO15 
+
+---------------------------------------------------
+test/in359
+Bruteforce:
+SO4 SO6 SO7 SO14 SO15 
+DP1:
+SO1 SO5 SO12 SO14 
+Greedy:
+SO1 SO5 SO12 
+
+loss_dp1: 1
+loss_greedy: 2
+
+Best approximation --- loss = 1
+SO1 SO5 SO12 SO14 
+
+---------------------------------------------------
+Evaluation
+mean_loss_dp_1: 0.415758
+mean_loss_greedy: 0.908333
+
+mean_best_loss: 0.304692
+N passed tests: 245
+Percent of passed tests: 68.0556
+
+N tests passed by dp1: 200 55.5556
+N tests passed by greedy: 162 45
+
+N tests solved by dp1: 306 85
+N tests solved by greedy: 210 58.3333
