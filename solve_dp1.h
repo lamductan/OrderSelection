@@ -57,6 +57,7 @@ vector<int> solve_dp1(int n,
     }
 
     //print(dp);
+    //print(pre);
 
     int res = m;
     bool found = false;

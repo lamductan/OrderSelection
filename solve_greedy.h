@@ -18,30 +18,30 @@ int find_best_order(set<int>& satisfiedSet,
 
 }
 
-int find_maximum_order_greedy(int n,
-                              int m,
-                              const vector<int>& nObjectsInOrders,
-                              const vector<int>& limits,
-                              const vector<vector<int> >& orders,
-                              const vector<int>& n_items_per_order,
-                              const vector<int>& satisfied_set) {
-    if (satisfied_set.size() == 0) return 0;
+vector<int> find_maximum_order_greedy(int n,
+                                      int m,
+                                      const vector<int>& nObjectsInOrders,
+                                      const vector<int>& limits,
+                                      const vector<vector<int> >& orders,
+                                      const vector<int>& n_items_per_order,
+                                      const vector<int>& satisfied_set) {
+    if (satisfied_set.size() == 0) return satisfied_set;
     priority_queue<pair<int, int> > pq;
     for(int i : satisfied_set) pq.push(make_pair(-n_items_per_order[i], i));
-    int len = 0;
     vector<int> join_order(n);
+    vector<int> chosen_orders;
     while (true) {
         if (pq.size() == 0) break;
         pair<int, int> top = pq.top();
         pq.pop();
         int chosen_order = top.second;
         join_order = add(join_order, orders[chosen_order]);
-        if (!satisfy(join_order, limits)) return len;
+        if (!satisfy(join_order, limits)) return chosen_orders;
         else {
-            ++len;
+            chosen_orders.push_back(chosen_order);
         }
     }
-    return len;
+    return chosen_orders;
 }
 
 void dfs(int n,
@@ -72,6 +72,7 @@ void dfs(int n,
     }
 }
 
+
 vector<int> solve_greedy(int n,
                          int m,
                          const vector<int>& nObjectsInOrders,
@@ -88,11 +89,15 @@ vector<int> solve_greedy(int n,
         }
     }
 
-    int max_len = find_maximum_order_greedy(n, m, nObjectsInOrders, limits, orders,
-                                            n_items_per_order, satisfied_set);
+    vector<int> maximum_order_greedy = find_maximum_order_greedy(n, m, nObjectsInOrders, limits, orders,
+                                                                 n_items_per_order, satisfied_set);
 
-    vector<int> best_order, cur_order(max_len);
-    int best_sum = -1;
-    dfs(n, satisfied_set, limits, orders, 0, 0, max_len, cur_order, best_sum, best_order);
-    return best_order;
+    if (satisfied_set.size() > 15) return maximum_order_greedy;
+    else {
+        int max_len = maximum_order_greedy.size();
+        vector<int> best_order, cur_order(max_len);
+        int best_sum = -1;
+        dfs(n, satisfied_set, limits, orders, 0, 0, max_len, cur_order, best_sum, best_order);
+        return best_order;
+    }
 }

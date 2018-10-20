@@ -82,6 +82,23 @@ double evaluate(const vector<int>& result,
     }
 }
 
+double evaluate(const vector<int>& result,
+                const vector<int>& groundtruth,
+                int n,
+                const vector<vector<int> >& orders) {
+    vector<int> order_groundtruth = total_order(groundtruth, n, orders);
+    int len_result = result.size();
+    int len_groundtruth = groundtruth.size();
+    if (len_groundtruth > len_result)
+        return 1.0*(len_groundtruth - len_result);
+    else {
+        vector<int> order_result = total_order(result, n, orders);
+        int n_item_result = sum(order_result);
+        int n_item_groundtruth = sum(order_groundtruth);
+        return 1.0 - 1.0*n_item_result / n_item_groundtruth;
+    }
+}
+
 vector<string> get_result(const vector<int>& result, map<int, string>& orderId) {
     vector<string> res;
     for(int id: result) {
@@ -100,7 +117,7 @@ void print_result(const vector<int>& result, map<int, string>& orderId, auto& fo
         for(int id: result) {
             fout << orderId[id] << " ";
         }
-        fout << endl;
+        fout << '\n';
 //    }
 }
 

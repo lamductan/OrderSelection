@@ -3,24 +3,39 @@ using namespace std;
 
 #include "utils.h"
 #include "brute_force.h"
+/* Add other methods here. Change above lines if you increase or decrease number of used methods */
 #include "solve_dp1.h"
+#include "solve_dp2.h"
 #include "solve_greedy.h"
+/* Add other methods here. Change above lines if you increase or decrease number of used methods */
+#include "choose_best_result.h"
 
 const int MAXN = 100;
 const int MAXM = 15;
 
-double total_loss_dp1 = 0.0;
-double total_loss_greedy = 0.0;
-double total_best_loss = 0.0;
+//double total_loss_dp1 = 0.0;
+//double total_loss_greedy = 0.0;
+//double total_best_loss = 0.0;
 
-int n_tests_solved_dp1 = 0;
-int n_tests_solved_greedy = 0;
+//int n_tests_solved_dp1 = 0;
+//int n_tests_solved_greedy = 0;
 
-int n_tests_passed_by_dp1 = 0;
-int n_tests_passed_by_greedy = 0;
+//int n_tests_passed_by_dp1 = 0;
+//int n_tests_passed_by_greedy = 0;
 
 string input_prefix = "test/in";
 //string input_prefix = "in";
+int n_tests = 180; // Change if you change number of testcases
+
+/* Add other methods here. Change below lines if you increase or decrease number of used methods */
+int n_methods = 3; // Change if you increase or decrease number of used methods
+string methods[] = {"DP1", "DP2", "Greedy"}; // Change if you increase or decrease number of used methods
+int n_tests_passed_by_method[] = {0, 0, 0}; // Change if you increase or decrease number of used methods
+/* Add other methods here. Change above lines if you increase or decrease number of used methods */
+
+double total_loss = 0.0;
+int n_tests_passed = 0;
+
 
 void read(string input,
           int& n, int &m,
@@ -60,7 +75,17 @@ void read(string input,
     return;
 }
 
-pair<vector<string>, double> solve(string input, auto& fout) {
+
+/* Solve with bruteforce */
+struct SolutionWithBruteforce {
+    vector<string> list_orders;
+    double loss;
+    string method;
+    SolutionWithBruteforce(const vector<string>& list_orders, double loss, string method):
+        list_orders(list_orders), loss(loss), method(method) {}
+};
+
+SolutionWithBruteforce solve_with_bruteforce(string input, auto& fout) {
     // Parameters
     int n, m;
     map<string, int> objectId;
@@ -75,50 +100,65 @@ pair<vector<string>, double> solve(string input, auto& fout) {
 
     // Solve problem by multiple methods
     vector<int> result_bruteforce = solve_bruteforce(n, m, nObjectsInOrders, limits, orders);
-    vector<int> result_dp1 = solve_dp1(n, m, nObjectsInOrders, limits, orders);
-    vector<int> result_greedy = solve_greedy(n, m, nObjectsInOrders, limits, orders);
+    vector<vector<int> > results;
+
+    /* Add other methods here. Change below lines if you increase or decrease number of used methods */
+    results.push_back(solve_dp1(n, m, nObjectsInOrders, limits, orders));
+    results.push_back(solve_dp2(n, m, nObjectsInOrders, limits, orders));
+    results.push_back(solve_greedy(n, m, nObjectsInOrders, limits, orders));
+    /* Add other methods here. Change above lines if you increase or decrease number of used methods */
 
     // Print out result of each method
     fout << "Bruteforce:\n";
     print_result(result_bruteforce, orderId, fout);
-    fout << "DP1:\n";
-    print_result(result_dp1, orderId, fout);
-    fout << "Greedy:\n";
-    print_result(result_greedy, orderId, fout);
-    fout << '\n';
-
-    // Evaluate result of each method
-    vector<int> order_groundtruth = total_order(result_bruteforce, n, orders);
-    double loss_dp_1 = evaluate(result_dp1, result_bruteforce, order_groundtruth, n, orders);
-    double loss_greedy = evaluate(result_greedy, result_bruteforce, order_groundtruth, n, orders);
-    fout << "loss_dp1: " << loss_dp_1 << '\n';
-    fout << "loss_greedy: " << loss_greedy << '\n';
-    fout << '\n';
-
-    // Update global loss
-    total_loss_dp1 += loss_dp_1;
-    total_loss_greedy += loss_greedy;
-
-    // Find minimum loss and return result of minimum loss method
-    vector<double> loss = {loss_dp_1, loss_greedy};
-    double min_loss = *min_element(loss.begin(), loss.end());
-
-    pair<vector<string>, double> ans;
-    if (equal(min_loss, loss_dp_1)) {
-        ++n_tests_solved_dp1;
-        ans = make_pair(get_result(result_dp1, orderId), loss_dp_1);
+    for(int i = 0; i < n_methods; ++i) {
+        fout << "Method: " << methods[i] << '\n';
+        print_result(results[i], orderId, fout);
     }
-    if (equal(min_loss, loss_greedy)) {
-        ++n_tests_solved_greedy;
-        ans = make_pair(get_result(result_greedy, orderId), loss_greedy);
-    }
-
-    if (equal(loss_dp_1, 0.0)) ++n_tests_passed_by_dp1;
-    if (equal(loss_greedy, 0.0)) ++n_tests_passed_by_greedy;
-
-    return ans;
+    fout << '\n';
+    // Choose best method and evaluate with bruteforce
+    pair<vector<int>, int> best_result = choose_best_result(results, n, orders);
+    double loss = evaluate(best_result.first, result_bruteforce, n, orders);
+    vector<string> list_orders = get_result(best_result.first, orderId);
+    string method = methods[best_result.second];
+    ++n_tests_passed_by_method[best_result.second];
+    return SolutionWithBruteforce(list_orders, loss, method);
 }
 
+void test_with_bruteforce() {
+    string output = "result/output_with_bruteforce";
+    std::fstream fout (output.c_str(), std::ios_base::out);
+    for(int i = 0; i < n_tests; ++i) {
+        string input = input_prefix + to_string(i);
+        SolutionWithBruteforce res = solve_with_bruteforce(input, fout);
+        vector<string> best_approximation = res.list_orders;
+
+        double loss = res.loss;
+        string method = res.method;
+        if (equal(loss, 0.0)) ++n_tests_passed;
+        else total_loss += loss;
+
+        fout << "Best approximation --- method = " << method << " --- loss = " << loss << '\n';
+        print(best_approximation, fout);
+        fout << "\n---------------------------------------------------\n";
+    }
+
+    fout << "Evaluation\n";
+    fout << "N passed tests: " << n_tests_passed << '\n';
+    fout << "Percent of passed tests: " << 100.0*n_tests_passed/n_tests << '\n';
+    fout << "Mean loss: " << total_loss/n_tests << '\n';
+
+    fout << '\n';
+    for(int i = 0; i < n_methods; ++i) {
+        fout << "N tests passed by " << methods[i] << ": " << n_tests_passed_by_method[i] << " " << 100.0*n_tests_passed_by_method[i]/n_tests << '\n';
+    }
+
+    fout.close();
+}
+/* Solve with bruteforce */
+
+
+/* Solve without bruteforce */
 pair<vector<string>, string> solve_without_bruteforce(string input, auto& fout) {
     // Parameters
     int n, m;
@@ -133,101 +173,75 @@ pair<vector<string>, string> solve_without_bruteforce(string input, auto& fout) 
     fout << input << '\n';
 
     // Solve problem by multiple methods
-    vector<int> result_dp1 = solve_dp1(n, m, nObjectsInOrders, limits, orders);
-    vector<int> result_greedy = solve_greedy(n, m, nObjectsInOrders, limits, orders);
+    vector<vector<int> > results;
+
+    /* Add other methods here. Change below lines if you increase or decrease number of used methods */
+    results.push_back(solve_dp1(n, m, nObjectsInOrders, limits, orders));
+    results.push_back(solve_dp2(n, m, nObjectsInOrders, limits, orders));
+    results.push_back(solve_greedy(n, m, nObjectsInOrders, limits, orders));
+    /* Add other methods here. Change above lines if you increase or decrease number of used methods */
 
     // Print out result of each method
-    fout << "DP1:\n";
-    print_result(result_dp1, orderId, fout);
-    fout << "Greedy:\n";
-    print_result(result_greedy, orderId, fout);
+    for(int i = 0; i < n_methods; ++i) {
+        fout << "Method: " << methods[i] << '\n';
+        print_result(results[i], orderId, fout);
+    }
     fout << '\n';
 
     // Choose the best result
-    pair<vector<string>, string> ans;
-    int comp = compare_solution(result_dp1, result_greedy, n, orders);
-    switch (comp) {
-        case -1: {
-            ++n_tests_solved_greedy;
-            ans = make_pair(get_result(result_greedy, orderId), "Greedy");
-            break;
-        }
-        case 1: {
-            ++n_tests_solved_dp1;
-            ans = make_pair(get_result(result_dp1, orderId), "DP1");
-            break;
-        }
-        default: {
-            ++n_tests_solved_greedy;
-            ++n_tests_solved_dp1;
-            ans = make_pair(get_result(result_greedy, orderId), "DP1-Greedy");
-        }
-    }
-    return ans;
+    pair<vector<int>, int> best_result = choose_best_result(results, n, orders);
+    return make_pair(get_result(best_result.first, orderId), methods[best_result.second]);
 }
 
-void test_1() {
-    string output = "result/output1";
-    std::fstream fout (output.c_str(), std::ios_base::out);
-    int n_test = 360;
+void test_without_bruteforce() {
+    string output = "result/output_without_bruteforce";
+    fstream fout (output.c_str(), ios_base::out);
     int n_test_pass = 0;
-    for(int i = 0; i < n_test; ++i) {
-        string input = input_prefix + to_string(i);
-        pair<vector<string>, double> res = solve(input, fout);
-        vector<string> best_approximation = res.first;
-        double loss = res.second;
-        total_best_loss += loss;
-        if (equal(loss, 0.0)) ++n_test_pass;
-        fout << "Best approximation --- loss = " << loss << '\n';
-        print(best_approximation, fout);
-        fout << "\n---------------------------------------------------\n";
-    }
-
-    fout << "Evaluation\n";
-    fout << "mean_loss_dp_1: " << total_loss_dp1/n_test << '\n';
-    fout << "mean_loss_greedy: " << total_loss_greedy/n_test << '\n';
-    fout << '\n';
-    fout << "mean_best_loss: " << total_best_loss/n_test << '\n';
-    fout << "N passed tests: " << n_test_pass << '\n';
-    fout << "Percent of passed tests: " << 100.0*n_test_pass/n_test << '\n';
-
-    fout << '\n';
-    fout << "N tests passed by dp1: " << n_tests_passed_by_dp1 << " " << 100.0*n_tests_passed_by_dp1/n_test << '\n';
-    fout << "N tests passed by greedy: " << n_tests_passed_by_greedy << " " << 100.0*n_tests_passed_by_greedy/n_test << '\n';
-
-    fout << '\n';
-    fout << "N tests solved by dp1: " << n_tests_solved_dp1 << " " << 100.0*n_tests_solved_dp1/n_test << '\n';
-    fout << "N tests solved by greedy: " << n_tests_solved_greedy << " " << 100.0*n_tests_solved_greedy/n_test << '\n';
-
-    fout.close();
-}
-
-void test_2() {
-    string output = "result/output2";
-    std::fstream fout (output.c_str(), std::ios_base::out);
-    int n_test = 360;
-    int n_test_pass = 0;
-    for(int i = 0; i < n_test; ++i) {
+    for(int i = 0; i < n_tests; ++i) {
         string input = input_prefix + to_string(i);
         pair<vector<string>, string> res = solve_without_bruteforce(input, fout);
         string method = res.second;
         vector<string> ans = res.first;
+
         fout << "Best approximation: " << method << '\n';
         print(ans, fout);
         fout << "\n---------------------------------------------------\n";
     }
-
-    fout << "Evaluation\n";
-    fout << "N tests solved by dp1: " << n_tests_solved_dp1 << " " << 100.0*n_tests_solved_dp1/n_test << '\n';
-    fout << "N tests solved by greedy: " << n_tests_solved_greedy << " " << 100.0*n_tests_solved_greedy/n_test << '\n';
-    int n_tests_solved_by_both = n_tests_solved_dp1 + n_tests_solved_greedy - n_test;
-    fout << "N tests solved by both: " << n_tests_solved_by_both << " " << 100.0*n_tests_solved_by_both/n_test << '\n';
-
     fout.close();
 }
+/* Solve without bruteforce */
+
+void test_single_method(string method) {
+    string input = input_prefix + "3";
+    // Parameters
+    int n, m;
+    map<string, int> objectId;
+    map<int, string> orderId;
+    vector<int> nObjectsInOrders;
+    vector<int> limits;
+    vector<vector<int> > orders;
+    read(input, n, m, objectId, orderId, nObjectsInOrders, limits, orders);
+
+    vector<int> result;
+    if (method == "DP2")
+        result = solve_dp2(n, m, nObjectsInOrders, limits, orders);
+    else if (method == "DP1")
+        result = solve_dp1(n, m, nObjectsInOrders, limits, orders);
+    else if (method == "Greedy")
+        result = solve_greedy(n, m, nObjectsInOrders, limits, orders);
+    else result = solve_bruteforce(n, m, nObjectsInOrders, limits, orders);
+    vector<string> ans = get_result(result, orderId);
+    for(string x : ans) cout << x << ' ';
+    cout << '\n';
+}
+
 
 int main() {
-    test_1();
-    test_2();
+    test_with_bruteforce();
+    test_without_bruteforce();
+    //test_single_method("DP2");
+    //cerr << '\n';
+    //test_single_method("DP1");
+    //cerr << '\n';
     return 0;
 }

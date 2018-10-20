@@ -1,17 +1,17 @@
 test/in0
-DP1:
+Method: DP1
 SO2 SO3 
-Greedy:
+Method: Greedy
 SO2 SO3 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO3 
 
 ---------------------------------------------------
 test/in1
-DP1:
+Method: DP1
 SO1 SO2 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 
 
 Best approximation: DP1
@@ -19,9 +19,9 @@ SO1 SO2 SO5
 
 ---------------------------------------------------
 test/in2
-DP1:
+Method: DP1
 SO1 SO2 SO3 
-Greedy:
+Method: Greedy
 SO1 SO2 
 
 Best approximation: DP1
@@ -29,9 +29,9 @@ SO1 SO2 SO3
 
 ---------------------------------------------------
 test/in3
-DP1:
+Method: DP1
 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 
 
 Best approximation: DP1
@@ -39,9 +39,9 @@ SO4 SO5
 
 ---------------------------------------------------
 test/in4
-DP1:
+Method: DP1
 SO1 SO3 
-Greedy:
+Method: Greedy
 SO3 
 
 Best approximation: DP1
@@ -49,9 +49,9 @@ SO1 SO3
 
 ---------------------------------------------------
 test/in5
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO5 
 
 Best approximation: DP1
@@ -59,29 +59,29 @@ SO1 SO2 SO3 SO5
 
 ---------------------------------------------------
 test/in6
-DP1:
+Method: DP1
 SO1 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO3 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO3 SO5 
 
 ---------------------------------------------------
 test/in7
-DP1:
+Method: DP1
 SO2 SO5 
-Greedy:
+Method: Greedy
 SO2 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO5 
 
 ---------------------------------------------------
 test/in8
-DP1:
+Method: DP1
 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO2 SO3 SO4 SO5 
 
 Best approximation: Greedy
@@ -89,19 +89,19 @@ SO2 SO3 SO4 SO5
 
 ---------------------------------------------------
 test/in9
-DP1:
+Method: DP1
 SO4 SO5 
-Greedy:
+Method: Greedy
 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO4 SO5 
 
 ---------------------------------------------------
 test/in10
-DP1:
+Method: DP1
 SO3 SO4 
-Greedy:
+Method: Greedy
 SO3 
 
 Best approximation: DP1
@@ -109,9 +109,9 @@ SO3 SO4
 
 ---------------------------------------------------
 test/in11
-DP1:
+Method: DP1
 SO3 SO4 SO5 
-Greedy:
+Method: Greedy
 SO3 SO4 
 
 Best approximation: DP1
@@ -119,9 +119,9 @@ SO3 SO4 SO5
 
 ---------------------------------------------------
 test/in12
-DP1:
+Method: DP1
 SO4 SO5 
-Greedy:
+Method: Greedy
 SO5 
 
 Best approximation: DP1
@@ -129,9 +129,9 @@ SO4 SO5
 
 ---------------------------------------------------
 test/in13
-DP1:
+Method: DP1
 SO1 SO2 SO4 
-Greedy:
+Method: Greedy
 SO2 SO4 
 
 Best approximation: DP1
@@ -139,9 +139,9 @@ SO1 SO2 SO4
 
 ---------------------------------------------------
 test/in14
-DP1:
+Method: DP1
 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO4 SO5 
 
 Best approximation: Greedy
@@ -149,39 +149,39 @@ SO1 SO4 SO5
 
 ---------------------------------------------------
 test/in15
-DP1:
+Method: DP1
 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO2 SO3 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO3 SO4 
 
 ---------------------------------------------------
 test/in16
-DP1:
+Method: DP1
 SO1 SO5 
-Greedy:
+Method: Greedy
 SO1 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO5 
 
 ---------------------------------------------------
 test/in17
-DP1:
+Method: DP1
 SO2 SO3 
-Greedy:
+Method: Greedy
 SO2 SO3 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO3 
 
 ---------------------------------------------------
 test/in18
-DP1:
+Method: DP1
 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO3 SO4 
 
 Best approximation: DP1
@@ -189,9 +189,9 @@ SO2 SO3 SO4
 
 ---------------------------------------------------
 test/in19
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO5 
 
 Best approximation: DP1
@@ -199,9 +199,9 @@ SO1 SO2 SO3 SO5
 
 ---------------------------------------------------
 test/in20
-DP1:
+Method: DP1
 SO6 SO7 SO9 
-Greedy:
+Method: Greedy
 SO5 
 
 Best approximation: DP1
@@ -209,9 +209,9 @@ SO6 SO7 SO9
 
 ---------------------------------------------------
 test/in21
-DP1:
+Method: DP1
 SO1 SO6 SO10 
-Greedy:
+Method: Greedy
 SO1 SO10 
 
 Best approximation: DP1
@@ -219,9 +219,9 @@ SO1 SO6 SO10
 
 ---------------------------------------------------
 test/in22
-DP1:
+Method: DP1
 SO1 SO5 SO9 
-Greedy:
+Method: Greedy
 SO4 SO7 
 
 Best approximation: DP1
@@ -229,29 +229,29 @@ SO1 SO5 SO9
 
 ---------------------------------------------------
 test/in23
-DP1:
+Method: DP1
 SO1 SO4 SO5 SO9 
-Greedy:
+Method: Greedy
 SO1 SO3 SO5 SO8 
 
-Best approximation: Greedy
-SO1 SO3 SO5 SO8 
+Best approximation: DP1
+SO1 SO4 SO5 SO9 
 
 ---------------------------------------------------
 test/in24
-DP1:
+Method: DP1
 SO1 SO5 SO8 SO9 
-Greedy:
+Method: Greedy
 SO1 SO5 SO8 SO9 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO5 SO8 SO9 
 
 ---------------------------------------------------
 test/in25
-DP1:
+Method: DP1
 SO5 SO6 SO9 
-Greedy:
+Method: Greedy
 SO8 
 
 Best approximation: DP1
@@ -259,19 +259,19 @@ SO5 SO6 SO9
 
 ---------------------------------------------------
 test/in26
-DP1:
+Method: DP1
 SO3 SO6 SO7 SO8 
-Greedy:
+Method: Greedy
 SO3 SO6 SO7 SO8 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO6 SO7 SO8 
 
 ---------------------------------------------------
 test/in27
-DP1:
+Method: DP1
 SO1 SO3 SO6 SO10 
-Greedy:
+Method: Greedy
 SO4 SO5 
 
 Best approximation: DP1
@@ -279,9 +279,9 @@ SO1 SO3 SO6 SO10
 
 ---------------------------------------------------
 test/in28
-DP1:
+Method: DP1
 SO1 SO2 SO5 
-Greedy:
+Method: Greedy
 SO4 SO6 
 
 Best approximation: DP1
@@ -289,9 +289,9 @@ SO1 SO2 SO5
 
 ---------------------------------------------------
 test/in29
-DP1:
+Method: DP1
 SO2 SO4 SO6 SO10 
-Greedy:
+Method: Greedy
 SO2 SO4 
 
 Best approximation: DP1
@@ -299,9 +299,9 @@ SO2 SO4 SO6 SO10
 
 ---------------------------------------------------
 test/in30
-DP1:
+Method: DP1
 SO2 SO4 SO5 SO7 
-Greedy:
+Method: Greedy
 SO2 SO4 SO7 
 
 Best approximation: DP1
@@ -309,9 +309,9 @@ SO2 SO4 SO5 SO7
 
 ---------------------------------------------------
 test/in31
-DP1:
+Method: DP1
 SO2 SO9 SO10 
-Greedy:
+Method: Greedy
 SO3 
 
 Best approximation: DP1
@@ -319,9 +319,9 @@ SO2 SO9 SO10
 
 ---------------------------------------------------
 test/in32
-DP1:
+Method: DP1
 SO2 SO3 SO5 SO7 
-Greedy:
+Method: Greedy
 SO2 SO4 
 
 Best approximation: DP1
@@ -329,9 +329,9 @@ SO2 SO3 SO5 SO7
 
 ---------------------------------------------------
 test/in33
-DP1:
+Method: DP1
 SO2 SO3 SO7 SO8 
-Greedy:
+Method: Greedy
 SO2 SO3 SO7 
 
 Best approximation: DP1
@@ -339,19 +339,19 @@ SO2 SO3 SO7 SO8
 
 ---------------------------------------------------
 test/in34
-DP1:
+Method: DP1
 SO1 SO6 SO7 
-Greedy:
+Method: Greedy
 SO1 SO6 SO7 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO6 SO7 
 
 ---------------------------------------------------
 test/in35
-DP1:
+Method: DP1
 SO2 SO7 SO10 
-Greedy:
+Method: Greedy
 SO2 SO7 
 
 Best approximation: DP1
@@ -359,9 +359,9 @@ SO2 SO7 SO10
 
 ---------------------------------------------------
 test/in36
-DP1:
+Method: DP1
 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO3 SO8 
 
 Best approximation: DP1
@@ -369,9 +369,9 @@ SO2 SO3 SO5
 
 ---------------------------------------------------
 test/in37
-DP1:
+Method: DP1
 SO1 SO4 SO8 SO10 
-Greedy:
+Method: Greedy
 SO1 SO4 SO8 
 
 Best approximation: DP1
@@ -379,19 +379,19 @@ SO1 SO4 SO8 SO10
 
 ---------------------------------------------------
 test/in38
-DP1:
+Method: DP1
 SO2 SO4 SO10 
-Greedy:
+Method: Greedy
 SO2 SO4 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO4 SO10 
 
 ---------------------------------------------------
 test/in39
-DP1:
+Method: DP1
 SO1 SO3 SO9 SO10 
-Greedy:
+Method: Greedy
 SO3 SO9 SO10 
 
 Best approximation: DP1
@@ -399,9 +399,9 @@ SO1 SO3 SO9 SO10
 
 ---------------------------------------------------
 test/in40
-DP1:
+Method: DP1
 SO2 SO7 SO8 SO14 
-Greedy:
+Method: Greedy
 SO2 SO7 SO8 
 
 Best approximation: DP1
@@ -409,9 +409,9 @@ SO2 SO7 SO8 SO14
 
 ---------------------------------------------------
 test/in41
-DP1:
+Method: DP1
 SO5 SO7 SO11 SO13 
-Greedy:
+Method: Greedy
 SO4 
 
 Best approximation: DP1
@@ -419,9 +419,9 @@ SO5 SO7 SO11 SO13
 
 ---------------------------------------------------
 test/in42
-DP1:
+Method: DP1
 SO1 SO2 SO5 SO7 SO8 
-Greedy:
+Method: Greedy
 SO9 
 
 Best approximation: DP1
@@ -429,9 +429,9 @@ SO1 SO2 SO5 SO7 SO8
 
 ---------------------------------------------------
 test/in43
-DP1:
+Method: DP1
 SO2 SO3 SO4 SO5 SO6 SO12 
-Greedy:
+Method: Greedy
 SO3 SO6 SO8 SO12 
 
 Best approximation: DP1
@@ -439,9 +439,9 @@ SO2 SO3 SO4 SO5 SO6 SO12
 
 ---------------------------------------------------
 test/in44
-DP1:
+Method: DP1
 SO7 SO8 SO12 
-Greedy:
+Method: Greedy
 SO7 SO8 
 
 Best approximation: DP1
@@ -449,19 +449,19 @@ SO7 SO8 SO12
 
 ---------------------------------------------------
 test/in45
-DP1:
+Method: DP1
 SO7 SO8 SO10 
-Greedy:
+Method: Greedy
 SO2 SO7 SO15 
 
-Best approximation: Greedy
-SO2 SO7 SO15 
+Best approximation: DP1
+SO7 SO8 SO10 
 
 ---------------------------------------------------
 test/in46
-DP1:
+Method: DP1
 SO1 SO2 SO9 SO11 
-Greedy:
+Method: Greedy
 SO1 SO10 SO11 SO14 
 
 Best approximation: Greedy
@@ -469,19 +469,19 @@ SO1 SO10 SO11 SO14
 
 ---------------------------------------------------
 test/in47
-DP1:
+Method: DP1
 SO10 SO13 SO14 
-Greedy:
+Method: Greedy
 SO2 SO12 SO13 
 
-Best approximation: Greedy
-SO2 SO12 SO13 
+Best approximation: DP1
+SO10 SO13 SO14 
 
 ---------------------------------------------------
 test/in48
-DP1:
+Method: DP1
 SO3 SO4 SO8 SO9 
-Greedy:
+Method: Greedy
 SO7 
 
 Best approximation: DP1
@@ -489,9 +489,9 @@ SO3 SO4 SO8 SO9
 
 ---------------------------------------------------
 test/in49
-DP1:
+Method: DP1
 SO3 SO5 SO8 
-Greedy:
+Method: Greedy
 SO5 SO8 
 
 Best approximation: DP1
@@ -499,9 +499,9 @@ SO3 SO5 SO8
 
 ---------------------------------------------------
 test/in50
-DP1:
+Method: DP1
 SO1 SO3 SO6 SO8 SO15 
-Greedy:
+Method: Greedy
 SO5 SO9 SO14 
 
 Best approximation: DP1
@@ -509,9 +509,9 @@ SO1 SO3 SO6 SO8 SO15
 
 ---------------------------------------------------
 test/in51
-DP1:
+Method: DP1
 SO1 SO2 SO13 SO14 
-Greedy:
+Method: Greedy
 SO1 SO8 SO12 SO13 
 
 Best approximation: Greedy
@@ -519,9 +519,9 @@ SO1 SO8 SO12 SO13
 
 ---------------------------------------------------
 test/in52
-DP1:
+Method: DP1
 SO3 SO5 SO7 SO15 
-Greedy:
+Method: Greedy
 SO11 SO13 SO15 
 
 Best approximation: DP1
@@ -529,9 +529,9 @@ SO3 SO5 SO7 SO15
 
 ---------------------------------------------------
 test/in53
-DP1:
+Method: DP1
 SO1 SO3 SO4 SO11 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 
 
 Best approximation: DP1
@@ -539,9 +539,9 @@ SO1 SO3 SO4 SO11
 
 ---------------------------------------------------
 test/in54
-DP1:
+Method: DP1
 SO2 SO5 SO12 SO15 
-Greedy:
+Method: Greedy
 SO11 
 
 Best approximation: DP1
@@ -549,9 +549,9 @@ SO2 SO5 SO12 SO15
 
 ---------------------------------------------------
 test/in55
-DP1:
+Method: DP1
 SO4 SO6 SO7 SO13 SO15 
-Greedy:
+Method: Greedy
 SO4 SO10 
 
 Best approximation: DP1
@@ -559,9 +559,9 @@ SO4 SO6 SO7 SO13 SO15
 
 ---------------------------------------------------
 test/in56
-DP1:
+Method: DP1
 SO6 SO10 SO14 
-Greedy:
+Method: Greedy
 SO15 
 
 Best approximation: DP1
@@ -569,9 +569,9 @@ SO6 SO10 SO14
 
 ---------------------------------------------------
 test/in57
-DP1:
+Method: DP1
 SO1 SO4 SO5 SO14 
-Greedy:
+Method: Greedy
 SO3 SO8 
 
 Best approximation: DP1
@@ -579,9 +579,9 @@ SO1 SO4 SO5 SO14
 
 ---------------------------------------------------
 test/in58
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO9 SO10 
-Greedy:
+Method: Greedy
 SO2 SO3 SO4 SO10 SO14 
 
 Best approximation: Greedy
@@ -589,9 +589,9 @@ SO2 SO3 SO4 SO10 SO14
 
 ---------------------------------------------------
 test/in59
-DP1:
+Method: DP1
 SO2 SO4 SO5 SO14 
-Greedy:
+Method: Greedy
 SO9 SO13 
 
 Best approximation: DP1
@@ -599,59 +599,59 @@ SO2 SO4 SO5 SO14
 
 ---------------------------------------------------
 test/in60
-DP1:
+Method: DP1
 SO5 
-Greedy:
+Method: Greedy
 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO5 
 
 ---------------------------------------------------
 test/in61
-DP1:
+Method: DP1
 SO3 SO4 
-Greedy:
+Method: Greedy
 SO3 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO4 
 
 ---------------------------------------------------
 test/in62
-DP1:
+Method: DP1
 SO4 
-Greedy:
+Method: Greedy
 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO4 
 
 ---------------------------------------------------
 test/in63
-DP1:
+Method: DP1
 SO1 
-Greedy:
+Method: Greedy
 SO1 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 
 
 ---------------------------------------------------
 test/in64
-DP1:
+Method: DP1
 SO3 
-Greedy:
+Method: Greedy
 SO3 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 
 
 ---------------------------------------------------
 test/in65
-DP1:
+Method: DP1
 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 
 
 Best approximation: DP1
@@ -659,29 +659,29 @@ SO3 SO5
 
 ---------------------------------------------------
 test/in66
-DP1:
+Method: DP1
 SO1 
-Greedy:
+Method: Greedy
 SO1 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 
 
 ---------------------------------------------------
 test/in67
-DP1:
+Method: DP1
 SO2 SO4 
-Greedy:
+Method: Greedy
 SO2 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO4 
 
 ---------------------------------------------------
 test/in68
-DP1:
+Method: DP1
 SO4 SO5 
-Greedy:
+Method: Greedy
 SO4 
 
 Best approximation: DP1
@@ -689,69 +689,69 @@ SO4 SO5
 
 ---------------------------------------------------
 test/in69
-DP1:
+Method: DP1
 SO5 
-Greedy:
+Method: Greedy
 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO5 
 
 ---------------------------------------------------
 test/in70
-DP1:
+Method: DP1
 SO5 
-Greedy:
+Method: Greedy
 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO5 
 
 ---------------------------------------------------
 test/in71
-DP1:
+Method: DP1
 SO3 SO4 
-Greedy:
+Method: Greedy
 SO3 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO4 
 
 ---------------------------------------------------
 test/in72
-DP1:
+Method: DP1
 SO1 
-Greedy:
+Method: Greedy
 SO1 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 
 
 ---------------------------------------------------
 test/in73
-DP1:
+Method: DP1
 SO3 SO4 
-Greedy:
+Method: Greedy
 SO3 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO4 
 
 ---------------------------------------------------
 test/in74
-DP1:
+Method: DP1
 SO3 
-Greedy:
+Method: Greedy
 SO3 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 
 
 ---------------------------------------------------
 test/in75
-DP1:
+Method: DP1
 SO1 SO4 
-Greedy:
+Method: Greedy
 SO3 SO4 SO5 
 
 Best approximation: Greedy
@@ -759,69 +759,69 @@ SO3 SO4 SO5
 
 ---------------------------------------------------
 test/in76
-DP1:
+Method: DP1
 SO1 
-Greedy:
+Method: Greedy
 SO1 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 
 
 ---------------------------------------------------
 test/in77
-DP1:
+Method: DP1
 SO2 
-Greedy:
+Method: Greedy
 SO2 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 
 
 ---------------------------------------------------
 test/in78
-DP1:
+Method: DP1
 SO2 
-Greedy:
+Method: Greedy
 SO2 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 
 
 ---------------------------------------------------
 test/in79
-DP1:
+Method: DP1
 SO1 SO4 
-Greedy:
+Method: Greedy
 SO1 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO4 
 
 ---------------------------------------------------
 test/in80
-DP1:
+Method: DP1
 SO1 SO3 SO10 
-Greedy:
+Method: Greedy
 SO1 SO3 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO3 SO10 
 
 ---------------------------------------------------
 test/in81
-DP1:
+Method: DP1
 SO5 SO9 
-Greedy:
+Method: Greedy
 SO5 SO9 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO5 SO9 
 
 ---------------------------------------------------
 test/in82
-DP1:
+Method: DP1
 SO3 SO5 
-Greedy:
+Method: Greedy
 SO8 
 
 Best approximation: DP1
@@ -829,9 +829,9 @@ SO3 SO5
 
 ---------------------------------------------------
 test/in83
-DP1:
+Method: DP1
 SO3 SO5 SO7 
-Greedy:
+Method: Greedy
 SO3 SO7 SO9 
 
 Best approximation: Greedy
@@ -839,19 +839,19 @@ SO3 SO7 SO9
 
 ---------------------------------------------------
 test/in84
-DP1:
+Method: DP1
 SO4 
-Greedy:
+Method: Greedy
 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO4 
 
 ---------------------------------------------------
 test/in85
-DP1:
+Method: DP1
 SO3 SO9 
-Greedy:
+Method: Greedy
 SO2 
 
 Best approximation: DP1
@@ -859,9 +859,9 @@ SO3 SO9
 
 ---------------------------------------------------
 test/in86
-DP1:
+Method: DP1
 SO6 SO7 
-Greedy:
+Method: Greedy
 SO7 
 
 Best approximation: DP1
@@ -869,39 +869,39 @@ SO6 SO7
 
 ---------------------------------------------------
 test/in87
-DP1:
+Method: DP1
 SO2 SO3 SO9 
-Greedy:
+Method: Greedy
 SO2 SO3 SO9 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO3 SO9 
 
 ---------------------------------------------------
 test/in88
-DP1:
+Method: DP1
 SO5 SO6 SO7 
-Greedy:
+Method: Greedy
 SO5 SO6 SO7 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO5 SO6 SO7 
 
 ---------------------------------------------------
 test/in89
-DP1:
+Method: DP1
 SO2 
-Greedy:
+Method: Greedy
 SO2 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 
 
 ---------------------------------------------------
 test/in90
-DP1:
+Method: DP1
 SO4 SO5 SO7 
-Greedy:
+Method: Greedy
 SO3 SO4 
 
 Best approximation: DP1
@@ -909,19 +909,19 @@ SO4 SO5 SO7
 
 ---------------------------------------------------
 test/in91
-DP1:
+Method: DP1
 SO3 SO5 SO7 SO8 
-Greedy:
+Method: Greedy
 SO3 SO5 SO7 SO8 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO5 SO7 SO8 
 
 ---------------------------------------------------
 test/in92
-DP1:
+Method: DP1
 SO2 SO4 
-Greedy:
+Method: Greedy
 SO2 SO6 SO9 
 
 Best approximation: Greedy
@@ -929,9 +929,9 @@ SO2 SO6 SO9
 
 ---------------------------------------------------
 test/in93
-DP1:
+Method: DP1
 SO7 SO8 SO10 
-Greedy:
+Method: Greedy
 SO6 SO7 
 
 Best approximation: DP1
@@ -939,9 +939,9 @@ SO7 SO8 SO10
 
 ---------------------------------------------------
 test/in94
-DP1:
+Method: DP1
 SO2 SO4 SO5 SO10 
-Greedy:
+Method: Greedy
 SO2 SO5 SO8 SO10 
 
 Best approximation: Greedy
@@ -949,29 +949,29 @@ SO2 SO5 SO8 SO10
 
 ---------------------------------------------------
 test/in95
-DP1:
+Method: DP1
 SO1 SO7 SO8 
-Greedy:
+Method: Greedy
 SO1 SO7 SO8 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO7 SO8 
 
 ---------------------------------------------------
 test/in96
-DP1:
+Method: DP1
 SO1 SO3 SO10 
-Greedy:
+Method: Greedy
 SO1 SO3 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO3 SO10 
 
 ---------------------------------------------------
 test/in97
-DP1:
+Method: DP1
 SO6 SO9 
-Greedy:
+Method: Greedy
 SO3 
 
 Best approximation: DP1
@@ -979,29 +979,29 @@ SO6 SO9
 
 ---------------------------------------------------
 test/in98
-DP1:
+Method: DP1
 SO5 SO8 
-Greedy:
+Method: Greedy
 SO5 SO8 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO5 SO8 
 
 ---------------------------------------------------
 test/in99
-DP1:
+Method: DP1
 SO2 SO3 SO10 
-Greedy:
+Method: Greedy
 SO2 SO3 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO3 SO10 
 
 ---------------------------------------------------
 test/in100
-DP1:
+Method: DP1
 SO2 SO3 SO4 SO7 
-Greedy:
+Method: Greedy
 SO2 SO4 SO7 SO14 
 
 Best approximation: Greedy
@@ -1009,19 +1009,19 @@ SO2 SO4 SO7 SO14
 
 ---------------------------------------------------
 test/in101
-DP1:
+Method: DP1
 SO3 SO8 SO13 SO15 
-Greedy:
+Method: Greedy
 SO3 SO8 SO13 SO15 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO8 SO13 SO15 
 
 ---------------------------------------------------
 test/in102
-DP1:
+Method: DP1
 SO8 SO13 SO15 
-Greedy:
+Method: Greedy
 SO14 SO15 
 
 Best approximation: DP1
@@ -1029,9 +1029,9 @@ SO8 SO13 SO15
 
 ---------------------------------------------------
 test/in103
-DP1:
+Method: DP1
 SO1 SO8 SO10 
-Greedy:
+Method: Greedy
 SO1 SO13 SO15 
 
 Best approximation: Greedy
@@ -1039,9 +1039,9 @@ SO1 SO13 SO15
 
 ---------------------------------------------------
 test/in104
-DP1:
+Method: DP1
 SO2 SO3 SO9 
-Greedy:
+Method: Greedy
 SO12 SO14 
 
 Best approximation: DP1
@@ -1049,9 +1049,9 @@ SO2 SO3 SO9
 
 ---------------------------------------------------
 test/in105
-DP1:
+Method: DP1
 SO4 SO15 
-Greedy:
+Method: Greedy
 SO9 
 
 Best approximation: DP1
@@ -1059,9 +1059,9 @@ SO4 SO15
 
 ---------------------------------------------------
 test/in106
-DP1:
+Method: DP1
 SO4 SO10 SO13 
-Greedy:
+Method: Greedy
 SO4 SO10 
 
 Best approximation: DP1
@@ -1069,9 +1069,9 @@ SO4 SO10 SO13
 
 ---------------------------------------------------
 test/in107
-DP1:
+Method: DP1
 SO5 SO6 SO13 
-Greedy:
+Method: Greedy
 SO3 SO5 
 
 Best approximation: DP1
@@ -1079,19 +1079,19 @@ SO5 SO6 SO13
 
 ---------------------------------------------------
 test/in108
-DP1:
+Method: DP1
 SO1 SO9 
-Greedy:
+Method: Greedy
 SO1 SO9 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO9 
 
 ---------------------------------------------------
 test/in109
-DP1:
+Method: DP1
 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO3 SO5 
 
 Best approximation: DP1
@@ -1099,9 +1099,9 @@ SO2 SO3 SO5
 
 ---------------------------------------------------
 test/in110
-DP1:
+Method: DP1
 SO4 SO7 
-Greedy:
+Method: Greedy
 SO7 
 
 Best approximation: DP1
@@ -1109,29 +1109,29 @@ SO4 SO7
 
 ---------------------------------------------------
 test/in111
-DP1:
+Method: DP1
 SO4 SO10 SO14 
-Greedy:
+Method: Greedy
 SO4 SO10 SO14 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO4 SO10 SO14 
 
 ---------------------------------------------------
 test/in112
-DP1:
+Method: DP1
 SO7 SO10 
-Greedy:
+Method: Greedy
 SO7 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO7 SO10 
 
 ---------------------------------------------------
 test/in113
-DP1:
+Method: DP1
 SO6 SO10 SO11 SO13 
-Greedy:
+Method: Greedy
 SO7 SO12 SO13 
 
 Best approximation: DP1
@@ -1139,9 +1139,9 @@ SO6 SO10 SO11 SO13
 
 ---------------------------------------------------
 test/in114
-DP1:
+Method: DP1
 SO1 SO13 
-Greedy:
+Method: Greedy
 SO14 
 
 Best approximation: DP1
@@ -1149,19 +1149,19 @@ SO1 SO13
 
 ---------------------------------------------------
 test/in115
-DP1:
+Method: DP1
 SO2 SO11 
-Greedy:
+Method: Greedy
 SO2 SO11 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO11 
 
 ---------------------------------------------------
 test/in116
-DP1:
+Method: DP1
 SO3 SO8 SO13 
-Greedy:
+Method: Greedy
 SO1 SO3 
 
 Best approximation: DP1
@@ -1169,9 +1169,9 @@ SO3 SO8 SO13
 
 ---------------------------------------------------
 test/in117
-DP1:
+Method: DP1
 SO10 SO13 
-Greedy:
+Method: Greedy
 SO8 
 
 Best approximation: DP1
@@ -1179,9 +1179,9 @@ SO10 SO13
 
 ---------------------------------------------------
 test/in118
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO7 SO12 SO13 
-Greedy:
+Method: Greedy
 SO9 SO12 SO13 
 
 Best approximation: DP1
@@ -1189,9 +1189,9 @@ SO1 SO2 SO3 SO7 SO12 SO13
 
 ---------------------------------------------------
 test/in119
-DP1:
+Method: DP1
 SO5 SO6 SO11 
-Greedy:
+Method: Greedy
 SO4 SO7 
 
 Best approximation: DP1
@@ -1199,9 +1199,9 @@ SO5 SO6 SO11
 
 ---------------------------------------------------
 test/in120
-DP1:
+Method: DP1
 SO2 SO3 
-Greedy:
+Method: Greedy
 SO3 
 
 Best approximation: DP1
@@ -1209,9 +1209,9 @@ SO2 SO3
 
 ---------------------------------------------------
 test/in121
-DP1:
+Method: DP1
 SO3 SO4 
-Greedy:
+Method: Greedy
 SO3 
 
 Best approximation: DP1
@@ -1219,9 +1219,9 @@ SO3 SO4
 
 ---------------------------------------------------
 test/in122
-DP1:
+Method: DP1
 SO4 SO5 
-Greedy:
+Method: Greedy
 SO5 
 
 Best approximation: DP1
@@ -1229,39 +1229,39 @@ SO4 SO5
 
 ---------------------------------------------------
 test/in123
-DP1:
+Method: DP1
 SO2 
-Greedy:
+Method: Greedy
 SO2 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 
 
 ---------------------------------------------------
 test/in124
-DP1:
+Method: DP1
 SO3 
-Greedy:
+Method: Greedy
 SO3 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 
 
 ---------------------------------------------------
 test/in125
-DP1:
+Method: DP1
 SO2 
-Greedy:
+Method: Greedy
 SO2 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 
 
 ---------------------------------------------------
 test/in126
-DP1:
+Method: DP1
 SO2 SO5 
-Greedy:
+Method: Greedy
 SO1 
 
 Best approximation: DP1
@@ -1269,139 +1269,139 @@ SO2 SO5
 
 ---------------------------------------------------
 test/in127
-DP1:
+Method: DP1
 SO2 SO5 
-Greedy:
+Method: Greedy
 SO2 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO5 
 
 ---------------------------------------------------
 test/in128
-DP1:
+Method: DP1
 SO1 SO5 
-Greedy:
+Method: Greedy
 SO1 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO5 
 
 ---------------------------------------------------
 test/in129
-DP1:
+Method: DP1
 SO1 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO3 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO3 SO5 
 
 ---------------------------------------------------
 test/in130
-DP1:
+Method: DP1
 SO1 
-Greedy:
+Method: Greedy
 SO1 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 
 
 ---------------------------------------------------
 test/in131
-DP1:
+Method: DP1
 SO3 
-Greedy:
+Method: Greedy
 SO3 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 
 
 ---------------------------------------------------
 test/in132
-DP1:
+Method: DP1
 SO4 
-Greedy:
+Method: Greedy
 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO4 
 
 ---------------------------------------------------
 test/in133
-DP1:
+Method: DP1
 SO1 SO2 
-Greedy:
+Method: Greedy
 SO1 SO2 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 
 
 ---------------------------------------------------
 test/in134
-DP1:
+Method: DP1
 SO3 SO5 
-Greedy:
+Method: Greedy
 SO3 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO5 
 
 ---------------------------------------------------
 test/in135
-DP1:
+Method: DP1
 SO2 
-Greedy:
+Method: Greedy
 SO2 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 
 
 ---------------------------------------------------
 test/in136
-DP1:
+Method: DP1
 SO3 SO5 
-Greedy:
+Method: Greedy
 SO3 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO5 
 
 ---------------------------------------------------
 test/in137
-DP1:
+Method: DP1
 SO3 SO4 
-Greedy:
+Method: Greedy
 SO3 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO4 
 
 ---------------------------------------------------
 test/in138
-DP1:
+Method: DP1
 SO2 SO4 
-Greedy:
+Method: Greedy
 SO2 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO4 
 
 ---------------------------------------------------
 test/in139
-DP1:
+Method: DP1
 SO5 
-Greedy:
+Method: Greedy
 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO5 
 
 ---------------------------------------------------
 test/in140
-DP1:
+Method: DP1
 SO5 SO8 
-Greedy:
+Method: Greedy
 SO2 
 
 Best approximation: DP1
@@ -1409,19 +1409,19 @@ SO5 SO8
 
 ---------------------------------------------------
 test/in141
-DP1:
+Method: DP1
 SO2 
-Greedy:
+Method: Greedy
 SO2 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 
 
 ---------------------------------------------------
 test/in142
-DP1:
+Method: DP1
 SO5 SO6 SO8 
-Greedy:
+Method: Greedy
 SO5 SO8 
 
 Best approximation: DP1
@@ -1429,49 +1429,49 @@ SO5 SO6 SO8
 
 ---------------------------------------------------
 test/in143
-DP1:
+Method: DP1
 SO4 SO8 
-Greedy:
+Method: Greedy
 SO4 SO8 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO4 SO8 
 
 ---------------------------------------------------
 test/in144
-DP1:
+Method: DP1
 SO1 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO4 SO5 
 
 ---------------------------------------------------
 test/in145
-DP1:
+Method: DP1
 SO2 SO5 
-Greedy:
+Method: Greedy
 SO2 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO5 
 
 ---------------------------------------------------
 test/in146
-DP1:
+Method: DP1
 SO4 SO6 
-Greedy:
+Method: Greedy
 SO4 SO6 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO4 SO6 
 
 ---------------------------------------------------
 test/in147
-DP1:
+Method: DP1
 SO3 SO7 
-Greedy:
+Method: Greedy
 SO1 
 
 Best approximation: DP1
@@ -1479,39 +1479,39 @@ SO3 SO7
 
 ---------------------------------------------------
 test/in148
-DP1:
+Method: DP1
 SO8 SO10 
-Greedy:
+Method: Greedy
 SO8 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO8 SO10 
 
 ---------------------------------------------------
 test/in149
-DP1:
+Method: DP1
 SO1 
-Greedy:
+Method: Greedy
 SO1 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 
 
 ---------------------------------------------------
 test/in150
-DP1:
+Method: DP1
 SO2 SO6 
-Greedy:
+Method: Greedy
 SO2 SO6 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO6 
 
 ---------------------------------------------------
 test/in151
-DP1:
+Method: DP1
 SO5 SO6 
-Greedy:
+Method: Greedy
 SO7 
 
 Best approximation: DP1
@@ -1519,9 +1519,9 @@ SO5 SO6
 
 ---------------------------------------------------
 test/in152
-DP1:
+Method: DP1
 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO9 
 
 Best approximation: DP1
@@ -1529,19 +1529,19 @@ SO2 SO4 SO5
 
 ---------------------------------------------------
 test/in153
-DP1:
+Method: DP1
 SO8 
-Greedy:
+Method: Greedy
 SO8 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO8 
 
 ---------------------------------------------------
 test/in154
-DP1:
+Method: DP1
 SO4 SO5 
-Greedy:
+Method: Greedy
 SO2 
 
 Best approximation: DP1
@@ -1549,9 +1549,9 @@ SO4 SO5
 
 ---------------------------------------------------
 test/in155
-DP1:
+Method: DP1
 SO3 SO5 
-Greedy:
+Method: Greedy
 SO9 
 
 Best approximation: DP1
@@ -1559,29 +1559,29 @@ SO3 SO5
 
 ---------------------------------------------------
 test/in156
-DP1:
+Method: DP1
 SO3 SO10 
-Greedy:
+Method: Greedy
 SO3 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO10 
 
 ---------------------------------------------------
 test/in157
-DP1:
+Method: DP1
 SO6 
-Greedy:
+Method: Greedy
 SO6 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO6 
 
 ---------------------------------------------------
 test/in158
-DP1:
+Method: DP1
 SO4 SO8 
-Greedy:
+Method: Greedy
 SO1 
 
 Best approximation: DP1
@@ -1589,29 +1589,29 @@ SO4 SO8
 
 ---------------------------------------------------
 test/in159
-DP1:
+Method: DP1
 SO2 SO9 
-Greedy:
+Method: Greedy
 SO2 SO9 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO9 
 
 ---------------------------------------------------
 test/in160
-DP1:
+Method: DP1
 SO4 SO5 SO10 
-Greedy:
+Method: Greedy
 SO4 SO5 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO4 SO5 SO10 
 
 ---------------------------------------------------
 test/in161
-DP1:
+Method: DP1
 SO1 SO9 SO10 
-Greedy:
+Method: Greedy
 SO1 SO8 
 
 Best approximation: DP1
@@ -1619,9 +1619,9 @@ SO1 SO9 SO10
 
 ---------------------------------------------------
 test/in162
-DP1:
+Method: DP1
 SO2 SO4 SO11 SO15 
-Greedy:
+Method: Greedy
 SO9 SO15 
 
 Best approximation: DP1
@@ -1629,109 +1629,109 @@ SO2 SO4 SO11 SO15
 
 ---------------------------------------------------
 test/in163
-DP1:
+Method: DP1
 SO12 SO15 
-Greedy:
+Method: Greedy
 SO12 SO15 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO12 SO15 
 
 ---------------------------------------------------
 test/in164
-DP1:
+Method: DP1
 SO9 SO10 
-Greedy:
+Method: Greedy
 SO9 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO9 SO10 
 
 ---------------------------------------------------
 test/in165
-DP1:
+Method: DP1
 SO9 SO11 SO13 SO15 
-Greedy:
+Method: Greedy
 SO9 SO11 SO13 SO15 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO9 SO11 SO13 SO15 
 
 ---------------------------------------------------
 test/in166
-DP1:
+Method: DP1
 SO14 
-Greedy:
+Method: Greedy
 SO14 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO14 
 
 ---------------------------------------------------
 test/in167
-DP1:
+Method: DP1
 SO3 SO14 
-Greedy:
+Method: Greedy
 SO3 SO14 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO14 
 
 ---------------------------------------------------
 test/in168
-DP1:
+Method: DP1
 SO2 SO14 
-Greedy:
+Method: Greedy
 SO2 SO14 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO14 
 
 ---------------------------------------------------
 test/in169
-DP1:
+Method: DP1
 SO5 SO12 
-Greedy:
+Method: Greedy
 SO5 SO12 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO5 SO12 
 
 ---------------------------------------------------
 test/in170
-DP1:
+Method: DP1
 SO4 
-Greedy:
+Method: Greedy
 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO4 
 
 ---------------------------------------------------
 test/in171
-DP1:
+Method: DP1
 SO1 SO4 SO9 
-Greedy:
+Method: Greedy
 SO1 SO4 SO9 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO4 SO9 
 
 ---------------------------------------------------
 test/in172
-DP1:
+Method: DP1
 SO2 SO14 
-Greedy:
+Method: Greedy
 SO2 SO14 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO14 
 
 ---------------------------------------------------
 test/in173
-DP1:
+Method: DP1
 SO12 SO13 
-Greedy:
+Method: Greedy
 SO6 
 
 Best approximation: DP1
@@ -1739,29 +1739,29 @@ SO12 SO13
 
 ---------------------------------------------------
 test/in174
-DP1:
+Method: DP1
 SO6 SO13 
-Greedy:
+Method: Greedy
 SO6 SO13 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO6 SO13 
 
 ---------------------------------------------------
 test/in175
-DP1:
+Method: DP1
 SO2 SO11 
-Greedy:
+Method: Greedy
 SO2 SO11 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO11 
 
 ---------------------------------------------------
 test/in176
-DP1:
+Method: DP1
 SO12 SO14 
-Greedy:
+Method: Greedy
 SO10 
 
 Best approximation: DP1
@@ -1769,9 +1769,9 @@ SO12 SO14
 
 ---------------------------------------------------
 test/in177
-DP1:
+Method: DP1
 SO2 SO3 SO4 SO5 
-Greedy:
+Method: Greedy
 SO2 SO3 SO4 
 
 Best approximation: DP1
@@ -1779,9 +1779,9 @@ SO2 SO3 SO4 SO5
 
 ---------------------------------------------------
 test/in178
-DP1:
+Method: DP1
 SO3 SO5 SO11 
-Greedy:
+Method: Greedy
 SO13 
 
 Best approximation: DP1
@@ -1789,9 +1789,9 @@ SO3 SO5 SO11
 
 ---------------------------------------------------
 test/in179
-DP1:
+Method: DP1
 SO7 SO9 SO12 
-Greedy:
+Method: Greedy
 SO6 SO12 
 
 Best approximation: DP1
@@ -1799,19 +1799,19 @@ SO7 SO9 SO12
 
 ---------------------------------------------------
 test/in180
-DP1:
+Method: DP1
 SO1 SO2 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO5 
 
 ---------------------------------------------------
 test/in181
-DP1:
+Method: DP1
 SO1 SO2 SO4 
-Greedy:
+Method: Greedy
 SO1 
 
 Best approximation: DP1
@@ -1819,69 +1819,69 @@ SO1 SO2 SO4
 
 ---------------------------------------------------
 test/in182
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO4 SO5 
 
 ---------------------------------------------------
 test/in183
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 SO5 
 
 ---------------------------------------------------
 test/in184
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO5 
 
 ---------------------------------------------------
 test/in185
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO4 SO5 
 
 ---------------------------------------------------
 test/in186
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO4 
 
 ---------------------------------------------------
 test/in187
-DP1:
+Method: DP1
 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO2 SO3 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO3 SO5 
 
 ---------------------------------------------------
 test/in188
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 SO5 
 
 Best approximation: Greedy
@@ -1889,9 +1889,9 @@ SO1 SO3 SO4 SO5
 
 ---------------------------------------------------
 test/in189
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO5 
 
 Best approximation: Greedy
@@ -1899,29 +1899,29 @@ SO1 SO2 SO4 SO5
 
 ---------------------------------------------------
 test/in190
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 SO5 
 
 ---------------------------------------------------
 test/in191
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO5 
 
 ---------------------------------------------------
 test/in192
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO2 SO3 SO4 SO5 
 
 Best approximation: Greedy
@@ -1929,79 +1929,79 @@ SO2 SO3 SO4 SO5
 
 ---------------------------------------------------
 test/in193
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO4 
 
 ---------------------------------------------------
 test/in194
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 SO5 
 
 ---------------------------------------------------
 test/in195
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO4 
 
 ---------------------------------------------------
 test/in196
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO4 SO5 
 
 ---------------------------------------------------
 test/in197
-DP1:
+Method: DP1
 SO1 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO3 SO4 
 
 ---------------------------------------------------
 test/in198
-DP1:
+Method: DP1
 SO1 SO2 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO5 
 
 ---------------------------------------------------
 test/in199
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO4 SO5 
 
 ---------------------------------------------------
 test/in200
-DP1:
+Method: DP1
 SO1 SO3 SO5 SO8 SO9 
-Greedy:
+Method: Greedy
 SO1 SO3 SO10 
 
 Best approximation: DP1
@@ -2009,9 +2009,9 @@ SO1 SO3 SO5 SO8 SO9
 
 ---------------------------------------------------
 test/in201
-DP1:
+Method: DP1
 SO1 SO2 SO6 SO9 SO10 
-Greedy:
+Method: Greedy
 SO3 SO4 SO7 SO8 SO10 
 
 Best approximation: Greedy
@@ -2019,9 +2019,9 @@ SO3 SO4 SO7 SO8 SO10
 
 ---------------------------------------------------
 test/in202
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 SO6 SO10 
-Greedy:
+Method: Greedy
 SO3 SO4 SO5 SO7 SO8 
 
 Best approximation: DP1
@@ -2029,9 +2029,9 @@ SO1 SO2 SO3 SO4 SO5 SO6 SO10
 
 ---------------------------------------------------
 test/in203
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO6 SO10 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO6 SO7 SO9 SO10 
 
 Best approximation: Greedy
@@ -2039,19 +2039,19 @@ SO1 SO2 SO3 SO6 SO7 SO9 SO10
 
 ---------------------------------------------------
 test/in204
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 SO6 SO8 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO5 SO6 SO8 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 SO5 SO6 SO8 
 
 ---------------------------------------------------
 test/in205
-DP1:
+Method: DP1
 SO2 SO3 SO5 SO10 
-Greedy:
+Method: Greedy
 SO3 SO5 SO10 
 
 Best approximation: DP1
@@ -2059,9 +2059,9 @@ SO2 SO3 SO5 SO10
 
 ---------------------------------------------------
 test/in206
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO6 SO7 SO9 SO10 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 SO6 SO7 SO8 SO9 
 
 Best approximation: DP1
@@ -2069,9 +2069,9 @@ SO1 SO2 SO3 SO4 SO6 SO7 SO9 SO10
 
 ---------------------------------------------------
 test/in207
-DP1:
+Method: DP1
 SO1 SO2 SO6 SO7 SO8 
-Greedy:
+Method: Greedy
 SO6 SO8 
 
 Best approximation: DP1
@@ -2079,9 +2079,9 @@ SO1 SO2 SO6 SO7 SO8
 
 ---------------------------------------------------
 test/in208
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO5 SO6 SO7 
-Greedy:
+Method: Greedy
 SO4 SO5 SO6 SO9 
 
 Best approximation: DP1
@@ -2089,9 +2089,9 @@ SO1 SO2 SO3 SO5 SO6 SO7
 
 ---------------------------------------------------
 test/in209
-DP1:
+Method: DP1
 SO1 SO3 SO4 SO5 SO8 
-Greedy:
+Method: Greedy
 SO3 SO4 SO5 SO9 
 
 Best approximation: DP1
@@ -2099,9 +2099,9 @@ SO1 SO3 SO4 SO5 SO8
 
 ---------------------------------------------------
 test/in210
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 SO6 SO7 SO9 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 SO5 SO7 SO8 SO9 SO10 
 
 Best approximation: Greedy
@@ -2109,9 +2109,9 @@ SO1 SO3 SO4 SO5 SO7 SO8 SO9 SO10
 
 ---------------------------------------------------
 test/in211
-DP1:
+Method: DP1
 SO1 SO2 SO5 SO6 SO7 SO9 SO10 
-Greedy:
+Method: Greedy
 SO1 SO2 SO7 SO9 SO10 
 
 Best approximation: DP1
@@ -2119,9 +2119,9 @@ SO1 SO2 SO5 SO6 SO7 SO9 SO10
 
 ---------------------------------------------------
 test/in212
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO8 SO9 SO10 
-Greedy:
+Method: Greedy
 SO1 SO5 SO6 SO8 SO9 SO10 
 
 Best approximation: DP1
@@ -2129,9 +2129,9 @@ SO1 SO2 SO3 SO4 SO8 SO9 SO10
 
 ---------------------------------------------------
 test/in213
-DP1:
+Method: DP1
 SO2 SO3 SO4 SO5 SO6 SO9 SO10 
-Greedy:
+Method: Greedy
 SO2 SO3 SO4 SO5 SO9 SO10 
 
 Best approximation: DP1
@@ -2139,9 +2139,9 @@ SO2 SO3 SO4 SO5 SO6 SO9 SO10
 
 ---------------------------------------------------
 test/in214
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO8 SO9 
-Greedy:
+Method: Greedy
 SO1 SO7 SO8 SO9 SO10 
 
 Best approximation: Greedy
@@ -2149,9 +2149,9 @@ SO1 SO7 SO8 SO9 SO10
 
 ---------------------------------------------------
 test/in215
-DP1:
+Method: DP1
 SO3 SO4 SO5 SO7 SO8 
-Greedy:
+Method: Greedy
 SO2 SO3 SO4 SO5 SO7 SO8 
 
 Best approximation: Greedy
@@ -2159,9 +2159,9 @@ SO2 SO3 SO4 SO5 SO7 SO8
 
 ---------------------------------------------------
 test/in216
-DP1:
+Method: DP1
 SO2 SO3 SO4 SO6 SO7 SO9 SO10 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO5 SO6 SO7 SO9 SO10 
 
 Best approximation: Greedy
@@ -2169,9 +2169,9 @@ SO1 SO2 SO4 SO5 SO6 SO7 SO9 SO10
 
 ---------------------------------------------------
 test/in217
-DP1:
+Method: DP1
 SO2 SO3 SO4 SO5 SO6 SO10 
-Greedy:
+Method: Greedy
 SO5 SO7 SO10 
 
 Best approximation: DP1
@@ -2179,9 +2179,9 @@ SO2 SO3 SO4 SO5 SO6 SO10
 
 ---------------------------------------------------
 test/in218
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 SO9 
-Greedy:
+Method: Greedy
 SO5 SO6 SO7 SO8 SO9 
 
 Best approximation: DP1
@@ -2189,9 +2189,9 @@ SO1 SO2 SO3 SO4 SO5 SO9
 
 ---------------------------------------------------
 test/in219
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 SO6 SO7 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 SO6 SO7 SO8 SO9 
 
 Best approximation: Greedy
@@ -2199,9 +2199,9 @@ SO1 SO2 SO3 SO4 SO6 SO7 SO8 SO9
 
 ---------------------------------------------------
 test/in220
-DP1:
+Method: DP1
 SO2 SO3 SO4 SO6 SO7 SO10 SO14 SO15 
-Greedy:
+Method: Greedy
 SO1 SO3 SO5 SO6 SO10 SO12 SO14 
 
 Best approximation: DP1
@@ -2209,9 +2209,9 @@ SO2 SO3 SO4 SO6 SO7 SO10 SO14 SO15
 
 ---------------------------------------------------
 test/in221
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO6 SO7 SO9 SO10 SO12 
-Greedy:
+Method: Greedy
 SO9 SO11 SO14 SO15 
 
 Best approximation: DP1
@@ -2219,19 +2219,19 @@ SO1 SO2 SO4 SO6 SO7 SO9 SO10 SO12
 
 ---------------------------------------------------
 test/in222
-DP1:
+Method: DP1
 SO2 SO6 SO7 SO9 SO10 SO12 SO14 
-Greedy:
+Method: Greedy
 SO2 SO6 SO7 SO9 SO10 SO12 SO14 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO6 SO7 SO9 SO10 SO12 SO14 
 
 ---------------------------------------------------
 test/in223
-DP1:
+Method: DP1
 SO2 SO3 SO5 SO7 SO9 
-Greedy:
+Method: Greedy
 SO1 SO4 SO7 SO9 SO12 SO14 
 
 Best approximation: Greedy
@@ -2239,9 +2239,9 @@ SO1 SO4 SO7 SO9 SO12 SO14
 
 ---------------------------------------------------
 test/in224
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 SO7 
-Greedy:
+Method: Greedy
 SO10 SO11 SO13 
 
 Best approximation: DP1
@@ -2249,9 +2249,9 @@ SO1 SO2 SO3 SO4 SO5 SO7
 
 ---------------------------------------------------
 test/in225
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 SO7 SO15 
-Greedy:
+Method: Greedy
 SO6 SO9 SO11 
 
 Best approximation: DP1
@@ -2259,19 +2259,19 @@ SO1 SO2 SO4 SO5 SO7 SO15
 
 ---------------------------------------------------
 test/in226
-DP1:
+Method: DP1
 SO1 SO3 SO5 SO8 SO13 SO15 
-Greedy:
+Method: Greedy
 SO2 SO3 SO5 SO7 SO10 SO15 
 
-Best approximation: Greedy
-SO2 SO3 SO5 SO7 SO10 SO15 
+Best approximation: DP1
+SO1 SO3 SO5 SO8 SO13 SO15 
 
 ---------------------------------------------------
 test/in227
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 SO12 SO14 SO15 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 SO10 SO12 SO15 
 
 Best approximation: DP1
@@ -2279,9 +2279,9 @@ SO1 SO2 SO3 SO4 SO5 SO12 SO14 SO15
 
 ---------------------------------------------------
 test/in228
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO6 SO7 SO11 
-Greedy:
+Method: Greedy
 SO4 SO5 SO6 SO7 SO8 SO10 SO11 SO15 
 
 Best approximation: Greedy
@@ -2289,9 +2289,9 @@ SO4 SO5 SO6 SO7 SO8 SO10 SO11 SO15
 
 ---------------------------------------------------
 test/in229
-DP1:
+Method: DP1
 SO1 SO3 SO4 SO5 SO6 SO7 SO8 SO12 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 SO6 SO8 SO14 
 
 Best approximation: DP1
@@ -2299,9 +2299,9 @@ SO1 SO3 SO4 SO5 SO6 SO7 SO8 SO12
 
 ---------------------------------------------------
 test/in230
-DP1:
+Method: DP1
 SO2 SO4 SO5 SO6 SO7 
-Greedy:
+Method: Greedy
 SO8 SO10 SO13 SO14 
 
 Best approximation: DP1
@@ -2309,9 +2309,9 @@ SO2 SO4 SO5 SO6 SO7
 
 ---------------------------------------------------
 test/in231
-DP1:
+Method: DP1
 SO5 SO6 SO7 SO8 SO11 SO14 
-Greedy:
+Method: Greedy
 SO5 SO6 SO7 SO11 SO14 
 
 Best approximation: DP1
@@ -2319,9 +2319,9 @@ SO5 SO6 SO7 SO8 SO11 SO14
 
 ---------------------------------------------------
 test/in232
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 SO6 SO7 SO8 SO11 SO13 
-Greedy:
+Method: Greedy
 SO3 SO4 SO7 SO8 SO11 SO12 SO13 SO14 SO15 
 
 Best approximation: DP1
@@ -2329,9 +2329,9 @@ SO1 SO2 SO3 SO4 SO5 SO6 SO7 SO8 SO11 SO13
 
 ---------------------------------------------------
 test/in233
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 SO6 SO14 SO15 
-Greedy:
+Method: Greedy
 SO2 SO3 SO4 SO7 SO10 SO11 SO12 SO14 SO15 
 
 Best approximation: Greedy
@@ -2339,9 +2339,9 @@ SO2 SO3 SO4 SO7 SO10 SO11 SO12 SO14 SO15
 
 ---------------------------------------------------
 test/in234
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO5 SO7 SO9 SO10 SO13 
-Greedy:
+Method: Greedy
 SO6 SO8 SO12 SO13 
 
 Best approximation: DP1
@@ -2349,9 +2349,9 @@ SO1 SO2 SO3 SO4 SO5 SO7 SO9 SO10 SO13
 
 ---------------------------------------------------
 test/in235
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 SO7 SO9 SO11 SO12 
-Greedy:
+Method: Greedy
 SO1 SO3 SO8 
 
 Best approximation: DP1
@@ -2359,9 +2359,9 @@ SO1 SO2 SO4 SO5 SO7 SO9 SO11 SO12
 
 ---------------------------------------------------
 test/in236
-DP1:
+Method: DP1
 SO4 SO10 SO13 SO14 
-Greedy:
+Method: Greedy
 SO3 SO4 
 
 Best approximation: DP1
@@ -2369,9 +2369,9 @@ SO4 SO10 SO13 SO14
 
 ---------------------------------------------------
 test/in237
-DP1:
+Method: DP1
 SO1 SO2 SO5 SO6 SO8 SO10 SO11 SO15 
-Greedy:
+Method: Greedy
 SO4 SO5 SO6 SO13 SO15 
 
 Best approximation: DP1
@@ -2379,9 +2379,9 @@ SO1 SO2 SO5 SO6 SO8 SO10 SO11 SO15
 
 ---------------------------------------------------
 test/in238
-DP1:
+Method: DP1
 SO1 SO6 SO7 SO9 SO12 SO13 SO15 
-Greedy:
+Method: Greedy
 SO6 SO9 SO13 
 
 Best approximation: DP1
@@ -2389,9 +2389,9 @@ SO1 SO6 SO7 SO9 SO12 SO13 SO15
 
 ---------------------------------------------------
 test/in239
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO6 SO7 SO8 SO10 SO11 SO15 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO6 SO7 SO9 SO11 SO13 SO15 
 
 Best approximation: DP1
@@ -2399,9 +2399,9 @@ SO1 SO2 SO3 SO4 SO6 SO7 SO8 SO10 SO11 SO15
 
 ---------------------------------------------------
 test/in240
-DP1:
+Method: DP1
 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO2 SO3 
 
 Best approximation: DP1
@@ -2409,9 +2409,9 @@ SO2 SO3 SO5
 
 ---------------------------------------------------
 test/in241
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO5 
 
 Best approximation: Greedy
@@ -2419,9 +2419,9 @@ SO1 SO2 SO4 SO5
 
 ---------------------------------------------------
 test/in242
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO4 SO5 
 
 Best approximation: DP1
@@ -2429,19 +2429,19 @@ SO1 SO2 SO3 SO4
 
 ---------------------------------------------------
 test/in243
-DP1:
+Method: DP1
 SO1 SO2 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 
 
 ---------------------------------------------------
 test/in244
-DP1:
+Method: DP1
 SO1 SO2 SO5 
-Greedy:
+Method: Greedy
 SO1 SO3 SO5 
 
 Best approximation: Greedy
@@ -2449,9 +2449,9 @@ SO1 SO3 SO5
 
 ---------------------------------------------------
 test/in245
-DP1:
+Method: DP1
 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO2 SO5 
 
 Best approximation: DP1
@@ -2459,9 +2459,9 @@ SO2 SO3 SO5
 
 ---------------------------------------------------
 test/in246
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 
 
 Best approximation: DP1
@@ -2469,49 +2469,49 @@ SO1 SO2 SO4 SO5
 
 ---------------------------------------------------
 test/in247
-DP1:
+Method: DP1
 SO1 SO2 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO5 
 
 ---------------------------------------------------
 test/in248
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO5 
 
 ---------------------------------------------------
 test/in249
-DP1:
+Method: DP1
 SO1 SO2 SO3 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 
 
 ---------------------------------------------------
 test/in250
-DP1:
+Method: DP1
 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO2 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO4 SO5 
 
 ---------------------------------------------------
 test/in251
-DP1:
+Method: DP1
 SO1 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO3 
 
 Best approximation: DP1
@@ -2519,29 +2519,29 @@ SO1 SO3 SO5
 
 ---------------------------------------------------
 test/in252
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO5 
 
 ---------------------------------------------------
 test/in253
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 SO5 
 
 ---------------------------------------------------
 test/in254
-DP1:
+Method: DP1
 SO1 SO2 SO5 
-Greedy:
+Method: Greedy
 SO1 SO3 SO5 
 
 Best approximation: Greedy
@@ -2549,19 +2549,19 @@ SO1 SO3 SO5
 
 ---------------------------------------------------
 test/in255
-DP1:
+Method: DP1
 SO1 SO2 SO3 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 
 
 ---------------------------------------------------
 test/in256
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO2 SO3 SO4 SO5 
 
 Best approximation: Greedy
@@ -2569,9 +2569,9 @@ SO2 SO3 SO4 SO5
 
 ---------------------------------------------------
 test/in257
-DP1:
+Method: DP1
 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO4 
 
 Best approximation: DP1
@@ -2579,29 +2579,29 @@ SO2 SO3 SO4
 
 ---------------------------------------------------
 test/in258
-DP1:
+Method: DP1
 SO1 SO2 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 
 
 ---------------------------------------------------
 test/in259
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 SO5 
 
 ---------------------------------------------------
 test/in260
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO5 
 
 Best approximation: Greedy
@@ -2609,9 +2609,9 @@ SO1 SO2 SO4 SO5
 
 ---------------------------------------------------
 test/in261
-DP1:
+Method: DP1
 SO1 SO3 SO5 SO10 
-Greedy:
+Method: Greedy
 SO1 SO6 SO7 SO9 
 
 Best approximation: Greedy
@@ -2619,9 +2619,9 @@ SO1 SO6 SO7 SO9
 
 ---------------------------------------------------
 test/in262
-DP1:
+Method: DP1
 SO5 SO7 SO8 SO10 
-Greedy:
+Method: Greedy
 SO5 SO7 SO8 
 
 Best approximation: DP1
@@ -2629,29 +2629,29 @@ SO5 SO7 SO8 SO10
 
 ---------------------------------------------------
 test/in263
-DP1:
+Method: DP1
 SO1 SO3 SO5 SO6 SO10 
-Greedy:
+Method: Greedy
 SO1 SO3 SO5 SO6 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO3 SO5 SO6 SO10 
 
 ---------------------------------------------------
 test/in264
-DP1:
+Method: DP1
 SO1 SO2 SO7 SO8 SO9 
-Greedy:
+Method: Greedy
 SO1 SO2 SO7 SO8 SO9 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO7 SO8 SO9 
 
 ---------------------------------------------------
 test/in265
-DP1:
+Method: DP1
 SO1 SO3 SO4 SO5 SO6 SO8 
-Greedy:
+Method: Greedy
 SO4 SO6 SO7 SO9 
 
 Best approximation: DP1
@@ -2659,9 +2659,9 @@ SO1 SO3 SO4 SO5 SO6 SO8
 
 ---------------------------------------------------
 test/in266
-DP1:
+Method: DP1
 SO1 SO2 SO6 SO10 
-Greedy:
+Method: Greedy
 SO8 
 
 Best approximation: DP1
@@ -2669,9 +2669,9 @@ SO1 SO2 SO6 SO10
 
 ---------------------------------------------------
 test/in267
-DP1:
+Method: DP1
 SO1 SO3 SO5 SO7 
-Greedy:
+Method: Greedy
 SO2 SO4 SO5 SO7 SO8 SO9 
 
 Best approximation: Greedy
@@ -2679,9 +2679,9 @@ SO2 SO4 SO5 SO7 SO8 SO9
 
 ---------------------------------------------------
 test/in268
-DP1:
+Method: DP1
 SO1 SO4 SO10 
-Greedy:
+Method: Greedy
 SO7 SO8 SO9 SO10 
 
 Best approximation: Greedy
@@ -2689,9 +2689,9 @@ SO7 SO8 SO9 SO10
 
 ---------------------------------------------------
 test/in269
-DP1:
+Method: DP1
 SO1 SO2 SO6 SO7 SO8 
-Greedy:
+Method: Greedy
 SO3 SO6 SO7 SO8 SO10 
 
 Best approximation: Greedy
@@ -2699,9 +2699,9 @@ SO3 SO6 SO7 SO8 SO10
 
 ---------------------------------------------------
 test/in270
-DP1:
+Method: DP1
 SO2 SO4 SO7 SO10 
-Greedy:
+Method: Greedy
 SO1 SO4 SO5 SO9 SO10 
 
 Best approximation: Greedy
@@ -2709,19 +2709,19 @@ SO1 SO4 SO5 SO9 SO10
 
 ---------------------------------------------------
 test/in271
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO6 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 SO6 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO4 SO6 
 
 ---------------------------------------------------
 test/in272
-DP1:
+Method: DP1
 SO4 SO5 SO6 
-Greedy:
+Method: Greedy
 SO4 SO6 SO7 
 
 Best approximation: Greedy
@@ -2729,9 +2729,9 @@ SO4 SO6 SO7
 
 ---------------------------------------------------
 test/in273
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO7 SO9 
-Greedy:
+Method: Greedy
 SO2 SO4 SO7 SO8 
 
 Best approximation: DP1
@@ -2739,9 +2739,9 @@ SO1 SO2 SO3 SO4 SO7 SO9
 
 ---------------------------------------------------
 test/in274
-DP1:
+Method: DP1
 SO1 SO4 SO5 SO8 SO10 
-Greedy:
+Method: Greedy
 SO4 SO5 SO7 SO8 SO10 
 
 Best approximation: Greedy
@@ -2749,9 +2749,9 @@ SO4 SO5 SO7 SO8 SO10
 
 ---------------------------------------------------
 test/in275
-DP1:
+Method: DP1
 SO2 SO3 SO6 SO9 
-Greedy:
+Method: Greedy
 SO1 SO2 SO6 SO9 SO10 
 
 Best approximation: Greedy
@@ -2759,19 +2759,19 @@ SO1 SO2 SO6 SO9 SO10
 
 ---------------------------------------------------
 test/in276
-DP1:
+Method: DP1
 SO1 SO2 SO8 SO10 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 SO8 
 
-Best approximation: Greedy
-SO1 SO3 SO4 SO8 
+Best approximation: DP1
+SO1 SO2 SO8 SO10 
 
 ---------------------------------------------------
 test/in277
-DP1:
+Method: DP1
 SO1 SO3 SO7 
-Greedy:
+Method: Greedy
 SO6 SO9 
 
 Best approximation: DP1
@@ -2779,9 +2779,9 @@ SO1 SO3 SO7
 
 ---------------------------------------------------
 test/in278
-DP1:
+Method: DP1
 SO2 SO3 SO4 SO5 SO6 SO10 
-Greedy:
+Method: Greedy
 SO2 SO3 SO4 SO6 SO9 SO10 
 
 Best approximation: Greedy
@@ -2789,9 +2789,9 @@ SO2 SO3 SO4 SO6 SO9 SO10
 
 ---------------------------------------------------
 test/in279
-DP1:
+Method: DP1
 SO1 SO4 SO7 SO10 
-Greedy:
+Method: Greedy
 SO1 SO4 SO7 
 
 Best approximation: DP1
@@ -2799,9 +2799,9 @@ SO1 SO4 SO7 SO10
 
 ---------------------------------------------------
 test/in280
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 SO8 SO14 
-Greedy:
+Method: Greedy
 SO1 SO2 SO6 SO7 SO8 SO9 SO11 
 
 Best approximation: Greedy
@@ -2809,9 +2809,9 @@ SO1 SO2 SO6 SO7 SO8 SO9 SO11
 
 ---------------------------------------------------
 test/in281
-DP1:
+Method: DP1
 SO5 SO6 SO7 SO11 SO12 SO15 
-Greedy:
+Method: Greedy
 SO1 SO4 SO5 SO10 
 
 Best approximation: DP1
@@ -2819,9 +2819,9 @@ SO5 SO6 SO7 SO11 SO12 SO15
 
 ---------------------------------------------------
 test/in282
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO6 SO9 SO13 
-Greedy:
+Method: Greedy
 SO5 SO7 SO10 SO11 SO13 
 
 Best approximation: DP1
@@ -2829,9 +2829,9 @@ SO1 SO2 SO3 SO6 SO9 SO13
 
 ---------------------------------------------------
 test/in283
-DP1:
+Method: DP1
 SO2 SO3 SO5 SO8 SO11 SO13 SO14 
-Greedy:
+Method: Greedy
 SO1 SO5 SO6 SO8 SO10 SO11 SO13 SO14 SO15 
 
 Best approximation: Greedy
@@ -2839,19 +2839,19 @@ SO1 SO5 SO6 SO8 SO10 SO11 SO13 SO14 SO15
 
 ---------------------------------------------------
 test/in284
-DP1:
+Method: DP1
 SO2 SO4 SO5 SO13 SO14 
-Greedy:
+Method: Greedy
 SO2 SO4 SO5 SO12 SO13 
 
-Best approximation: Greedy
-SO2 SO4 SO5 SO12 SO13 
+Best approximation: DP1
+SO2 SO4 SO5 SO13 SO14 
 
 ---------------------------------------------------
 test/in285
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO10 
-Greedy:
+Method: Greedy
 SO1 SO4 SO5 
 
 Best approximation: DP1
@@ -2859,9 +2859,9 @@ SO1 SO2 SO4 SO10
 
 ---------------------------------------------------
 test/in286
-DP1:
+Method: DP1
 SO1 SO3 SO6 SO8 SO11 
-Greedy:
+Method: Greedy
 SO2 SO3 SO8 SO10 SO11 SO14 SO15 
 
 Best approximation: Greedy
@@ -2869,9 +2869,9 @@ SO2 SO3 SO8 SO10 SO11 SO14 SO15
 
 ---------------------------------------------------
 test/in287
-DP1:
+Method: DP1
 SO5 SO7 SO10 SO13 
-Greedy:
+Method: Greedy
 SO2 SO9 SO12 SO13 SO14 
 
 Best approximation: Greedy
@@ -2879,9 +2879,9 @@ SO2 SO9 SO12 SO13 SO14
 
 ---------------------------------------------------
 test/in288
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 SO11 SO12 
-Greedy:
+Method: Greedy
 SO1 SO5 SO6 SO10 SO14 
 
 Best approximation: DP1
@@ -2889,9 +2889,9 @@ SO1 SO2 SO3 SO4 SO11 SO12
 
 ---------------------------------------------------
 test/in289
-DP1:
+Method: DP1
 SO3 SO5 SO7 SO13 
-Greedy:
+Method: Greedy
 SO5 SO6 SO7 SO14 
 
 Best approximation: Greedy
@@ -2899,9 +2899,9 @@ SO5 SO6 SO7 SO14
 
 ---------------------------------------------------
 test/in290
-DP1:
+Method: DP1
 SO3 SO6 SO7 SO8 SO10 
-Greedy:
+Method: Greedy
 SO3 SO6 SO8 
 
 Best approximation: DP1
@@ -2909,29 +2909,29 @@ SO3 SO6 SO7 SO8 SO10
 
 ---------------------------------------------------
 test/in291
-DP1:
+Method: DP1
 SO2 SO4 SO10 SO13 
-Greedy:
+Method: Greedy
 SO2 SO4 SO10 SO13 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO4 SO10 SO13 
 
 ---------------------------------------------------
 test/in292
-DP1:
+Method: DP1
 SO3 SO4 SO7 SO8 SO12 SO15 
-Greedy:
+Method: Greedy
 SO3 SO4 SO7 SO8 SO12 SO15 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO3 SO4 SO7 SO8 SO12 SO15 
 
 ---------------------------------------------------
 test/in293
-DP1:
+Method: DP1
 SO3 SO6 SO7 SO9 SO15 
-Greedy:
+Method: Greedy
 SO1 SO3 SO5 SO9 SO10 SO15 
 
 Best approximation: Greedy
@@ -2939,9 +2939,9 @@ SO1 SO3 SO5 SO9 SO10 SO15
 
 ---------------------------------------------------
 test/in294
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 SO10 
-Greedy:
+Method: Greedy
 SO6 SO7 SO11 SO12 
 
 Best approximation: DP1
@@ -2949,9 +2949,9 @@ SO1 SO2 SO4 SO5 SO10
 
 ---------------------------------------------------
 test/in295
-DP1:
+Method: DP1
 SO3 SO4 SO7 SO8 SO13 
-Greedy:
+Method: Greedy
 SO3 SO7 SO8 SO13 SO14 
 
 Best approximation: Greedy
@@ -2959,9 +2959,9 @@ SO3 SO7 SO8 SO13 SO14
 
 ---------------------------------------------------
 test/in296
-DP1:
+Method: DP1
 SO2 SO3 SO5 SO8 SO9 SO14 
-Greedy:
+Method: Greedy
 SO2 SO4 SO6 SO8 SO9 SO10 SO13 
 
 Best approximation: Greedy
@@ -2969,9 +2969,9 @@ SO2 SO4 SO6 SO8 SO9 SO10 SO13
 
 ---------------------------------------------------
 test/in297
-DP1:
+Method: DP1
 SO1 SO3 SO5 SO7 SO13 
-Greedy:
+Method: Greedy
 SO5 SO6 SO12 SO13 SO14 SO15 
 
 Best approximation: Greedy
@@ -2979,9 +2979,9 @@ SO5 SO6 SO12 SO13 SO14 SO15
 
 ---------------------------------------------------
 test/in298
-DP1:
+Method: DP1
 SO1 SO2 SO8 SO9 SO12 
-Greedy:
+Method: Greedy
 SO1 SO4 SO9 SO12 SO13 
 
 Best approximation: Greedy
@@ -2989,9 +2989,9 @@ SO1 SO4 SO9 SO12 SO13
 
 ---------------------------------------------------
 test/in299
-DP1:
+Method: DP1
 SO1 SO4 SO7 SO9 SO10 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 SO9 SO10 SO13 
 
 Best approximation: Greedy
@@ -2999,39 +2999,39 @@ SO1 SO2 SO4 SO9 SO10 SO13
 
 ---------------------------------------------------
 test/in300
-DP1:
+Method: DP1
 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO2 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO4 SO5 
 
 ---------------------------------------------------
 test/in301
-DP1:
+Method: DP1
 SO2 SO5 
-Greedy:
+Method: Greedy
 SO2 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO5 
 
 ---------------------------------------------------
 test/in302
-DP1:
+Method: DP1
 SO1 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO4 SO5 
 
 ---------------------------------------------------
 test/in303
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO4 SO5 
 
 Best approximation: DP1
@@ -3039,19 +3039,19 @@ SO1 SO2 SO4 SO5
 
 ---------------------------------------------------
 test/in304
-DP1:
+Method: DP1
 SO2 SO3 SO5 
-Greedy:
+Method: Greedy
 SO2 SO3 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO3 SO5 
 
 ---------------------------------------------------
 test/in305
-DP1:
+Method: DP1
 SO3 SO4 
-Greedy:
+Method: Greedy
 SO4 
 
 Best approximation: DP1
@@ -3059,9 +3059,9 @@ SO3 SO4
 
 ---------------------------------------------------
 test/in306
-DP1:
+Method: DP1
 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 SO5 
 
 Best approximation: Greedy
@@ -3069,9 +3069,9 @@ SO1 SO3 SO4 SO5
 
 ---------------------------------------------------
 test/in307
-DP1:
+Method: DP1
 SO1 SO3 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 
 
 Best approximation: DP1
@@ -3079,9 +3079,9 @@ SO1 SO3 SO4 SO5
 
 ---------------------------------------------------
 test/in308
-DP1:
+Method: DP1
 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO4 SO5 
 
 Best approximation: DP1
@@ -3089,9 +3089,9 @@ SO2 SO3 SO4
 
 ---------------------------------------------------
 test/in309
-DP1:
+Method: DP1
 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO2 SO4 
 
 Best approximation: DP1
@@ -3099,19 +3099,19 @@ SO2 SO4 SO5
 
 ---------------------------------------------------
 test/in310
-DP1:
+Method: DP1
 SO1 SO2 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 
 
 ---------------------------------------------------
 test/in311
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO2 SO4 SO5 
 
 Best approximation: DP1
@@ -3119,9 +3119,9 @@ SO1 SO2 SO4 SO5
 
 ---------------------------------------------------
 test/in312
-DP1:
+Method: DP1
 SO1 SO2 SO3 
-Greedy:
+Method: Greedy
 SO1 SO3 SO5 
 
 Best approximation: Greedy
@@ -3129,39 +3129,39 @@ SO1 SO3 SO5
 
 ---------------------------------------------------
 test/in313
-DP1:
+Method: DP1
 SO1 SO2 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 
 
 ---------------------------------------------------
 test/in314
-DP1:
+Method: DP1
 SO4 SO5 
-Greedy:
+Method: Greedy
 SO4 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO4 SO5 
 
 ---------------------------------------------------
 test/in315
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO3 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO3 SO4 
 
 ---------------------------------------------------
 test/in316
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO4 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 
 
 Best approximation: DP1
@@ -3169,39 +3169,39 @@ SO1 SO2 SO3 SO4
 
 ---------------------------------------------------
 test/in317
-DP1:
+Method: DP1
 SO1 SO2 SO4 
-Greedy:
+Method: Greedy
 SO1 SO2 SO4 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO4 
 
 ---------------------------------------------------
 test/in318
-DP1:
+Method: DP1
 SO1 SO3 
-Greedy:
+Method: Greedy
 SO1 SO3 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO3 
 
 ---------------------------------------------------
 test/in319
-DP1:
+Method: DP1
 SO1 SO5 
-Greedy:
+Method: Greedy
 SO1 SO5 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO5 
 
 ---------------------------------------------------
 test/in320
-DP1:
+Method: DP1
 SO2 SO3 SO6 SO9 
-Greedy:
+Method: Greedy
 SO2 SO3 SO7 
 
 Best approximation: DP1
@@ -3209,9 +3209,9 @@ SO2 SO3 SO6 SO9
 
 ---------------------------------------------------
 test/in321
-DP1:
+Method: DP1
 SO3 SO4 SO5 SO8 
-Greedy:
+Method: Greedy
 SO5 SO6 SO7 SO9 
 
 Best approximation: Greedy
@@ -3219,9 +3219,9 @@ SO5 SO6 SO7 SO9
 
 ---------------------------------------------------
 test/in322
-DP1:
+Method: DP1
 SO1 SO3 SO7 
-Greedy:
+Method: Greedy
 SO2 SO5 SO9 SO10 
 
 Best approximation: Greedy
@@ -3229,9 +3229,9 @@ SO2 SO5 SO9 SO10
 
 ---------------------------------------------------
 test/in323
-DP1:
+Method: DP1
 SO1 SO2 SO5 SO10 
-Greedy:
+Method: Greedy
 SO4 SO8 
 
 Best approximation: DP1
@@ -3239,9 +3239,9 @@ SO1 SO2 SO5 SO10
 
 ---------------------------------------------------
 test/in324
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 SO6 SO10 
-Greedy:
+Method: Greedy
 SO2 SO5 SO6 SO7 SO8 SO10 
 
 Best approximation: Greedy
@@ -3249,9 +3249,9 @@ SO2 SO5 SO6 SO7 SO8 SO10
 
 ---------------------------------------------------
 test/in325
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 SO7 SO8 
 
 Best approximation: Greedy
@@ -3259,9 +3259,9 @@ SO1 SO3 SO4 SO7 SO8
 
 ---------------------------------------------------
 test/in326
-DP1:
+Method: DP1
 SO1 SO2 SO8 
-Greedy:
+Method: Greedy
 SO2 SO5 SO8 SO10 
 
 Best approximation: Greedy
@@ -3269,9 +3269,9 @@ SO2 SO5 SO8 SO10
 
 ---------------------------------------------------
 test/in327
-DP1:
+Method: DP1
 SO1 SO3 SO4 SO5 SO6 
-Greedy:
+Method: Greedy
 SO1 SO6 SO7 
 
 Best approximation: DP1
@@ -3279,9 +3279,9 @@ SO1 SO3 SO4 SO5 SO6
 
 ---------------------------------------------------
 test/in328
-DP1:
+Method: DP1
 SO2 SO3 SO5 SO8 
-Greedy:
+Method: Greedy
 SO3 SO4 SO10 
 
 Best approximation: DP1
@@ -3289,19 +3289,19 @@ SO2 SO3 SO5 SO8
 
 ---------------------------------------------------
 test/in329
-DP1:
+Method: DP1
 SO1 SO2 SO6 SO7 SO8 
-Greedy:
+Method: Greedy
 SO1 SO2 SO6 SO7 SO8 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO2 SO6 SO7 SO8 
 
 ---------------------------------------------------
 test/in330
-DP1:
+Method: DP1
 SO1 SO3 SO4 SO9 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 SO8 SO9 
 
 Best approximation: Greedy
@@ -3309,9 +3309,9 @@ SO1 SO3 SO4 SO8 SO9
 
 ---------------------------------------------------
 test/in331
-DP1:
+Method: DP1
 SO3 SO5 SO7 SO10 
-Greedy:
+Method: Greedy
 SO5 SO7 SO8 SO10 
 
 Best approximation: Greedy
@@ -3319,9 +3319,9 @@ SO5 SO7 SO8 SO10
 
 ---------------------------------------------------
 test/in332
-DP1:
+Method: DP1
 SO1 SO4 SO7 
-Greedy:
+Method: Greedy
 SO4 SO7 SO8 
 
 Best approximation: Greedy
@@ -3329,19 +3329,19 @@ SO4 SO7 SO8
 
 ---------------------------------------------------
 test/in333
-DP1:
+Method: DP1
 SO1 SO3 SO6 SO10 
-Greedy:
+Method: Greedy
 SO1 SO3 SO6 SO10 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO3 SO6 SO10 
 
 ---------------------------------------------------
 test/in334
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO5 SO6 SO7 
-Greedy:
+Method: Greedy
 SO2 SO4 SO5 SO6 SO7 SO9 
 
 Best approximation: Greedy
@@ -3349,19 +3349,19 @@ SO2 SO4 SO5 SO6 SO7 SO9
 
 ---------------------------------------------------
 test/in335
-DP1:
+Method: DP1
 SO2 SO3 SO8 
-Greedy:
+Method: Greedy
 SO2 SO3 SO8 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO2 SO3 SO8 
 
 ---------------------------------------------------
 test/in336
-DP1:
+Method: DP1
 SO2 SO4 SO7 
-Greedy:
+Method: Greedy
 SO3 SO4 SO7 SO10 
 
 Best approximation: Greedy
@@ -3369,9 +3369,9 @@ SO3 SO4 SO7 SO10
 
 ---------------------------------------------------
 test/in337
-DP1:
+Method: DP1
 SO1 SO3 SO9 SO10 
-Greedy:
+Method: Greedy
 SO2 SO3 SO6 SO9 SO10 
 
 Best approximation: Greedy
@@ -3379,9 +3379,9 @@ SO2 SO3 SO6 SO9 SO10
 
 ---------------------------------------------------
 test/in338
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO5 SO6 
-Greedy:
+Method: Greedy
 SO3 SO5 SO6 SO7 SO9 
 
 Best approximation: Greedy
@@ -3389,9 +3389,9 @@ SO3 SO5 SO6 SO7 SO9
 
 ---------------------------------------------------
 test/in339
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO3 SO8 SO9 
 
 Best approximation: DP1
@@ -3399,19 +3399,19 @@ SO1 SO2 SO4 SO5
 
 ---------------------------------------------------
 test/in340
-DP1:
+Method: DP1
 SO1 SO6 SO8 SO9 SO13 
-Greedy:
+Method: Greedy
 SO1 SO3 SO6 SO9 SO13 
 
-Best approximation: Greedy
-SO1 SO3 SO6 SO9 SO13 
+Best approximation: DP1
+SO1 SO6 SO8 SO9 SO13 
 
 ---------------------------------------------------
 test/in341
-DP1:
+Method: DP1
 SO2 SO4 SO8 SO10 SO14 
-Greedy:
+Method: Greedy
 SO4 SO10 SO11 SO12 
 
 Best approximation: DP1
@@ -3419,9 +3419,9 @@ SO2 SO4 SO8 SO10 SO14
 
 ---------------------------------------------------
 test/in342
-DP1:
+Method: DP1
 SO1 SO3 SO4 SO6 SO7 SO10 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 SO6 SO7 
 
 Best approximation: DP1
@@ -3429,9 +3429,9 @@ SO1 SO3 SO4 SO6 SO7 SO10
 
 ---------------------------------------------------
 test/in343
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO6 SO11 
-Greedy:
+Method: Greedy
 SO2 SO3 SO7 SO8 SO12 
 
 Best approximation: Greedy
@@ -3439,19 +3439,19 @@ SO2 SO3 SO7 SO8 SO12
 
 ---------------------------------------------------
 test/in344
-DP1:
+Method: DP1
 SO1 SO5 SO14 
-Greedy:
+Method: Greedy
 SO1 SO5 SO14 
 
-Best approximation: DP1-Greedy
+Best approximation: Greedy
 SO1 SO5 SO14 
 
 ---------------------------------------------------
 test/in345
-DP1:
+Method: DP1
 SO4 SO5 SO6 SO7 SO13 
-Greedy:
+Method: Greedy
 SO2 SO11 SO15 
 
 Best approximation: DP1
@@ -3459,9 +3459,9 @@ SO4 SO5 SO6 SO7 SO13
 
 ---------------------------------------------------
 test/in346
-DP1:
+Method: DP1
 SO1 SO2 SO3 SO7 SO14 
-Greedy:
+Method: Greedy
 SO1 SO3 SO4 SO5 SO10 SO13 
 
 Best approximation: Greedy
@@ -3469,9 +3469,9 @@ SO1 SO3 SO4 SO5 SO10 SO13
 
 ---------------------------------------------------
 test/in347
-DP1:
+Method: DP1
 SO4 SO7 SO9 SO14 
-Greedy:
+Method: Greedy
 SO4 SO10 SO12 
 
 Best approximation: DP1
@@ -3479,9 +3479,9 @@ SO4 SO7 SO9 SO14
 
 ---------------------------------------------------
 test/in348
-DP1:
+Method: DP1
 SO2 SO4 SO5 
-Greedy:
+Method: Greedy
 SO9 SO11 SO12 
 
 Best approximation: Greedy
@@ -3489,9 +3489,9 @@ SO9 SO11 SO12
 
 ---------------------------------------------------
 test/in349
-DP1:
+Method: DP1
 SO1 SO3 SO4 SO5 
-Greedy:
+Method: Greedy
 SO1 SO5 SO6 SO7 
 
 Best approximation: Greedy
@@ -3499,9 +3499,9 @@ SO1 SO5 SO6 SO7
 
 ---------------------------------------------------
 test/in350
-DP1:
+Method: DP1
 SO1 SO5 SO7 SO8 SO10 SO12 
-Greedy:
+Method: Greedy
 SO2 SO5 SO9 SO13 
 
 Best approximation: DP1
@@ -3509,19 +3509,19 @@ SO1 SO5 SO7 SO8 SO10 SO12
 
 ---------------------------------------------------
 test/in351
-DP1:
+Method: DP1
 SO5 SO8 SO11 SO13 
-Greedy:
+Method: Greedy
 SO1 SO5 SO11 SO12 
 
-Best approximation: Greedy
-SO1 SO5 SO11 SO12 
+Best approximation: DP1
+SO5 SO8 SO11 SO13 
 
 ---------------------------------------------------
 test/in352
-DP1:
+Method: DP1
 SO1 SO5 SO7 SO8 SO10 
-Greedy:
+Method: Greedy
 SO5 SO11 SO13 
 
 Best approximation: DP1
@@ -3529,9 +3529,9 @@ SO1 SO5 SO7 SO8 SO10
 
 ---------------------------------------------------
 test/in353
-DP1:
+Method: DP1
 SO4 SO6 SO11 SO14 
-Greedy:
+Method: Greedy
 SO7 SO9 
 
 Best approximation: DP1
@@ -3539,9 +3539,9 @@ SO4 SO6 SO11 SO14
 
 ---------------------------------------------------
 test/in354
-DP1:
+Method: DP1
 SO1 SO7 SO12 SO14 
-Greedy:
+Method: Greedy
 SO6 SO7 SO8 SO10 SO11 
 
 Best approximation: Greedy
@@ -3549,9 +3549,9 @@ SO6 SO7 SO8 SO10 SO11
 
 ---------------------------------------------------
 test/in355
-DP1:
+Method: DP1
 SO2 SO3 SO9 
-Greedy:
+Method: Greedy
 SO10 SO13 
 
 Best approximation: DP1
@@ -3559,9 +3559,9 @@ SO2 SO3 SO9
 
 ---------------------------------------------------
 test/in356
-DP1:
+Method: DP1
 SO1 SO2 SO4 SO9 
-Greedy:
+Method: Greedy
 SO3 SO10 SO11 
 
 Best approximation: DP1
@@ -3569,9 +3569,9 @@ SO1 SO2 SO4 SO9
 
 ---------------------------------------------------
 test/in357
-DP1:
+Method: DP1
 SO4 SO5 SO9 
-Greedy:
+Method: Greedy
 SO4 SO9 SO11 SO14 
 
 Best approximation: Greedy
@@ -3579,9 +3579,9 @@ SO4 SO9 SO11 SO14
 
 ---------------------------------------------------
 test/in358
-DP1:
+Method: DP1
 SO1 SO2 SO7 SO15 
-Greedy:
+Method: Greedy
 SO6 SO13 
 
 Best approximation: DP1
@@ -3589,16 +3589,12 @@ SO1 SO2 SO7 SO15
 
 ---------------------------------------------------
 test/in359
-DP1:
+Method: DP1
 SO1 SO5 SO12 SO14 
-Greedy:
+Method: Greedy
 SO1 SO5 SO12 
 
 Best approximation: DP1
 SO1 SO5 SO12 SO14 
 
 ---------------------------------------------------
-Evaluation
-N tests solved by dp1: 589 163.611
-N tests solved by greedy: 420 116.667
-N tests solved by both: 649 180.278

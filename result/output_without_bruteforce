@@ -1,0 +1,2160 @@
+test/in0
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in1
+Method: DP1
+SO1 SO2 SO3 SO5 
+Method: DP2
+SO1 SO2 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in2
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in3
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 
+
+Best approximation: DP2
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in4
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO4 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in5
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO2 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation: DP2
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in6
+Method: DP1
+SO2 SO4 
+Method: DP2
+SO1 SO4 SO5 
+Method: Greedy
+SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in7
+Method: DP1
+SO1 SO2 SO3 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in8
+Method: DP1
+SO1 SO3 SO5 
+Method: DP2
+SO1 SO3 SO5 
+Method: Greedy
+SO3 SO4 
+
+Best approximation: DP2
+SO1 SO3 SO5 
+
+---------------------------------------------------
+test/in9
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in10
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in11
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in12
+Method: DP1
+SO1 SO2 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO5 
+Method: Greedy
+SO1 SO2 SO4 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in13
+Method: DP1
+SO1 SO2 SO4 
+Method: DP2
+SO1 SO2 SO4 
+Method: Greedy
+SO1 SO4 
+
+Best approximation: DP2
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in14
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in15
+Method: DP1
+SO1 SO3 SO4 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO3 
+
+Best approximation: DP2
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in16
+Method: DP1
+SO1 SO3 SO4 
+Method: DP2
+SO2 SO3 SO4 
+Method: Greedy
+SO1 SO4 
+
+Best approximation: DP1
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in17
+Method: DP1
+SO2 SO4 SO5 
+Method: DP2
+SO1 SO2 
+Method: Greedy
+SO1 SO2 
+
+Best approximation: DP1
+SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in18
+Method: DP1
+SO1 SO2 SO3 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in19
+Method: DP1
+SO1 SO2 SO4 SO5 
+Method: DP2
+SO1 SO2 SO4 SO5 
+Method: Greedy
+SO2 SO4 
+
+Best approximation: DP2
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in20
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO8 
+Method: DP2
+SO2 SO3 SO4 SO6 SO8 SO10 
+Method: Greedy
+SO3 SO4 SO5 SO6 SO8 SO10 
+
+Best approximation: Greedy
+SO3 SO4 SO5 SO6 SO8 SO10 
+
+---------------------------------------------------
+test/in21
+Method: DP1
+SO1 SO2 SO3 SO9 
+Method: DP2
+SO1 SO3 SO6 SO7 SO9 
+Method: Greedy
+SO1 SO3 SO7 SO10 
+
+Best approximation: DP2
+SO1 SO3 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in22
+Method: DP1
+SO1 SO2 SO3 SO6 
+Method: DP2
+SO1 SO2 SO5 SO8 SO10 
+Method: Greedy
+SO2 SO3 SO6 
+
+Best approximation: DP2
+SO1 SO2 SO5 SO8 SO10 
+
+---------------------------------------------------
+test/in23
+Method: DP1
+SO1 SO2 SO3 SO4 SO10 
+Method: DP2
+SO2 SO4 SO5 SO6 SO8 SO9 
+Method: Greedy
+SO1 SO2 SO4 SO7 SO8 
+
+Best approximation: DP2
+SO2 SO4 SO5 SO6 SO8 SO9 
+
+---------------------------------------------------
+test/in24
+Method: DP1
+SO1 SO2 SO3 SO8 SO10 
+Method: DP2
+SO1 SO2 SO3 SO9 SO10 
+Method: Greedy
+SO2 SO5 SO8 
+
+Best approximation: DP1
+SO1 SO2 SO3 SO8 SO10 
+
+---------------------------------------------------
+test/in25
+Method: DP1
+SO1 SO4 SO5 SO8 
+Method: DP2
+SO3 SO5 SO6 SO7 SO9 
+Method: Greedy
+SO1 SO3 SO4 SO5 SO7 
+
+Best approximation: Greedy
+SO1 SO3 SO4 SO5 SO7 
+
+---------------------------------------------------
+test/in26
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO7 SO10 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 SO7 SO10 
+Method: Greedy
+SO1 SO2 SO4 SO7 SO9 SO10 
+
+Best approximation: DP2
+SO1 SO2 SO3 SO4 SO5 SO7 SO10 
+
+---------------------------------------------------
+test/in27
+Method: DP1
+SO1 SO2 SO4 SO8 
+Method: DP2
+SO1 SO2 SO4 SO8 
+Method: Greedy
+SO3 SO4 SO7 
+
+Best approximation: DP2
+SO1 SO2 SO4 SO8 
+
+---------------------------------------------------
+test/in28
+Method: DP1
+SO3 SO4 SO8 SO10 
+Method: DP2
+SO2 SO4 SO7 SO8 SO9 SO10 
+Method: Greedy
+SO4 SO5 SO6 SO7 SO10 
+
+Best approximation: DP2
+SO2 SO4 SO7 SO8 SO9 SO10 
+
+---------------------------------------------------
+test/in29
+Method: DP1
+SO1 SO4 SO7 SO9 SO10 
+Method: DP2
+SO2 SO3 SO4 SO6 SO8 SO9 
+Method: Greedy
+SO2 SO4 SO5 SO6 SO7 
+
+Best approximation: DP2
+SO2 SO3 SO4 SO6 SO8 SO9 
+
+---------------------------------------------------
+test/in30
+Method: DP1
+SO1 SO2 SO3 SO4 SO6 SO10 
+Method: DP2
+SO2 SO3 SO4 SO5 SO7 SO10 
+Method: Greedy
+SO1 SO5 SO6 SO7 SO10 
+
+Best approximation: DP1
+SO1 SO2 SO3 SO4 SO6 SO10 
+
+---------------------------------------------------
+test/in31
+Method: DP1
+SO1 SO2 SO5 SO7 SO10 
+Method: DP2
+SO1 SO5 SO6 SO9 SO10 
+Method: Greedy
+SO1 SO4 SO5 SO7 SO10 
+
+Best approximation: Greedy
+SO1 SO4 SO5 SO7 SO10 
+
+---------------------------------------------------
+test/in32
+Method: DP1
+SO1 SO3 SO4 SO6 SO7 
+Method: DP2
+SO1 SO3 SO4 SO6 SO7 
+Method: Greedy
+SO3 SO6 SO7 SO8 SO9 
+
+Best approximation: Greedy
+SO3 SO6 SO7 SO8 SO9 
+
+---------------------------------------------------
+test/in33
+Method: DP1
+SO2 SO3 SO4 SO7 SO9 SO10 
+Method: DP2
+SO1 SO2 SO3 SO5 SO7 SO9 
+Method: Greedy
+SO3 SO7 SO8 
+
+Best approximation: DP1
+SO2 SO3 SO4 SO7 SO9 SO10 
+
+---------------------------------------------------
+test/in34
+Method: DP1
+SO1 SO4 SO6 SO7 SO10 
+Method: DP2
+SO2 SO3 SO5 SO6 SO8 
+Method: Greedy
+SO3 SO4 SO5 SO6 SO8 
+
+Best approximation: Greedy
+SO3 SO4 SO5 SO6 SO8 
+
+---------------------------------------------------
+test/in35
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO8 SO9 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 SO7 SO9 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 SO8 SO9 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 SO5 SO8 SO9 
+
+---------------------------------------------------
+test/in36
+Method: DP1
+SO1 SO2 SO3 SO5 SO6 SO7 SO9 
+Method: DP2
+SO1 SO2 SO3 SO4 SO6 SO7 
+Method: Greedy
+SO2 SO3 SO4 SO9 SO10 
+
+Best approximation: DP1
+SO1 SO2 SO3 SO5 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in37
+Method: DP1
+SO1 SO2 SO3 SO4 SO7 
+Method: DP2
+SO1 SO2 SO3 SO4 SO7 
+Method: Greedy
+SO2 SO3 SO4 
+
+Best approximation: DP2
+SO1 SO2 SO3 SO4 SO7 
+
+---------------------------------------------------
+test/in38
+Method: DP1
+SO1 SO2 SO3 SO7 SO8 SO10 
+Method: DP2
+SO1 SO2 SO3 SO7 SO8 SO10 
+Method: Greedy
+SO2 SO3 SO7 SO10 
+
+Best approximation: DP2
+SO1 SO2 SO3 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in39
+Method: DP1
+SO1 SO2 SO3 SO6 SO8 
+Method: DP2
+SO1 SO2 SO3 SO6 SO8 
+Method: Greedy
+SO1 SO2 SO7 SO9 SO10 
+
+Best approximation: Greedy
+SO1 SO2 SO7 SO9 SO10 
+
+---------------------------------------------------
+test/in40
+Method: DP1
+SO1 SO2 SO3 SO4 SO15 
+Method: DP2
+SO2 SO3 SO4 SO6 SO8 SO9 
+Method: Greedy
+SO2 SO4 SO5 SO9 SO15 
+
+Best approximation: DP2
+SO2 SO3 SO4 SO6 SO8 SO9 
+
+---------------------------------------------------
+test/in41
+Method: DP1
+SO1 SO2 SO3 SO6 SO7 SO8 SO13 
+Method: DP2
+SO3 SO4 SO6 SO7 SO8 SO9 SO10 SO11 
+Method: Greedy
+SO3 SO5 SO6 SO12 SO14 
+
+Best approximation: DP2
+SO3 SO4 SO6 SO7 SO8 SO9 SO10 SO11 
+
+---------------------------------------------------
+test/in42
+Method: DP1
+SO1 SO3 SO4 SO6 SO10 SO12 SO14 
+Method: DP2
+SO1 SO2 SO5 SO6 SO8 SO9 SO10 SO12 SO13 
+Method: Greedy
+SO2 SO5 SO6 SO9 SO11 SO12 SO14 SO15 
+
+Best approximation: DP2
+SO1 SO2 SO5 SO6 SO8 SO9 SO10 SO12 SO13 
+
+---------------------------------------------------
+test/in43
+Method: DP1
+SO1 SO2 SO4 SO6 SO7 SO8 
+Method: DP2
+SO1 SO2 SO4 SO6 SO7 SO8 
+Method: Greedy
+SO3 SO5 SO7 
+
+Best approximation: DP2
+SO1 SO2 SO4 SO6 SO7 SO8 
+
+---------------------------------------------------
+test/in44
+Method: DP1
+SO1 SO2 SO3 SO4 SO6 SO9 
+Method: DP2
+SO1 SO3 SO6 SO8 SO9 SO11 SO15 
+Method: Greedy
+SO7 SO14 SO15 
+
+Best approximation: DP2
+SO1 SO3 SO6 SO8 SO9 SO11 SO15 
+
+---------------------------------------------------
+test/in45
+Method: DP1
+SO1 SO2 SO4 SO5 SO10 SO14 
+Method: DP2
+SO2 SO3 SO5 SO7 SO8 SO9 SO10 
+Method: Greedy
+SO1 SO2 SO5 SO7 SO8 SO15 
+
+Best approximation: DP2
+SO2 SO3 SO5 SO7 SO8 SO9 SO10 
+
+---------------------------------------------------
+test/in46
+Method: DP1
+SO1 SO2 SO3 SO5 SO6 SO7 SO11 SO14 
+Method: DP2
+SO1 SO2 SO3 SO5 SO6 SO7 SO11 SO14 
+Method: Greedy
+SO2 SO3 SO5 SO9 SO13 SO14 SO15 
+
+Best approximation: DP2
+SO1 SO2 SO3 SO5 SO6 SO7 SO11 SO14 
+
+---------------------------------------------------
+test/in47
+Method: DP1
+SO1 SO2 SO3 SO4 SO9 SO10 SO11 SO15 
+Method: DP2
+SO1 SO2 SO3 SO9 SO10 SO11 SO13 SO15 
+Method: Greedy
+SO1 SO4 SO10 SO13 SO15 
+
+Best approximation: DP1
+SO1 SO2 SO3 SO4 SO9 SO10 SO11 SO15 
+
+---------------------------------------------------
+test/in48
+Method: DP1
+SO4 SO6 SO8 SO10 SO11 
+Method: DP2
+SO1 SO6 SO11 SO12 SO13 
+Method: Greedy
+SO8 SO12 SO13 SO14 
+
+Best approximation: DP1
+SO4 SO6 SO8 SO10 SO11 
+
+---------------------------------------------------
+test/in49
+Method: DP1
+SO4 SO5 SO9 SO10 
+Method: DP2
+SO1 SO3 SO5 SO6 SO10 
+Method: Greedy
+SO3 SO5 SO7 SO15 
+
+Best approximation: DP2
+SO1 SO3 SO5 SO6 SO10 
+
+---------------------------------------------------
+test/in50
+Method: DP1
+SO2 SO4 SO6 SO9 SO10 SO12 
+Method: DP2
+SO3 SO8 SO9 SO10 SO11 SO12 
+Method: Greedy
+SO2 SO4 SO6 SO9 
+
+Best approximation: DP1
+SO2 SO4 SO6 SO9 SO10 SO12 
+
+---------------------------------------------------
+test/in51
+Method: DP1
+SO1 SO2 SO3 SO4 SO7 SO12 SO13 
+Method: DP2
+SO1 SO3 SO7 SO8 SO9 SO11 SO12 SO14 
+Method: Greedy
+SO1 SO3 SO4 SO6 SO7 SO9 SO13 SO14 
+
+Best approximation: Greedy
+SO1 SO3 SO4 SO6 SO7 SO9 SO13 SO14 
+
+---------------------------------------------------
+test/in52
+Method: DP1
+SO2 SO3 SO6 SO7 SO8 SO9 SO10 SO15 
+Method: DP2
+SO1 SO3 SO5 SO7 SO8 SO9 SO10 SO12 
+Method: Greedy
+SO2 SO3 SO7 SO8 SO9 SO10 SO13 SO15 
+
+Best approximation: Greedy
+SO2 SO3 SO7 SO8 SO9 SO10 SO13 SO15 
+
+---------------------------------------------------
+test/in53
+Method: DP1
+SO1 SO2 SO3 SO11 SO14 
+Method: DP2
+SO3 SO5 SO7 SO8 SO10 SO11 
+Method: Greedy
+SO2 SO3 SO4 SO9 SO14 
+
+Best approximation: DP2
+SO3 SO5 SO7 SO8 SO10 SO11 
+
+---------------------------------------------------
+test/in54
+Method: DP1
+SO1 SO2 SO3 SO4 SO8 SO14 
+Method: DP2
+SO1 SO2 SO4 SO7 SO8 SO14 
+Method: Greedy
+SO2 SO9 SO10 SO12 
+
+Best approximation: DP1
+SO1 SO2 SO3 SO4 SO8 SO14 
+
+---------------------------------------------------
+test/in55
+Method: DP1
+SO1 SO2 SO4 SO7 SO8 SO13 
+Method: DP2
+SO1 SO3 SO4 SO6 SO8 SO9 SO10 SO12 
+Method: Greedy
+SO1 SO7 SO8 SO9 SO10 SO11 SO12 SO13 
+
+Best approximation: Greedy
+SO1 SO7 SO8 SO9 SO10 SO11 SO12 SO13 
+
+---------------------------------------------------
+test/in56
+Method: DP1
+SO1 SO3 SO4 SO5 SO10 SO11 
+Method: DP2
+SO1 SO2 SO3 SO4 SO8 SO9 SO11 
+Method: Greedy
+SO5 SO10 SO11 SO12 
+
+Best approximation: DP2
+SO1 SO2 SO3 SO4 SO8 SO9 SO11 
+
+---------------------------------------------------
+test/in57
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO6 SO14 
+Method: DP2
+SO2 SO4 SO5 SO6 SO7 SO12 SO14 SO15 
+Method: Greedy
+SO1 SO3 SO4 SO6 SO10 
+
+Best approximation: DP2
+SO2 SO4 SO5 SO6 SO7 SO12 SO14 SO15 
+
+---------------------------------------------------
+test/in58
+Method: DP1
+SO2 SO3 SO4 SO13 SO14 
+Method: DP2
+SO1 SO4 SO5 SO9 SO11 SO14 
+Method: Greedy
+SO2 SO3 SO4 SO13 SO14 
+
+Best approximation: DP2
+SO1 SO4 SO5 SO9 SO11 SO14 
+
+---------------------------------------------------
+test/in59
+Method: DP1
+SO1 SO2 SO3 SO4 SO9 SO13 SO15 
+Method: DP2
+SO2 SO3 SO4 SO6 SO9 SO11 SO12 SO13 
+Method: Greedy
+SO2 SO3 SO4 SO6 SO9 SO10 SO12 SO13 
+
+Best approximation: Greedy
+SO2 SO3 SO4 SO6 SO9 SO10 SO12 SO13 
+
+---------------------------------------------------
+test/in60
+Method: DP1
+SO3 SO4 
+Method: DP2
+SO1 SO4 
+Method: Greedy
+SO3 SO4 
+
+Best approximation: Greedy
+SO3 SO4 
+
+---------------------------------------------------
+test/in61
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO1 SO2 SO3 
+Method: Greedy
+SO3 SO5 
+
+Best approximation: DP2
+SO1 SO2 SO3 
+
+---------------------------------------------------
+test/in62
+Method: DP1
+SO1 SO3 SO4 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO2 
+
+Best approximation: DP2
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in63
+Method: DP1
+SO1 SO4 
+Method: DP2
+SO3 SO4 
+Method: Greedy
+SO1 SO4 
+
+Best approximation: Greedy
+SO1 SO4 
+
+---------------------------------------------------
+test/in64
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO4 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in65
+Method: DP1
+SO1 SO2 SO4 
+Method: DP2
+SO1 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO4 
+
+Best approximation: Greedy
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in66
+Method: DP1
+SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 
+Method: Greedy
+SO2 SO3 SO4 
+
+Best approximation: Greedy
+SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in67
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO4 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in68
+Method: DP1
+SO2 SO5 
+Method: DP2
+SO1 SO5 
+Method: Greedy
+SO2 SO5 
+
+Best approximation: Greedy
+SO2 SO5 
+
+---------------------------------------------------
+test/in69
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in70
+Method: DP1
+SO1 SO3 SO5 
+Method: DP2
+SO2 SO3 SO5 
+Method: Greedy
+SO1 SO3 SO5 
+
+Best approximation: Greedy
+SO1 SO3 SO5 
+
+---------------------------------------------------
+test/in71
+Method: DP1
+SO2 SO3 SO5 
+Method: DP2
+SO1 SO2 SO3 
+Method: Greedy
+SO3 SO5 
+
+Best approximation: DP1
+SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in72
+Method: DP1
+SO2 SO5 
+Method: DP2
+SO2 SO5 
+Method: Greedy
+SO5 
+
+Best approximation: DP2
+SO2 SO5 
+
+---------------------------------------------------
+test/in73
+Method: DP1
+SO1 SO3 SO4 SO5 
+Method: DP2
+SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO1 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in74
+Method: DP1
+SO2 SO4 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO2 SO4 
+
+Best approximation: DP2
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in75
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO2 SO3 SO4 SO5 
+Method: Greedy
+SO2 SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in76
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO2 SO3 SO4 SO5 
+Method: Greedy
+SO2 SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in77
+Method: DP1
+SO1 SO2 SO4 
+Method: DP2
+SO1 SO2 SO4 
+Method: Greedy
+SO1 SO2 SO4 
+
+Best approximation: Greedy
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in78
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO3 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in79
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in80
+Method: DP1
+SO3 SO4 SO6 SO10 
+Method: DP2
+SO1 SO3 SO9 SO10 
+Method: Greedy
+SO4 SO6 SO10 
+
+Best approximation: DP1
+SO3 SO4 SO6 SO10 
+
+---------------------------------------------------
+test/in81
+Method: DP1
+SO1 SO2 SO3 SO8 
+Method: DP2
+SO1 SO5 SO7 SO8 SO9 
+Method: Greedy
+SO1 SO5 SO6 SO8 SO9 
+
+Best approximation: Greedy
+SO1 SO5 SO6 SO8 SO9 
+
+---------------------------------------------------
+test/in82
+Method: DP1
+SO2 SO3 SO6 SO8 
+Method: DP2
+SO1 SO5 SO6 SO10 
+Method: Greedy
+SO2 SO7 SO10 
+
+Best approximation: DP1
+SO2 SO3 SO6 SO8 
+
+---------------------------------------------------
+test/in83
+Method: DP1
+SO3 SO4 SO5 SO6 
+Method: DP2
+SO5 SO6 SO7 SO9 SO10 
+Method: Greedy
+SO1 SO2 SO5 SO6 SO10 
+
+Best approximation: Greedy
+SO1 SO2 SO5 SO6 SO10 
+
+---------------------------------------------------
+test/in84
+Method: DP1
+SO1 SO2 SO10 
+Method: DP2
+SO4 SO7 SO8 
+Method: Greedy
+SO1 SO2 SO10 
+
+Best approximation: Greedy
+SO1 SO2 SO10 
+
+---------------------------------------------------
+test/in85
+Method: DP1
+SO1 SO2 SO5 SO7 SO10 
+Method: DP2
+SO1 SO2 SO5 SO9 SO10 
+Method: Greedy
+SO1 SO2 SO4 SO7 SO10 
+
+Best approximation: Greedy
+SO1 SO2 SO4 SO7 SO10 
+
+---------------------------------------------------
+test/in86
+Method: DP1
+SO1 SO2 SO4 SO5 SO9 
+Method: DP2
+SO1 SO4 SO5 SO7 SO9 
+Method: Greedy
+SO4 SO5 SO7 SO8 SO9 
+
+Best approximation: Greedy
+SO4 SO5 SO7 SO8 SO9 
+
+---------------------------------------------------
+test/in87
+Method: DP1
+SO1 SO2 SO5 SO7 
+Method: DP2
+SO2 SO3 SO4 SO5 SO10 
+Method: Greedy
+SO4 SO5 SO6 SO10 
+
+Best approximation: DP2
+SO2 SO3 SO4 SO5 SO10 
+
+---------------------------------------------------
+test/in88
+Method: DP1
+SO3 SO5 SO8 
+Method: DP2
+SO2 SO4 SO5 SO6 SO7 
+Method: Greedy
+SO2 SO4 SO5 SO6 SO7 
+
+Best approximation: Greedy
+SO2 SO4 SO5 SO6 SO7 
+
+---------------------------------------------------
+test/in89
+Method: DP1
+SO3 SO4 SO5 SO10 
+Method: DP2
+SO1 SO2 SO4 SO5 SO9 
+Method: Greedy
+SO3 SO4 SO5 SO10 
+
+Best approximation: DP2
+SO1 SO2 SO4 SO5 SO9 
+
+---------------------------------------------------
+test/in90
+Method: DP1
+SO3 SO4 SO6 SO10 
+Method: DP2
+SO2 SO5 SO6 SO8 SO10 
+Method: Greedy
+SO3 SO5 SO6 SO8 SO10 
+
+Best approximation: Greedy
+SO3 SO5 SO6 SO8 SO10 
+
+---------------------------------------------------
+test/in91
+Method: DP1
+SO5 SO7 SO9 
+Method: DP2
+SO1 SO6 SO7 SO9 
+Method: Greedy
+SO5 SO7 SO9 
+
+Best approximation: DP2
+SO1 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in92
+Method: DP1
+SO1 SO2 SO4 SO7 SO8 SO10 
+Method: DP2
+SO1 SO3 SO4 SO5 SO6 SO7 SO8 SO10 
+Method: Greedy
+SO1 SO2 SO4 SO7 SO10 
+
+Best approximation: DP2
+SO1 SO3 SO4 SO5 SO6 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in93
+Method: DP1
+SO1 SO4 SO5 SO8 SO10 
+Method: DP2
+SO2 SO3 SO4 SO5 SO7 SO8 SO10 
+Method: Greedy
+SO3 SO4 SO5 SO6 SO8 SO10 
+
+Best approximation: DP2
+SO2 SO3 SO4 SO5 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in94
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO9 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 SO9 
+Method: Greedy
+SO4 SO9 SO10 
+
+Best approximation: DP2
+SO1 SO2 SO3 SO4 SO5 SO9 
+
+---------------------------------------------------
+test/in95
+Method: DP1
+SO4 SO7 SO8 SO9 
+Method: DP2
+SO2 SO5 SO7 SO8 
+Method: Greedy
+SO4 SO7 SO8 SO9 
+
+Best approximation: Greedy
+SO4 SO7 SO8 SO9 
+
+---------------------------------------------------
+test/in96
+Method: DP1
+SO4 SO5 SO7 
+Method: DP2
+SO2 SO3 SO4 SO7 
+Method: Greedy
+SO2 SO4 SO5 SO7 
+
+Best approximation: Greedy
+SO2 SO4 SO5 SO7 
+
+---------------------------------------------------
+test/in97
+Method: DP1
+SO2 SO3 SO4 SO6 
+Method: DP2
+SO1 SO3 SO4 SO6 SO9 
+Method: Greedy
+SO1 SO3 SO6 SO8 
+
+Best approximation: DP2
+SO1 SO3 SO4 SO6 SO9 
+
+---------------------------------------------------
+test/in98
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO7 SO9 
+Method: Greedy
+SO4 SO9 
+
+Best approximation: DP2
+SO1 SO7 SO9 
+
+---------------------------------------------------
+test/in99
+Method: DP1
+SO1 SO2 SO3 SO5 
+Method: DP2
+SO1 SO2 SO3 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in100
+Method: DP1
+SO6 SO7 SO11 SO15 
+Method: DP2
+SO2 SO3 SO7 SO11 SO12 SO13 
+Method: Greedy
+SO1 SO7 SO11 SO13 SO15 
+
+Best approximation: DP2
+SO2 SO3 SO7 SO11 SO12 SO13 
+
+---------------------------------------------------
+test/in101
+Method: DP1
+SO4 SO8 SO9 SO15 
+Method: DP2
+SO1 SO3 SO8 SO12 SO15 
+Method: Greedy
+SO1 SO8 SO9 SO13 SO15 
+
+Best approximation: Greedy
+SO1 SO8 SO9 SO13 SO15 
+
+---------------------------------------------------
+test/in102
+Method: DP1
+SO2 SO6 SO9 SO12 
+Method: DP2
+SO1 SO6 SO7 SO9 SO12 SO13 
+Method: Greedy
+SO1 SO8 SO9 SO11 SO12 SO13 
+
+Best approximation: Greedy
+SO1 SO8 SO9 SO11 SO12 SO13 
+
+---------------------------------------------------
+test/in103
+Method: DP1
+SO1 SO2 SO3 SO8 SO9 SO12 
+Method: DP2
+SO1 SO2 SO4 SO5 SO9 SO10 SO12 
+Method: Greedy
+SO4 SO14 SO15 
+
+Best approximation: DP2
+SO1 SO2 SO4 SO5 SO9 SO10 SO12 
+
+---------------------------------------------------
+test/in104
+Method: DP1
+SO1 SO2 SO5 SO7 SO11 SO12 
+Method: DP2
+SO4 SO7 SO9 SO10 SO11 SO12 
+Method: Greedy
+SO1 SO2 SO5 SO7 SO11 SO12 
+
+Best approximation: Greedy
+SO1 SO2 SO5 SO7 SO11 SO12 
+
+---------------------------------------------------
+test/in105
+Method: DP1
+SO3 SO4 SO5 SO6 
+Method: DP2
+SO1 SO4 SO6 SO7 SO12 
+Method: Greedy
+SO1 SO3 SO11 SO12 
+
+Best approximation: DP2
+SO1 SO4 SO6 SO7 SO12 
+
+---------------------------------------------------
+test/in106
+Method: DP1
+SO5 SO6 SO10 SO13 
+Method: DP2
+SO2 SO6 SO9 SO10 SO11 SO13 
+Method: Greedy
+SO5 SO6 SO9 SO10 SO13 
+
+Best approximation: DP2
+SO2 SO6 SO9 SO10 SO11 SO13 
+
+---------------------------------------------------
+test/in107
+Method: DP1
+SO1 SO2 SO3 SO8 SO15 
+Method: DP2
+SO2 SO3 SO8 SO14 SO15 
+Method: Greedy
+SO2 SO9 SO10 SO15 
+
+Best approximation: DP1
+SO1 SO2 SO3 SO8 SO15 
+
+---------------------------------------------------
+test/in108
+Method: DP1
+SO6 SO8 SO10 SO13 
+Method: DP2
+SO1 SO2 SO5 SO8 SO12 
+Method: Greedy
+SO1 SO6 SO8 SO10 SO13 
+
+Best approximation: Greedy
+SO1 SO6 SO8 SO10 SO13 
+
+---------------------------------------------------
+test/in109
+Method: DP1
+SO1 SO2 SO3 SO9 SO15 
+Method: DP2
+SO2 SO3 SO7 SO13 SO14 
+Method: Greedy
+SO3 SO4 SO6 SO14 
+
+Best approximation: DP1
+SO1 SO2 SO3 SO9 SO15 
+
+---------------------------------------------------
+test/in110
+Method: DP1
+SO1 SO2 SO3 SO6 SO15 
+Method: DP2
+SO1 SO2 SO6 SO7 SO9 SO10 SO15 
+Method: Greedy
+SO2 SO4 SO6 SO9 SO12 SO15 
+
+Best approximation: DP2
+SO1 SO2 SO6 SO7 SO9 SO10 SO15 
+
+---------------------------------------------------
+test/in111
+Method: DP1
+SO2 SO4 SO7 SO10 
+Method: DP2
+SO4 SO9 SO10 SO11 SO13 
+Method: Greedy
+SO4 SO9 SO10 SO11 SO13 
+
+Best approximation: Greedy
+SO4 SO9 SO10 SO11 SO13 
+
+---------------------------------------------------
+test/in112
+Method: DP1
+SO1 SO2 SO4 SO9 SO10 SO12 SO14 SO15 
+Method: DP2
+SO1 SO2 SO6 SO9 SO10 SO12 SO14 SO15 
+Method: Greedy
+SO1 SO2 SO4 SO6 SO13 SO14 SO15 
+
+Best approximation: DP1
+SO1 SO2 SO4 SO9 SO10 SO12 SO14 SO15 
+
+---------------------------------------------------
+test/in113
+Method: DP1
+SO1 SO3 SO6 SO7 SO9 SO13 
+Method: DP2
+SO5 SO6 SO7 SO8 SO9 SO13 
+Method: Greedy
+SO1 SO3 SO7 SO12 
+
+Best approximation: DP1
+SO1 SO3 SO6 SO7 SO9 SO13 
+
+---------------------------------------------------
+test/in114
+Method: DP1
+SO1 SO2 SO6 SO9 SO14 
+Method: DP2
+SO1 SO7 SO10 SO14 SO15 
+Method: Greedy
+SO2 SO6 SO7 SO9 
+
+Best approximation: DP1
+SO1 SO2 SO6 SO9 SO14 
+
+---------------------------------------------------
+test/in115
+Method: DP1
+SO1 SO4 SO5 SO8 SO10 
+Method: DP2
+SO2 SO4 SO7 SO8 SO10 SO11 SO15 
+Method: Greedy
+SO2 SO4 SO7 SO8 SO10 SO11 SO15 
+
+Best approximation: Greedy
+SO2 SO4 SO7 SO8 SO10 SO11 SO15 
+
+---------------------------------------------------
+test/in116
+Method: DP1
+SO1 SO2 SO4 SO5 SO9 
+Method: DP2
+SO1 SO3 SO4 SO5 SO9 SO12 SO14 
+Method: Greedy
+SO3 SO4 SO5 SO7 SO9 SO12 SO14 
+
+Best approximation: Greedy
+SO3 SO4 SO5 SO7 SO9 SO12 SO14 
+
+---------------------------------------------------
+test/in117
+Method: DP1
+SO1 SO7 SO13 
+Method: DP2
+SO6 SO8 SO9 SO11 
+Method: Greedy
+SO4 SO13 SO14 
+
+Best approximation: DP2
+SO6 SO8 SO9 SO11 
+
+---------------------------------------------------
+test/in118
+Method: DP1
+SO3 SO5 SO9 
+Method: DP2
+SO1 SO5 SO7 SO11 SO13 
+Method: Greedy
+SO3 SO12 SO13 SO14 
+
+Best approximation: DP2
+SO1 SO5 SO7 SO11 SO13 
+
+---------------------------------------------------
+test/in119
+Method: DP1
+SO5 SO7 SO11 
+Method: DP2
+SO6 SO7 SO11 SO14 
+Method: Greedy
+SO1 SO5 SO7 
+
+Best approximation: DP2
+SO6 SO7 SO11 SO14 
+
+---------------------------------------------------
+test/in120
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO1 SO2 SO3 
+Method: Greedy
+SO1 SO2 SO3 
+
+Best approximation: Greedy
+SO1 SO2 SO3 
+
+---------------------------------------------------
+test/in121
+Method: DP1
+SO3 SO5 
+Method: DP2
+SO1 SO3 
+Method: Greedy
+SO3 SO5 
+
+Best approximation: Greedy
+SO3 SO5 
+
+---------------------------------------------------
+test/in122
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO3 SO5 
+Method: Greedy
+SO1 
+
+Best approximation: DP1
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in123
+Method: DP1
+SO3 SO5 
+Method: DP2
+SO2 SO3 
+Method: Greedy
+SO3 SO5 
+
+Best approximation: Greedy
+SO3 SO5 
+
+---------------------------------------------------
+test/in124
+Method: DP1
+SO1 SO2 
+Method: DP2
+SO1 SO2 
+Method: Greedy
+SO1 SO2 
+
+Best approximation: Greedy
+SO1 SO2 
+
+---------------------------------------------------
+test/in125
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO1 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO1 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in126
+Method: DP1
+SO1 SO5 
+Method: DP2
+SO1 SO2 
+Method: Greedy
+SO5 
+
+Best approximation: DP1
+SO1 SO5 
+
+---------------------------------------------------
+test/in127
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO1 SO2 SO3 
+Method: Greedy
+SO1 SO2 SO3 
+
+Best approximation: Greedy
+SO1 SO2 SO3 
+
+---------------------------------------------------
+test/in128
+Method: DP1
+SO2 SO3 SO5 
+Method: DP2
+SO1 SO3 SO5 
+Method: Greedy
+SO2 SO3 SO5 
+
+Best approximation: Greedy
+SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in129
+Method: DP1
+SO2 SO4 SO5 
+Method: DP2
+SO2 SO3 SO5 
+Method: Greedy
+SO2 SO4 SO5 
+
+Best approximation: Greedy
+SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in130
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO2 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in131
+Method: DP1
+SO2 SO3 
+Method: DP2
+SO1 SO2 
+Method: Greedy
+SO2 SO3 
+
+Best approximation: Greedy
+SO2 SO3 
+
+---------------------------------------------------
+test/in132
+Method: DP1
+SO1 SO5 
+Method: DP2
+SO2 SO4 SO5 
+Method: Greedy
+SO2 SO4 SO5 
+
+Best approximation: Greedy
+SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in133
+Method: DP1
+SO1 SO2 SO4 SO5 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation: DP1
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in134
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO2 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation: Greedy
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in135
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO1 SO3 SO4 
+
+Best approximation: Greedy
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in136
+Method: DP1
+SO1 SO3 SO4 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO1 SO3 SO4 
+
+Best approximation: Greedy
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in137
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO4 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in138
+Method: DP1
+SO1 SO5 
+Method: DP2
+SO3 SO5 
+Method: Greedy
+SO1 SO5 
+
+Best approximation: Greedy
+SO1 SO5 
+
+---------------------------------------------------
+test/in139
+Method: DP1
+SO1 SO2 
+Method: DP2
+SO3 SO4 SO5 
+Method: Greedy
+SO3 SO4 SO5 
+
+Best approximation: Greedy
+SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in140
+Method: DP1
+SO1 SO2 SO6 SO7 
+Method: DP2
+SO2 SO3 SO6 SO9 SO10 
+Method: Greedy
+SO3 SO4 SO6 
+
+Best approximation: DP2
+SO2 SO3 SO6 SO9 SO10 
+
+---------------------------------------------------
+test/in141
+Method: DP1
+SO3 SO4 SO5 SO6 SO7 
+Method: DP2
+SO1 SO4 SO6 SO7 SO8 
+Method: Greedy
+SO3 SO4 SO5 SO6 SO7 
+
+Best approximation: Greedy
+SO3 SO4 SO5 SO6 SO7 
+
+---------------------------------------------------
+test/in142
+Method: DP1
+SO1 SO2 SO9 
+Method: DP2
+SO1 SO2 SO9 
+Method: Greedy
+SO2 SO8 
+
+Best approximation: DP2
+SO1 SO2 SO9 
+
+---------------------------------------------------
+test/in143
+Method: DP1
+SO1 SO2 SO7 SO10 
+Method: DP2
+SO2 SO3 SO9 SO10 
+Method: Greedy
+SO1 SO4 SO5 
+
+Best approximation: DP1
+SO1 SO2 SO7 SO10 
+
+---------------------------------------------------
+test/in144
+Method: DP1
+SO2 SO6 SO8 
+Method: DP2
+SO3 SO4 SO7 SO8 
+Method: Greedy
+SO4 SO5 SO8 
+
+Best approximation: DP2
+SO3 SO4 SO7 SO8 
+
+---------------------------------------------------
+test/in145
+Method: DP1
+SO1 SO2 SO4 SO9 SO10 
+Method: DP2
+SO2 SO4 SO7 SO9 SO10 
+Method: Greedy
+SO6 SO7 SO10 
+
+Best approximation: DP1
+SO1 SO2 SO4 SO9 SO10 
+
+---------------------------------------------------
+test/in146
+Method: DP1
+SO4 SO10 
+Method: DP2
+SO2 SO10 
+Method: Greedy
+SO4 SO10 
+
+Best approximation: Greedy
+SO4 SO10 
+
+---------------------------------------------------
+test/in147
+Method: DP1
+SO1 SO3 SO8 SO9 
+Method: DP2
+SO3 SO5 SO6 SO8 SO9 
+Method: Greedy
+SO1 SO3 SO5 SO8 
+
+Best approximation: DP2
+SO3 SO5 SO6 SO8 SO9 
+
+---------------------------------------------------
+test/in148
+Method: DP1
+SO1 SO2 SO4 SO6 SO7 SO9 
+Method: DP2
+SO1 SO2 SO4 SO6 SO7 SO9 
+Method: Greedy
+SO1 SO6 SO7 SO8 SO9 SO10 
+
+Best approximation: Greedy
+SO1 SO6 SO7 SO8 SO9 SO10 
+
+---------------------------------------------------
+test/in149
+Method: DP1
+SO1 SO2 SO4 SO5 SO6 
+Method: DP2
+SO1 SO2 SO4 SO5 SO6 
+Method: Greedy
+SO1 SO2 SO4 SO5 SO6 
+
+Best approximation: Greedy
+SO1 SO2 SO4 SO5 SO6 
+
+---------------------------------------------------
+test/in150
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO4 
+
+Best approximation: Greedy
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in151
+Method: DP1
+SO2 SO3 SO5 SO7 
+Method: DP2
+SO1 SO2 SO3 SO6 SO8 
+Method: Greedy
+SO4 SO6 SO7 SO8 
+
+Best approximation: DP2
+SO1 SO2 SO3 SO6 SO8 
+
+---------------------------------------------------
+test/in152
+Method: DP1
+SO1 SO3 SO4 SO10 
+Method: DP2
+SO1 SO3 SO4 SO10 
+Method: Greedy
+SO5 SO7 SO10 
+
+Best approximation: DP2
+SO1 SO3 SO4 SO10 
+
+---------------------------------------------------
+test/in153
+Method: DP1
+SO4 SO6 SO10 
+Method: DP2
+SO1 SO4 
+Method: Greedy
+SO2 SO4 
+
+Best approximation: DP1
+SO4 SO6 SO10 
+
+---------------------------------------------------
+test/in154
+Method: DP1
+SO1 SO2 SO3 SO9 SO10 
+Method: DP2
+SO1 SO3 SO5 SO6 SO9 SO10 
+Method: Greedy
+SO4 SO6 SO7 SO8 SO9 
+
+Best approximation: DP2
+SO1 SO3 SO5 SO6 SO9 SO10 
+
+---------------------------------------------------
+test/in155
+Method: DP1
+SO1 SO2 SO6 
+Method: DP2
+SO1 SO3 SO7 
+Method: Greedy
+SO1 SO2 SO6 
+
+Best approximation: Greedy
+SO1 SO2 SO6 
+
+---------------------------------------------------
+test/in156
+Method: DP1
+SO3 SO4 SO8 SO9 
+Method: DP2
+SO1 SO4 SO7 SO9 SO10 
+Method: Greedy
+SO2 SO4 SO6 SO7 SO9 
+
+Best approximation: Greedy
+SO2 SO4 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in157
+Method: DP1
+SO2 SO5 SO6 
+Method: DP2
+SO3 SO5 SO7 SO10 
+Method: Greedy
+SO5 SO6 SO9 
+
+Best approximation: DP2
+SO3 SO5 SO7 SO10 
+
+---------------------------------------------------
+test/in158
+Method: DP1
+SO1 SO2 SO10 
+Method: DP2
+SO2 SO4 SO8 
+Method: Greedy
+SO3 SO8 
+
+Best approximation: DP1
+SO1 SO2 SO10 
+
+---------------------------------------------------
+test/in159
+Method: DP1
+SO1 SO5 SO8 
+Method: DP2
+SO4 SO5 SO9 SO10 
+Method: Greedy
+SO1 SO5 SO8 
+
+Best approximation: DP2
+SO4 SO5 SO9 SO10 
+
+---------------------------------------------------
+test/in160
+Method: DP1
+SO1 SO3 SO4 SO7 
+Method: DP2
+SO4 SO6 SO7 SO9 SO10 SO14 
+Method: Greedy
+SO6 SO7 SO9 SO10 SO14 
+
+Best approximation: DP2
+SO4 SO6 SO7 SO9 SO10 SO14 
+
+---------------------------------------------------
+test/in161
+Method: DP1
+SO2 SO3 SO6 SO7 SO9 SO13 
+Method: DP2
+SO1 SO6 SO7 SO9 SO12 SO13 SO14 SO15 
+Method: Greedy
+SO1 SO6 SO9 SO12 SO13 SO14 SO15 
+
+Best approximation: DP2
+SO1 SO6 SO7 SO9 SO12 SO13 SO14 SO15 
+
+---------------------------------------------------
+test/in162
+Method: DP1
+SO1 SO2 SO8 
+Method: DP2
+SO7 SO8 SO10 SO11 
+Method: Greedy
+SO6 SO11 SO15 
+
+Best approximation: DP2
+SO7 SO8 SO10 SO11 
+
+---------------------------------------------------
+test/in163
+Method: DP1
+SO3 SO11 SO12 
+Method: DP2
+SO6 SO7 SO13 
+Method: Greedy
+SO3 SO8 
+
+Best approximation: DP1
+SO3 SO11 SO12 
+
+---------------------------------------------------
+test/in164
+Method: DP1
+SO1 SO4 SO12 
+Method: DP2
+SO5 SO9 SO12 SO15 
+Method: Greedy
+SO3 SO13 
+
+Best approximation: DP2
+SO5 SO9 SO12 SO15 
+
+---------------------------------------------------
+test/in165
+Method: DP1
+SO1 SO4 SO5 
+Method: DP2
+SO4 SO5 SO13 
+Method: Greedy
+SO9 SO11 SO15 
+
+Best approximation: Greedy
+SO9 SO11 SO15 
+
+---------------------------------------------------
+test/in166
+Method: DP1
+SO3 SO4 SO8 
+Method: DP2
+SO5 SO6 SO8 SO15 
+Method: Greedy
+SO8 SO10 SO12 
+
+Best approximation: DP2
+SO5 SO6 SO8 SO15 
+
+---------------------------------------------------
+test/in167
+Method: DP1
+SO2 SO6 SO7 
+Method: DP2
+SO1 SO5 SO11 SO13 
+Method: Greedy
+SO2 SO6 SO7 
+
+Best approximation: DP2
+SO1 SO5 SO11 SO13 
+
+---------------------------------------------------
+test/in168
+Method: DP1
+SO3 SO4 SO6 
+Method: DP2
+SO3 SO7 SO12 
+Method: Greedy
+SO2 SO9 
+
+Best approximation: DP1
+SO3 SO4 SO6 
+
+---------------------------------------------------
+test/in169
+Method: DP1
+SO1 SO3 SO4 SO5 SO11 
+Method: DP2
+SO1 SO2 SO3 SO4 SO11 SO13 
+Method: Greedy
+SO5 SO8 SO11 
+
+Best approximation: DP2
+SO1 SO2 SO3 SO4 SO11 SO13 
+
+---------------------------------------------------
+test/in170
+Method: DP1
+SO1 SO2 SO4 SO11 SO12 
+Method: DP2
+SO2 SO7 SO10 SO11 SO12 SO13 
+Method: Greedy
+SO3 SO7 SO10 SO11 SO12 SO14 
+
+Best approximation: Greedy
+SO3 SO7 SO10 SO11 SO12 SO14 
+
+---------------------------------------------------
+test/in171
+Method: DP1
+SO2 SO8 SO10 
+Method: DP2
+SO1 SO3 SO12 
+Method: Greedy
+SO2 SO8 SO10 
+
+Best approximation: Greedy
+SO2 SO8 SO10 
+
+---------------------------------------------------
+test/in172
+Method: DP1
+SO4 SO6 SO7 SO8 
+Method: DP2
+SO2 SO7 SO8 SO9 SO12 
+Method: Greedy
+SO9 SO10 
+
+Best approximation: DP2
+SO2 SO7 SO8 SO9 SO12 
+
+---------------------------------------------------
+test/in173
+Method: DP1
+SO1 SO2 SO4 SO5 SO8 SO15 
+Method: DP2
+SO1 SO4 SO5 SO8 SO9 SO15 
+Method: Greedy
+SO1 SO4 SO8 SO9 SO13 
+
+Best approximation: DP1
+SO1 SO2 SO4 SO5 SO8 SO15 
+
+---------------------------------------------------
+test/in174
+Method: DP1
+SO6 SO7 SO11 SO14 
+Method: DP2
+SO1 SO7 SO9 SO14 SO15 
+Method: Greedy
+SO3 SO7 SO8 SO15 
+
+Best approximation: DP2
+SO1 SO7 SO9 SO14 SO15 
+
+---------------------------------------------------
+test/in175
+Method: DP1
+SO1 SO2 SO4 SO5 SO7 SO13 
+Method: DP2
+SO2 SO3 SO4 SO5 SO7 SO8 SO13 
+Method: Greedy
+SO2 SO3 SO4 SO5 SO7 SO8 SO13 
+
+Best approximation: Greedy
+SO2 SO3 SO4 SO5 SO7 SO8 SO13 
+
+---------------------------------------------------
+test/in176
+Method: DP1
+SO2 SO3 SO9 SO11 
+Method: DP2
+SO3 SO4 SO7 SO13 
+Method: Greedy
+SO2 SO3 SO9 SO11 
+
+Best approximation: Greedy
+SO2 SO3 SO9 SO11 
+
+---------------------------------------------------
+test/in177
+Method: DP1
+SO3 SO4 SO6 SO7 SO14 
+Method: DP2
+SO3 SO6 SO7 SO13 SO14 
+Method: Greedy
+SO1 SO3 SO6 SO8 SO14 
+
+Best approximation: Greedy
+SO1 SO3 SO6 SO8 SO14 
+
+---------------------------------------------------
+test/in178
+Method: DP1
+SO3 SO4 SO5 SO7 
+Method: DP2
+SO5 SO7 SO8 SO9 SO14 
+Method: Greedy
+SO3 SO6 SO7 
+
+Best approximation: DP2
+SO5 SO7 SO8 SO9 SO14 
+
+---------------------------------------------------
+test/in179
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO7 
+Method: DP2
+SO2 SO4 SO5 SO7 SO10 SO11 SO12 
+Method: Greedy
+SO1 SO2 SO4 SO7 SO10 SO11 
+
+Best approximation: DP2
+SO2 SO4 SO5 SO7 SO10 SO11 SO12 
+
+---------------------------------------------------

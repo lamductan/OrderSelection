@@ -1,0 +1,2528 @@
+test/in0
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in1
+Bruteforce:
+SO1 SO2 SO3 SO5 
+Method: DP1
+SO1 SO2 SO3 SO5 
+Method: DP2
+SO1 SO2 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in2
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in3
+Bruteforce:
+SO1 SO2 SO3 SO4 
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in4
+Bruteforce:
+SO1 SO2 SO3 SO4 
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in5
+Bruteforce:
+SO1 SO2 SO4 SO5 
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO2 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in6
+Bruteforce:
+SO3 SO4 SO5 
+Method: DP1
+SO2 SO4 
+Method: DP2
+SO1 SO4 SO5 
+Method: Greedy
+SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in7
+Bruteforce:
+SO1 SO2 SO3 SO5 
+Method: DP1
+SO1 SO2 SO3 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in8
+Bruteforce:
+SO1 SO3 SO5 
+Method: DP1
+SO1 SO3 SO5 
+Method: DP2
+SO1 SO3 SO5 
+Method: Greedy
+SO3 SO4 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO3 SO5 
+
+---------------------------------------------------
+test/in9
+Bruteforce:
+SO1 SO2 SO5 
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in10
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in11
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in12
+Bruteforce:
+SO1 SO2 SO4 SO5 
+Method: DP1
+SO1 SO2 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO5 
+Method: Greedy
+SO1 SO2 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in13
+Bruteforce:
+SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 SO4 
+Method: DP2
+SO1 SO2 SO4 
+Method: Greedy
+SO1 SO4 
+
+Best approximation --- method = DP2 --- loss = 0.044843
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in14
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in15
+Bruteforce:
+SO1 SO3 SO4 
+Method: DP1
+SO1 SO3 SO4 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO3 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in16
+Bruteforce:
+SO1 SO3 SO4 
+Method: DP1
+SO1 SO3 SO4 
+Method: DP2
+SO2 SO3 SO4 
+Method: Greedy
+SO1 SO4 
+
+Best approximation --- method = DP1 --- loss = 0
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in17
+Bruteforce:
+SO2 SO4 SO5 
+Method: DP1
+SO2 SO4 SO5 
+Method: DP2
+SO1 SO2 
+Method: Greedy
+SO1 SO2 
+
+Best approximation --- method = DP1 --- loss = 0
+SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in18
+Bruteforce:
+SO1 SO2 SO3 SO5 
+Method: DP1
+SO1 SO2 SO3 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in19
+Bruteforce:
+SO1 SO2 SO4 SO5 
+Method: DP1
+SO1 SO2 SO4 SO5 
+Method: DP2
+SO1 SO2 SO4 SO5 
+Method: Greedy
+SO2 SO4 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in20
+Bruteforce:
+SO2 SO3 SO4 SO5 SO6 SO8 SO10 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO8 
+Method: DP2
+SO2 SO3 SO4 SO6 SO8 SO10 
+Method: Greedy
+SO3 SO4 SO5 SO6 SO8 SO10 
+
+Best approximation --- method = Greedy --- loss = 1
+SO3 SO4 SO5 SO6 SO8 SO10 
+
+---------------------------------------------------
+test/in21
+Bruteforce:
+SO1 SO3 SO6 SO7 SO9 
+Method: DP1
+SO1 SO2 SO3 SO9 
+Method: DP2
+SO1 SO3 SO6 SO7 SO9 
+Method: Greedy
+SO1 SO3 SO7 SO10 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO3 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in22
+Bruteforce:
+SO1 SO2 SO5 SO6 SO10 
+Method: DP1
+SO1 SO2 SO3 SO6 
+Method: DP2
+SO1 SO2 SO5 SO8 SO10 
+Method: Greedy
+SO2 SO3 SO6 
+
+Best approximation --- method = DP2 --- loss = 0.247984
+SO1 SO2 SO5 SO8 SO10 
+
+---------------------------------------------------
+test/in23
+Bruteforce:
+SO2 SO4 SO5 SO6 SO8 SO9 
+Method: DP1
+SO1 SO2 SO3 SO4 SO10 
+Method: DP2
+SO2 SO4 SO5 SO6 SO8 SO9 
+Method: Greedy
+SO1 SO2 SO4 SO7 SO8 
+
+Best approximation --- method = DP2 --- loss = 0
+SO2 SO4 SO5 SO6 SO8 SO9 
+
+---------------------------------------------------
+test/in24
+Bruteforce:
+SO2 SO3 SO4 SO8 SO10 
+Method: DP1
+SO1 SO2 SO3 SO8 SO10 
+Method: DP2
+SO1 SO2 SO3 SO9 SO10 
+Method: Greedy
+SO2 SO5 SO8 
+
+Best approximation --- method = DP1 --- loss = 0.0784024
+SO1 SO2 SO3 SO8 SO10 
+
+---------------------------------------------------
+test/in25
+Bruteforce:
+SO1 SO3 SO4 SO5 SO7 
+Method: DP1
+SO1 SO4 SO5 SO8 
+Method: DP2
+SO3 SO5 SO6 SO7 SO9 
+Method: Greedy
+SO1 SO3 SO4 SO5 SO7 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO3 SO4 SO5 SO7 
+
+---------------------------------------------------
+test/in26
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 SO7 SO10 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO7 SO10 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 SO7 SO10 
+Method: Greedy
+SO1 SO2 SO4 SO7 SO9 SO10 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO3 SO4 SO5 SO7 SO10 
+
+---------------------------------------------------
+test/in27
+Bruteforce:
+SO3 SO4 SO8 SO10 
+Method: DP1
+SO1 SO2 SO4 SO8 
+Method: DP2
+SO1 SO2 SO4 SO8 
+Method: Greedy
+SO3 SO4 SO7 
+
+Best approximation --- method = DP2 --- loss = 0.0114943
+SO1 SO2 SO4 SO8 
+
+---------------------------------------------------
+test/in28
+Bruteforce:
+SO1 SO2 SO7 SO8 SO9 SO10 
+Method: DP1
+SO3 SO4 SO8 SO10 
+Method: DP2
+SO2 SO4 SO7 SO8 SO9 SO10 
+Method: Greedy
+SO4 SO5 SO6 SO7 SO10 
+
+Best approximation --- method = DP2 --- loss = 0.103491
+SO2 SO4 SO7 SO8 SO9 SO10 
+
+---------------------------------------------------
+test/in29
+Bruteforce:
+SO1 SO2 SO4 SO6 SO8 SO9 SO10 
+Method: DP1
+SO1 SO4 SO7 SO9 SO10 
+Method: DP2
+SO2 SO3 SO4 SO6 SO8 SO9 
+Method: Greedy
+SO2 SO4 SO5 SO6 SO7 
+
+Best approximation --- method = DP2 --- loss = 1
+SO2 SO3 SO4 SO6 SO8 SO9 
+
+---------------------------------------------------
+test/in30
+Bruteforce:
+SO1 SO4 SO5 SO6 SO7 SO10 
+Method: DP1
+SO1 SO2 SO3 SO4 SO6 SO10 
+Method: DP2
+SO2 SO3 SO4 SO5 SO7 SO10 
+Method: Greedy
+SO1 SO5 SO6 SO7 SO10 
+
+Best approximation --- method = DP1 --- loss = 0.163293
+SO1 SO2 SO3 SO4 SO6 SO10 
+
+---------------------------------------------------
+test/in31
+Bruteforce:
+SO1 SO4 SO5 SO7 SO10 
+Method: DP1
+SO1 SO2 SO5 SO7 SO10 
+Method: DP2
+SO1 SO5 SO6 SO9 SO10 
+Method: Greedy
+SO1 SO4 SO5 SO7 SO10 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO4 SO5 SO7 SO10 
+
+---------------------------------------------------
+test/in32
+Bruteforce:
+SO3 SO6 SO7 SO8 SO9 
+Method: DP1
+SO1 SO3 SO4 SO6 SO7 
+Method: DP2
+SO1 SO3 SO4 SO6 SO7 
+Method: Greedy
+SO3 SO6 SO7 SO8 SO9 
+
+Best approximation --- method = Greedy --- loss = 0
+SO3 SO6 SO7 SO8 SO9 
+
+---------------------------------------------------
+test/in33
+Bruteforce:
+SO2 SO3 SO4 SO7 SO9 SO10 
+Method: DP1
+SO2 SO3 SO4 SO7 SO9 SO10 
+Method: DP2
+SO1 SO2 SO3 SO5 SO7 SO9 
+Method: Greedy
+SO3 SO7 SO8 
+
+Best approximation --- method = DP1 --- loss = 0
+SO2 SO3 SO4 SO7 SO9 SO10 
+
+---------------------------------------------------
+test/in34
+Bruteforce:
+SO1 SO3 SO6 SO7 SO9 SO10 
+Method: DP1
+SO1 SO4 SO6 SO7 SO10 
+Method: DP2
+SO2 SO3 SO5 SO6 SO8 
+Method: Greedy
+SO3 SO4 SO5 SO6 SO8 
+
+Best approximation --- method = Greedy --- loss = 1
+SO3 SO4 SO5 SO6 SO8 
+
+---------------------------------------------------
+test/in35
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 SO8 SO9 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO8 SO9 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 SO7 SO9 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 SO8 SO9 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 SO5 SO8 SO9 
+
+---------------------------------------------------
+test/in36
+Bruteforce:
+SO1 SO2 SO3 SO5 SO7 SO8 SO9 
+Method: DP1
+SO1 SO2 SO3 SO5 SO6 SO7 SO9 
+Method: DP2
+SO1 SO2 SO3 SO4 SO6 SO7 
+Method: Greedy
+SO2 SO3 SO4 SO9 SO10 
+
+Best approximation --- method = DP1 --- loss = 0.0410783
+SO1 SO2 SO3 SO5 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in37
+Bruteforce:
+SO1 SO2 SO3 SO4 SO7 
+Method: DP1
+SO1 SO2 SO3 SO4 SO7 
+Method: DP2
+SO1 SO2 SO3 SO4 SO7 
+Method: Greedy
+SO2 SO3 SO4 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO3 SO4 SO7 
+
+---------------------------------------------------
+test/in38
+Bruteforce:
+SO1 SO2 SO3 SO7 SO8 SO10 
+Method: DP1
+SO1 SO2 SO3 SO7 SO8 SO10 
+Method: DP2
+SO1 SO2 SO3 SO7 SO8 SO10 
+Method: Greedy
+SO2 SO3 SO7 SO10 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO3 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in39
+Bruteforce:
+SO1 SO2 SO6 SO7 SO9 SO10 
+Method: DP1
+SO1 SO2 SO3 SO6 SO8 
+Method: DP2
+SO1 SO2 SO3 SO6 SO8 
+Method: Greedy
+SO1 SO2 SO7 SO9 SO10 
+
+Best approximation --- method = Greedy --- loss = 1
+SO1 SO2 SO7 SO9 SO10 
+
+---------------------------------------------------
+test/in40
+Bruteforce:
+SO2 SO3 SO4 SO5 SO9 SO15 
+Method: DP1
+SO1 SO2 SO3 SO4 SO15 
+Method: DP2
+SO2 SO3 SO4 SO6 SO8 SO9 
+Method: Greedy
+SO2 SO4 SO5 SO9 SO15 
+
+Best approximation --- method = DP2 --- loss = 0.385609
+SO2 SO3 SO4 SO6 SO8 SO9 
+
+---------------------------------------------------
+test/in41
+Bruteforce:
+SO3 SO4 SO6 SO7 SO8 SO9 SO11 SO14 
+Method: DP1
+SO1 SO2 SO3 SO6 SO7 SO8 SO13 
+Method: DP2
+SO3 SO4 SO6 SO7 SO8 SO9 SO10 SO11 
+Method: Greedy
+SO3 SO5 SO6 SO12 SO14 
+
+Best approximation --- method = DP2 --- loss = 0.0790598
+SO3 SO4 SO6 SO7 SO8 SO9 SO10 SO11 
+
+---------------------------------------------------
+test/in42
+Bruteforce:
+SO1 SO2 SO4 SO5 SO6 SO8 SO12 SO13 SO14 
+Method: DP1
+SO1 SO3 SO4 SO6 SO10 SO12 SO14 
+Method: DP2
+SO1 SO2 SO5 SO6 SO8 SO9 SO10 SO12 SO13 
+Method: Greedy
+SO2 SO5 SO6 SO9 SO11 SO12 SO14 SO15 
+
+Best approximation --- method = DP2 --- loss = 0.0636492
+SO1 SO2 SO5 SO6 SO8 SO9 SO10 SO12 SO13 
+
+---------------------------------------------------
+test/in43
+Bruteforce:
+SO1 SO2 SO7 SO8 SO9 SO15 
+Method: DP1
+SO1 SO2 SO4 SO6 SO7 SO8 
+Method: DP2
+SO1 SO2 SO4 SO6 SO7 SO8 
+Method: Greedy
+SO3 SO5 SO7 
+
+Best approximation --- method = DP2 --- loss = 0.0536278
+SO1 SO2 SO4 SO6 SO7 SO8 
+
+---------------------------------------------------
+test/in44
+Bruteforce:
+SO3 SO6 SO8 SO9 SO11 SO14 SO15 
+Method: DP1
+SO1 SO2 SO3 SO4 SO6 SO9 
+Method: DP2
+SO1 SO3 SO6 SO8 SO9 SO11 SO15 
+Method: Greedy
+SO7 SO14 SO15 
+
+Best approximation --- method = DP2 --- loss = 0.310592
+SO1 SO3 SO6 SO8 SO9 SO11 SO15 
+
+---------------------------------------------------
+test/in45
+Bruteforce:
+SO2 SO5 SO7 SO8 SO9 SO10 SO13 SO14 
+Method: DP1
+SO1 SO2 SO4 SO5 SO10 SO14 
+Method: DP2
+SO2 SO3 SO5 SO7 SO8 SO9 SO10 
+Method: Greedy
+SO1 SO2 SO5 SO7 SO8 SO15 
+
+Best approximation --- method = DP2 --- loss = 1
+SO2 SO3 SO5 SO7 SO8 SO9 SO10 
+
+---------------------------------------------------
+test/in46
+Bruteforce:
+SO1 SO2 SO3 SO5 SO7 SO11 SO14 SO15 
+Method: DP1
+SO1 SO2 SO3 SO5 SO6 SO7 SO11 SO14 
+Method: DP2
+SO1 SO2 SO3 SO5 SO6 SO7 SO11 SO14 
+Method: Greedy
+SO2 SO3 SO5 SO9 SO13 SO14 SO15 
+
+Best approximation --- method = DP2 --- loss = 0.11414
+SO1 SO2 SO3 SO5 SO6 SO7 SO11 SO14 
+
+---------------------------------------------------
+test/in47
+Bruteforce:
+SO2 SO3 SO6 SO9 SO10 SO11 SO14 SO15 
+Method: DP1
+SO1 SO2 SO3 SO4 SO9 SO10 SO11 SO15 
+Method: DP2
+SO1 SO2 SO3 SO9 SO10 SO11 SO13 SO15 
+Method: Greedy
+SO1 SO4 SO10 SO13 SO15 
+
+Best approximation --- method = DP1 --- loss = 0.0435339
+SO1 SO2 SO3 SO4 SO9 SO10 SO11 SO15 
+
+---------------------------------------------------
+test/in48
+Bruteforce:
+SO1 SO6 SO9 SO11 SO12 SO13 
+Method: DP1
+SO4 SO6 SO8 SO10 SO11 
+Method: DP2
+SO1 SO6 SO11 SO12 SO13 
+Method: Greedy
+SO8 SO12 SO13 SO14 
+
+Best approximation --- method = DP1 --- loss = 1
+SO4 SO6 SO8 SO10 SO11 
+
+---------------------------------------------------
+test/in49
+Bruteforce:
+SO1 SO2 SO6 SO9 SO10 SO11 
+Method: DP1
+SO4 SO5 SO9 SO10 
+Method: DP2
+SO1 SO3 SO5 SO6 SO10 
+Method: Greedy
+SO3 SO5 SO7 SO15 
+
+Best approximation --- method = DP2 --- loss = 1
+SO1 SO3 SO5 SO6 SO10 
+
+---------------------------------------------------
+test/in50
+Bruteforce:
+SO2 SO4 SO6 SO9 SO10 SO12 
+Method: DP1
+SO2 SO4 SO6 SO9 SO10 SO12 
+Method: DP2
+SO3 SO8 SO9 SO10 SO11 SO12 
+Method: Greedy
+SO2 SO4 SO6 SO9 
+
+Best approximation --- method = DP1 --- loss = 0
+SO2 SO4 SO6 SO9 SO10 SO12 
+
+---------------------------------------------------
+test/in51
+Bruteforce:
+SO1 SO3 SO5 SO6 SO7 SO9 SO11 SO12 SO14 
+Method: DP1
+SO1 SO2 SO3 SO4 SO7 SO12 SO13 
+Method: DP2
+SO1 SO3 SO7 SO8 SO9 SO11 SO12 SO14 
+Method: Greedy
+SO1 SO3 SO4 SO6 SO7 SO9 SO13 SO14 
+
+Best approximation --- method = Greedy --- loss = 1
+SO1 SO3 SO4 SO6 SO7 SO9 SO13 SO14 
+
+---------------------------------------------------
+test/in52
+Bruteforce:
+SO2 SO3 SO7 SO8 SO9 SO10 SO13 SO15 
+Method: DP1
+SO2 SO3 SO6 SO7 SO8 SO9 SO10 SO15 
+Method: DP2
+SO1 SO3 SO5 SO7 SO8 SO9 SO10 SO12 
+Method: Greedy
+SO2 SO3 SO7 SO8 SO9 SO10 SO13 SO15 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO3 SO7 SO8 SO9 SO10 SO13 SO15 
+
+---------------------------------------------------
+test/in53
+Bruteforce:
+SO2 SO3 SO7 SO8 SO10 SO11 SO14 
+Method: DP1
+SO1 SO2 SO3 SO11 SO14 
+Method: DP2
+SO3 SO5 SO7 SO8 SO10 SO11 
+Method: Greedy
+SO2 SO3 SO4 SO9 SO14 
+
+Best approximation --- method = DP2 --- loss = 1
+SO3 SO5 SO7 SO8 SO10 SO11 
+
+---------------------------------------------------
+test/in54
+Bruteforce:
+SO1 SO5 SO9 SO10 SO13 SO14 
+Method: DP1
+SO1 SO2 SO3 SO4 SO8 SO14 
+Method: DP2
+SO1 SO2 SO4 SO7 SO8 SO14 
+Method: Greedy
+SO2 SO9 SO10 SO12 
+
+Best approximation --- method = DP1 --- loss = 0.137228
+SO1 SO2 SO3 SO4 SO8 SO14 
+
+---------------------------------------------------
+test/in55
+Bruteforce:
+SO3 SO4 SO5 SO6 SO7 SO8 SO12 SO13 SO14 
+Method: DP1
+SO1 SO2 SO4 SO7 SO8 SO13 
+Method: DP2
+SO1 SO3 SO4 SO6 SO8 SO9 SO10 SO12 
+Method: Greedy
+SO1 SO7 SO8 SO9 SO10 SO11 SO12 SO13 
+
+Best approximation --- method = Greedy --- loss = 1
+SO1 SO7 SO8 SO9 SO10 SO11 SO12 SO13 
+
+---------------------------------------------------
+test/in56
+Bruteforce:
+SO1 SO2 SO4 SO5 SO8 SO11 SO13 SO14 
+Method: DP1
+SO1 SO3 SO4 SO5 SO10 SO11 
+Method: DP2
+SO1 SO2 SO3 SO4 SO8 SO9 SO11 
+Method: Greedy
+SO5 SO10 SO11 SO12 
+
+Best approximation --- method = DP2 --- loss = 1
+SO1 SO2 SO3 SO4 SO8 SO9 SO11 
+
+---------------------------------------------------
+test/in57
+Bruteforce:
+SO2 SO3 SO5 SO6 SO7 SO10 SO11 SO14 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO6 SO14 
+Method: DP2
+SO2 SO4 SO5 SO6 SO7 SO12 SO14 SO15 
+Method: Greedy
+SO1 SO3 SO4 SO6 SO10 
+
+Best approximation --- method = DP2 --- loss = 0.224928
+SO2 SO4 SO5 SO6 SO7 SO12 SO14 SO15 
+
+---------------------------------------------------
+test/in58
+Bruteforce:
+SO1 SO4 SO5 SO9 SO11 SO14 
+Method: DP1
+SO2 SO3 SO4 SO13 SO14 
+Method: DP2
+SO1 SO4 SO5 SO9 SO11 SO14 
+Method: Greedy
+SO2 SO3 SO4 SO13 SO14 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO4 SO5 SO9 SO11 SO14 
+
+---------------------------------------------------
+test/in59
+Bruteforce:
+SO2 SO3 SO4 SO6 SO9 SO10 SO12 SO13 
+Method: DP1
+SO1 SO2 SO3 SO4 SO9 SO13 SO15 
+Method: DP2
+SO2 SO3 SO4 SO6 SO9 SO11 SO12 SO13 
+Method: Greedy
+SO2 SO3 SO4 SO6 SO9 SO10 SO12 SO13 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO3 SO4 SO6 SO9 SO10 SO12 SO13 
+
+---------------------------------------------------
+test/in60
+Bruteforce:
+SO3 SO4 
+Method: DP1
+SO3 SO4 
+Method: DP2
+SO1 SO4 
+Method: Greedy
+SO3 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO3 SO4 
+
+---------------------------------------------------
+test/in61
+Bruteforce:
+SO1 SO2 SO3 
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO1 SO2 SO3 
+Method: Greedy
+SO3 SO5 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO3 
+
+---------------------------------------------------
+test/in62
+Bruteforce:
+SO1 SO3 SO4 
+Method: DP1
+SO1 SO3 SO4 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO2 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in63
+Bruteforce:
+SO1 SO4 
+Method: DP1
+SO1 SO4 
+Method: DP2
+SO3 SO4 
+Method: Greedy
+SO1 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO4 
+
+---------------------------------------------------
+test/in64
+Bruteforce:
+SO1 SO2 SO3 SO4 
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in65
+Bruteforce:
+SO1 SO2 SO4 
+Method: DP1
+SO1 SO2 SO4 
+Method: DP2
+SO1 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in66
+Bruteforce:
+SO2 SO3 SO4 
+Method: DP1
+SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 
+Method: Greedy
+SO2 SO3 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in67
+Bruteforce:
+SO1 SO2 SO3 SO4 
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in68
+Bruteforce:
+SO2 SO5 
+Method: DP1
+SO2 SO5 
+Method: DP2
+SO1 SO5 
+Method: Greedy
+SO2 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO5 
+
+---------------------------------------------------
+test/in69
+Bruteforce:
+SO1 SO2 SO5 
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in70
+Bruteforce:
+SO1 SO3 SO5 
+Method: DP1
+SO1 SO3 SO5 
+Method: DP2
+SO2 SO3 SO5 
+Method: Greedy
+SO1 SO3 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO3 SO5 
+
+---------------------------------------------------
+test/in71
+Bruteforce:
+SO2 SO3 SO5 
+Method: DP1
+SO2 SO3 SO5 
+Method: DP2
+SO1 SO2 SO3 
+Method: Greedy
+SO3 SO5 
+
+Best approximation --- method = DP1 --- loss = 0
+SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in72
+Bruteforce:
+SO2 SO5 
+Method: DP1
+SO2 SO5 
+Method: DP2
+SO2 SO5 
+Method: Greedy
+SO5 
+
+Best approximation --- method = DP2 --- loss = 0
+SO2 SO5 
+
+---------------------------------------------------
+test/in73
+Bruteforce:
+SO1 SO3 SO4 SO5 
+Method: DP1
+SO1 SO3 SO4 SO5 
+Method: DP2
+SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in74
+Bruteforce:
+SO1 SO3 SO4 
+Method: DP1
+SO2 SO4 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO2 SO4 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in75
+Bruteforce:
+SO2 SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO2 SO3 SO4 SO5 
+Method: Greedy
+SO2 SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in76
+Bruteforce:
+SO2 SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO2 SO3 SO4 SO5 
+Method: Greedy
+SO2 SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in77
+Bruteforce:
+SO1 SO2 SO4 
+Method: DP1
+SO1 SO2 SO4 
+Method: DP2
+SO1 SO2 SO4 
+Method: Greedy
+SO1 SO2 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO4 
+
+---------------------------------------------------
+test/in78
+Bruteforce:
+SO1 SO2 SO5 
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO3 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in79
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in80
+Bruteforce:
+SO3 SO4 SO6 SO10 
+Method: DP1
+SO3 SO4 SO6 SO10 
+Method: DP2
+SO1 SO3 SO9 SO10 
+Method: Greedy
+SO4 SO6 SO10 
+
+Best approximation --- method = DP1 --- loss = 0
+SO3 SO4 SO6 SO10 
+
+---------------------------------------------------
+test/in81
+Bruteforce:
+SO1 SO5 SO6 SO8 SO9 
+Method: DP1
+SO1 SO2 SO3 SO8 
+Method: DP2
+SO1 SO5 SO7 SO8 SO9 
+Method: Greedy
+SO1 SO5 SO6 SO8 SO9 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO5 SO6 SO8 SO9 
+
+---------------------------------------------------
+test/in82
+Bruteforce:
+SO2 SO3 SO5 SO6 SO8 
+Method: DP1
+SO2 SO3 SO6 SO8 
+Method: DP2
+SO1 SO5 SO6 SO10 
+Method: Greedy
+SO2 SO7 SO10 
+
+Best approximation --- method = DP1 --- loss = 1
+SO2 SO3 SO6 SO8 
+
+---------------------------------------------------
+test/in83
+Bruteforce:
+SO4 SO5 SO6 SO7 SO9 SO10 
+Method: DP1
+SO3 SO4 SO5 SO6 
+Method: DP2
+SO5 SO6 SO7 SO9 SO10 
+Method: Greedy
+SO1 SO2 SO5 SO6 SO10 
+
+Best approximation --- method = Greedy --- loss = 1
+SO1 SO2 SO5 SO6 SO10 
+
+---------------------------------------------------
+test/in84
+Bruteforce:
+SO1 SO2 SO10 
+Method: DP1
+SO1 SO2 SO10 
+Method: DP2
+SO4 SO7 SO8 
+Method: Greedy
+SO1 SO2 SO10 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO10 
+
+---------------------------------------------------
+test/in85
+Bruteforce:
+SO1 SO2 SO4 SO7 SO10 
+Method: DP1
+SO1 SO2 SO5 SO7 SO10 
+Method: DP2
+SO1 SO2 SO5 SO9 SO10 
+Method: Greedy
+SO1 SO2 SO4 SO7 SO10 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO4 SO7 SO10 
+
+---------------------------------------------------
+test/in86
+Bruteforce:
+SO4 SO5 SO7 SO8 SO9 
+Method: DP1
+SO1 SO2 SO4 SO5 SO9 
+Method: DP2
+SO1 SO4 SO5 SO7 SO9 
+Method: Greedy
+SO4 SO5 SO7 SO8 SO9 
+
+Best approximation --- method = Greedy --- loss = 0
+SO4 SO5 SO7 SO8 SO9 
+
+---------------------------------------------------
+test/in87
+Bruteforce:
+SO1 SO2 SO4 SO5 SO7 
+Method: DP1
+SO1 SO2 SO5 SO7 
+Method: DP2
+SO2 SO3 SO4 SO5 SO10 
+Method: Greedy
+SO4 SO5 SO6 SO10 
+
+Best approximation --- method = DP2 --- loss = 0.0810307
+SO2 SO3 SO4 SO5 SO10 
+
+---------------------------------------------------
+test/in88
+Bruteforce:
+SO2 SO4 SO5 SO6 SO7 
+Method: DP1
+SO3 SO5 SO8 
+Method: DP2
+SO2 SO4 SO5 SO6 SO7 
+Method: Greedy
+SO2 SO4 SO5 SO6 SO7 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO4 SO5 SO6 SO7 
+
+---------------------------------------------------
+test/in89
+Bruteforce:
+SO2 SO4 SO5 SO6 SO10 
+Method: DP1
+SO3 SO4 SO5 SO10 
+Method: DP2
+SO1 SO2 SO4 SO5 SO9 
+Method: Greedy
+SO3 SO4 SO5 SO10 
+
+Best approximation --- method = DP2 --- loss = 0.107723
+SO1 SO2 SO4 SO5 SO9 
+
+---------------------------------------------------
+test/in90
+Bruteforce:
+SO3 SO5 SO6 SO8 SO10 
+Method: DP1
+SO3 SO4 SO6 SO10 
+Method: DP2
+SO2 SO5 SO6 SO8 SO10 
+Method: Greedy
+SO3 SO5 SO6 SO8 SO10 
+
+Best approximation --- method = Greedy --- loss = 0
+SO3 SO5 SO6 SO8 SO10 
+
+---------------------------------------------------
+test/in91
+Bruteforce:
+SO1 SO6 SO7 SO9 
+Method: DP1
+SO5 SO7 SO9 
+Method: DP2
+SO1 SO6 SO7 SO9 
+Method: Greedy
+SO5 SO7 SO9 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in92
+Bruteforce:
+SO1 SO3 SO4 SO5 SO6 SO7 SO8 SO10 
+Method: DP1
+SO1 SO2 SO4 SO7 SO8 SO10 
+Method: DP2
+SO1 SO3 SO4 SO5 SO6 SO7 SO8 SO10 
+Method: Greedy
+SO1 SO2 SO4 SO7 SO10 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO3 SO4 SO5 SO6 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in93
+Bruteforce:
+SO2 SO3 SO4 SO5 SO7 SO8 SO10 
+Method: DP1
+SO1 SO4 SO5 SO8 SO10 
+Method: DP2
+SO2 SO3 SO4 SO5 SO7 SO8 SO10 
+Method: Greedy
+SO3 SO4 SO5 SO6 SO8 SO10 
+
+Best approximation --- method = DP2 --- loss = 0
+SO2 SO3 SO4 SO5 SO7 SO8 SO10 
+
+---------------------------------------------------
+test/in94
+Bruteforce:
+SO1 SO2 SO3 SO4 SO5 SO9 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO9 
+Method: DP2
+SO1 SO2 SO3 SO4 SO5 SO9 
+Method: Greedy
+SO4 SO9 SO10 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO3 SO4 SO5 SO9 
+
+---------------------------------------------------
+test/in95
+Bruteforce:
+SO4 SO7 SO8 SO9 
+Method: DP1
+SO4 SO7 SO8 SO9 
+Method: DP2
+SO2 SO5 SO7 SO8 
+Method: Greedy
+SO4 SO7 SO8 SO9 
+
+Best approximation --- method = Greedy --- loss = 0
+SO4 SO7 SO8 SO9 
+
+---------------------------------------------------
+test/in96
+Bruteforce:
+SO2 SO4 SO5 SO7 
+Method: DP1
+SO4 SO5 SO7 
+Method: DP2
+SO2 SO3 SO4 SO7 
+Method: Greedy
+SO2 SO4 SO5 SO7 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO4 SO5 SO7 
+
+---------------------------------------------------
+test/in97
+Bruteforce:
+SO1 SO3 SO4 SO6 SO9 
+Method: DP1
+SO2 SO3 SO4 SO6 
+Method: DP2
+SO1 SO3 SO4 SO6 SO9 
+Method: Greedy
+SO1 SO3 SO6 SO8 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO3 SO4 SO6 SO9 
+
+---------------------------------------------------
+test/in98
+Bruteforce:
+SO1 SO8 SO9 
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO7 SO9 
+Method: Greedy
+SO4 SO9 
+
+Best approximation --- method = DP2 --- loss = 0.0201939
+SO1 SO7 SO9 
+
+---------------------------------------------------
+test/in99
+Bruteforce:
+SO1 SO2 SO3 SO5 
+Method: DP1
+SO1 SO2 SO3 SO5 
+Method: DP2
+SO1 SO2 SO3 SO5 
+Method: Greedy
+SO1 SO2 SO3 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in100
+Bruteforce:
+SO2 SO3 SO7 SO11 SO12 SO13 
+Method: DP1
+SO6 SO7 SO11 SO15 
+Method: DP2
+SO2 SO3 SO7 SO11 SO12 SO13 
+Method: Greedy
+SO1 SO7 SO11 SO13 SO15 
+
+Best approximation --- method = DP2 --- loss = 0
+SO2 SO3 SO7 SO11 SO12 SO13 
+
+---------------------------------------------------
+test/in101
+Bruteforce:
+SO1 SO8 SO9 SO13 SO15 
+Method: DP1
+SO4 SO8 SO9 SO15 
+Method: DP2
+SO1 SO3 SO8 SO12 SO15 
+Method: Greedy
+SO1 SO8 SO9 SO13 SO15 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO8 SO9 SO13 SO15 
+
+---------------------------------------------------
+test/in102
+Bruteforce:
+SO1 SO8 SO9 SO11 SO12 SO13 
+Method: DP1
+SO2 SO6 SO9 SO12 
+Method: DP2
+SO1 SO6 SO7 SO9 SO12 SO13 
+Method: Greedy
+SO1 SO8 SO9 SO11 SO12 SO13 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO8 SO9 SO11 SO12 SO13 
+
+---------------------------------------------------
+test/in103
+Bruteforce:
+SO1 SO4 SO5 SO7 SO9 SO10 SO12 SO14 
+Method: DP1
+SO1 SO2 SO3 SO8 SO9 SO12 
+Method: DP2
+SO1 SO2 SO4 SO5 SO9 SO10 SO12 
+Method: Greedy
+SO4 SO14 SO15 
+
+Best approximation --- method = DP2 --- loss = 1
+SO1 SO2 SO4 SO5 SO9 SO10 SO12 
+
+---------------------------------------------------
+test/in104
+Bruteforce:
+SO1 SO4 SO7 SO9 SO10 SO11 SO12 
+Method: DP1
+SO1 SO2 SO5 SO7 SO11 SO12 
+Method: DP2
+SO4 SO7 SO9 SO10 SO11 SO12 
+Method: Greedy
+SO1 SO2 SO5 SO7 SO11 SO12 
+
+Best approximation --- method = Greedy --- loss = 1
+SO1 SO2 SO5 SO7 SO11 SO12 
+
+---------------------------------------------------
+test/in105
+Bruteforce:
+SO1 SO3 SO6 SO7 SO9 
+Method: DP1
+SO3 SO4 SO5 SO6 
+Method: DP2
+SO1 SO4 SO6 SO7 SO12 
+Method: Greedy
+SO1 SO3 SO11 SO12 
+
+Best approximation --- method = DP2 --- loss = 0.198203
+SO1 SO4 SO6 SO7 SO12 
+
+---------------------------------------------------
+test/in106
+Bruteforce:
+SO2 SO6 SO9 SO10 SO11 SO13 
+Method: DP1
+SO5 SO6 SO10 SO13 
+Method: DP2
+SO2 SO6 SO9 SO10 SO11 SO13 
+Method: Greedy
+SO5 SO6 SO9 SO10 SO13 
+
+Best approximation --- method = DP2 --- loss = 0
+SO2 SO6 SO9 SO10 SO11 SO13 
+
+---------------------------------------------------
+test/in107
+Bruteforce:
+SO2 SO8 SO10 SO14 SO15 
+Method: DP1
+SO1 SO2 SO3 SO8 SO15 
+Method: DP2
+SO2 SO3 SO8 SO14 SO15 
+Method: Greedy
+SO2 SO9 SO10 SO15 
+
+Best approximation --- method = DP1 --- loss = 0.1989
+SO1 SO2 SO3 SO8 SO15 
+
+---------------------------------------------------
+test/in108
+Bruteforce:
+SO1 SO6 SO8 SO10 SO13 
+Method: DP1
+SO6 SO8 SO10 SO13 
+Method: DP2
+SO1 SO2 SO5 SO8 SO12 
+Method: Greedy
+SO1 SO6 SO8 SO10 SO13 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO6 SO8 SO10 SO13 
+
+---------------------------------------------------
+test/in109
+Bruteforce:
+SO1 SO2 SO3 SO9 SO15 
+Method: DP1
+SO1 SO2 SO3 SO9 SO15 
+Method: DP2
+SO2 SO3 SO7 SO13 SO14 
+Method: Greedy
+SO3 SO4 SO6 SO14 
+
+Best approximation --- method = DP1 --- loss = 0
+SO1 SO2 SO3 SO9 SO15 
+
+---------------------------------------------------
+test/in110
+Bruteforce:
+SO2 SO6 SO7 SO9 SO10 SO12 SO15 
+Method: DP1
+SO1 SO2 SO3 SO6 SO15 
+Method: DP2
+SO1 SO2 SO6 SO7 SO9 SO10 SO15 
+Method: Greedy
+SO2 SO4 SO6 SO9 SO12 SO15 
+
+Best approximation --- method = DP2 --- loss = 0.343837
+SO1 SO2 SO6 SO7 SO9 SO10 SO15 
+
+---------------------------------------------------
+test/in111
+Bruteforce:
+SO4 SO9 SO10 SO11 SO13 
+Method: DP1
+SO2 SO4 SO7 SO10 
+Method: DP2
+SO4 SO9 SO10 SO11 SO13 
+Method: Greedy
+SO4 SO9 SO10 SO11 SO13 
+
+Best approximation --- method = Greedy --- loss = 0
+SO4 SO9 SO10 SO11 SO13 
+
+---------------------------------------------------
+test/in112
+Bruteforce:
+SO1 SO2 SO4 SO9 SO10 SO12 SO14 SO15 
+Method: DP1
+SO1 SO2 SO4 SO9 SO10 SO12 SO14 SO15 
+Method: DP2
+SO1 SO2 SO6 SO9 SO10 SO12 SO14 SO15 
+Method: Greedy
+SO1 SO2 SO4 SO6 SO13 SO14 SO15 
+
+Best approximation --- method = DP1 --- loss = 0
+SO1 SO2 SO4 SO9 SO10 SO12 SO14 SO15 
+
+---------------------------------------------------
+test/in113
+Bruteforce:
+SO1 SO3 SO6 SO7 SO9 SO13 
+Method: DP1
+SO1 SO3 SO6 SO7 SO9 SO13 
+Method: DP2
+SO5 SO6 SO7 SO8 SO9 SO13 
+Method: Greedy
+SO1 SO3 SO7 SO12 
+
+Best approximation --- method = DP1 --- loss = 0
+SO1 SO3 SO6 SO7 SO9 SO13 
+
+---------------------------------------------------
+test/in114
+Bruteforce:
+SO1 SO2 SO6 SO7 SO9 SO14 
+Method: DP1
+SO1 SO2 SO6 SO9 SO14 
+Method: DP2
+SO1 SO7 SO10 SO14 SO15 
+Method: Greedy
+SO2 SO6 SO7 SO9 
+
+Best approximation --- method = DP1 --- loss = 1
+SO1 SO2 SO6 SO9 SO14 
+
+---------------------------------------------------
+test/in115
+Bruteforce:
+SO2 SO4 SO7 SO8 SO10 SO11 SO15 
+Method: DP1
+SO1 SO4 SO5 SO8 SO10 
+Method: DP2
+SO2 SO4 SO7 SO8 SO10 SO11 SO15 
+Method: Greedy
+SO2 SO4 SO7 SO8 SO10 SO11 SO15 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO4 SO7 SO8 SO10 SO11 SO15 
+
+---------------------------------------------------
+test/in116
+Bruteforce:
+SO3 SO4 SO5 SO7 SO9 SO12 SO14 
+Method: DP1
+SO1 SO2 SO4 SO5 SO9 
+Method: DP2
+SO1 SO3 SO4 SO5 SO9 SO12 SO14 
+Method: Greedy
+SO3 SO4 SO5 SO7 SO9 SO12 SO14 
+
+Best approximation --- method = Greedy --- loss = 0
+SO3 SO4 SO5 SO7 SO9 SO12 SO14 
+
+---------------------------------------------------
+test/in117
+Bruteforce:
+SO7 SO8 SO11 SO14 
+Method: DP1
+SO1 SO7 SO13 
+Method: DP2
+SO6 SO8 SO9 SO11 
+Method: Greedy
+SO4 SO13 SO14 
+
+Best approximation --- method = DP2 --- loss = 0.0511719
+SO6 SO8 SO9 SO11 
+
+---------------------------------------------------
+test/in118
+Bruteforce:
+SO5 SO10 SO12 SO13 SO14 
+Method: DP1
+SO3 SO5 SO9 
+Method: DP2
+SO1 SO5 SO7 SO11 SO13 
+Method: Greedy
+SO3 SO12 SO13 SO14 
+
+Best approximation --- method = DP2 --- loss = 0.270027
+SO1 SO5 SO7 SO11 SO13 
+
+---------------------------------------------------
+test/in119
+Bruteforce:
+SO3 SO7 SO11 SO14 
+Method: DP1
+SO5 SO7 SO11 
+Method: DP2
+SO6 SO7 SO11 SO14 
+Method: Greedy
+SO1 SO5 SO7 
+
+Best approximation --- method = DP2 --- loss = 0.419058
+SO6 SO7 SO11 SO14 
+
+---------------------------------------------------
+test/in120
+Bruteforce:
+SO1 SO2 SO3 
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO1 SO2 SO3 
+Method: Greedy
+SO1 SO2 SO3 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 
+
+---------------------------------------------------
+test/in121
+Bruteforce:
+SO3 SO5 
+Method: DP1
+SO3 SO5 
+Method: DP2
+SO1 SO3 
+Method: Greedy
+SO3 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO3 SO5 
+
+---------------------------------------------------
+test/in122
+Bruteforce:
+SO1 SO2 SO5 
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO3 SO5 
+Method: Greedy
+SO1 
+
+Best approximation --- method = DP1 --- loss = 0
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in123
+Bruteforce:
+SO3 SO5 
+Method: DP1
+SO3 SO5 
+Method: DP2
+SO2 SO3 
+Method: Greedy
+SO3 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO3 SO5 
+
+---------------------------------------------------
+test/in124
+Bruteforce:
+SO1 SO2 
+Method: DP1
+SO1 SO2 
+Method: DP2
+SO1 SO2 
+Method: Greedy
+SO1 SO2 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 
+
+---------------------------------------------------
+test/in125
+Bruteforce:
+SO1 SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO1 SO3 SO4 SO5 
+Method: Greedy
+SO1 SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in126
+Bruteforce:
+SO1 SO5 
+Method: DP1
+SO1 SO5 
+Method: DP2
+SO1 SO2 
+Method: Greedy
+SO5 
+
+Best approximation --- method = DP1 --- loss = 0
+SO1 SO5 
+
+---------------------------------------------------
+test/in127
+Bruteforce:
+SO1 SO2 SO3 
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO1 SO2 SO3 
+Method: Greedy
+SO1 SO2 SO3 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 
+
+---------------------------------------------------
+test/in128
+Bruteforce:
+SO2 SO3 SO5 
+Method: DP1
+SO2 SO3 SO5 
+Method: DP2
+SO1 SO3 SO5 
+Method: Greedy
+SO2 SO3 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO3 SO5 
+
+---------------------------------------------------
+test/in129
+Bruteforce:
+SO2 SO4 SO5 
+Method: DP1
+SO2 SO4 SO5 
+Method: DP2
+SO2 SO3 SO5 
+Method: Greedy
+SO2 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in130
+Bruteforce:
+SO1 SO2 SO5 
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO2 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in131
+Bruteforce:
+SO2 SO3 
+Method: DP1
+SO2 SO3 
+Method: DP2
+SO1 SO2 
+Method: Greedy
+SO2 SO3 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO3 
+
+---------------------------------------------------
+test/in132
+Bruteforce:
+SO2 SO4 SO5 
+Method: DP1
+SO1 SO5 
+Method: DP2
+SO2 SO4 SO5 
+Method: Greedy
+SO2 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in133
+Bruteforce:
+SO1 SO2 SO4 SO5 
+Method: DP1
+SO1 SO2 SO4 SO5 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation --- method = DP1 --- loss = 0
+SO1 SO2 SO4 SO5 
+
+---------------------------------------------------
+test/in134
+Bruteforce:
+SO1 SO2 SO5 
+Method: DP1
+SO1 SO2 SO5 
+Method: DP2
+SO1 SO2 SO5 
+Method: Greedy
+SO1 SO2 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO5 
+
+---------------------------------------------------
+test/in135
+Bruteforce:
+SO1 SO3 SO4 
+Method: DP1
+SO1 SO2 SO3 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO1 SO3 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in136
+Bruteforce:
+SO1 SO3 SO4 
+Method: DP1
+SO1 SO3 SO4 
+Method: DP2
+SO1 SO3 SO4 
+Method: Greedy
+SO1 SO3 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO3 SO4 
+
+---------------------------------------------------
+test/in137
+Bruteforce:
+SO1 SO2 SO3 SO4 
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in138
+Bruteforce:
+SO1 SO5 
+Method: DP1
+SO1 SO5 
+Method: DP2
+SO3 SO5 
+Method: Greedy
+SO1 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO5 
+
+---------------------------------------------------
+test/in139
+Bruteforce:
+SO3 SO4 SO5 
+Method: DP1
+SO1 SO2 
+Method: DP2
+SO3 SO4 SO5 
+Method: Greedy
+SO3 SO4 SO5 
+
+Best approximation --- method = Greedy --- loss = 0
+SO3 SO4 SO5 
+
+---------------------------------------------------
+test/in140
+Bruteforce:
+SO2 SO3 SO6 SO9 SO10 
+Method: DP1
+SO1 SO2 SO6 SO7 
+Method: DP2
+SO2 SO3 SO6 SO9 SO10 
+Method: Greedy
+SO3 SO4 SO6 
+
+Best approximation --- method = DP2 --- loss = 0
+SO2 SO3 SO6 SO9 SO10 
+
+---------------------------------------------------
+test/in141
+Bruteforce:
+SO3 SO4 SO5 SO6 SO7 
+Method: DP1
+SO3 SO4 SO5 SO6 SO7 
+Method: DP2
+SO1 SO4 SO6 SO7 SO8 
+Method: Greedy
+SO3 SO4 SO5 SO6 SO7 
+
+Best approximation --- method = Greedy --- loss = 0
+SO3 SO4 SO5 SO6 SO7 
+
+---------------------------------------------------
+test/in142
+Bruteforce:
+SO1 SO2 SO9 
+Method: DP1
+SO1 SO2 SO9 
+Method: DP2
+SO1 SO2 SO9 
+Method: Greedy
+SO2 SO8 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO9 
+
+---------------------------------------------------
+test/in143
+Bruteforce:
+SO3 SO7 SO9 SO10 
+Method: DP1
+SO1 SO2 SO7 SO10 
+Method: DP2
+SO2 SO3 SO9 SO10 
+Method: Greedy
+SO1 SO4 SO5 
+
+Best approximation --- method = DP1 --- loss = 0.0835147
+SO1 SO2 SO7 SO10 
+
+---------------------------------------------------
+test/in144
+Bruteforce:
+SO2 SO4 SO7 SO8 
+Method: DP1
+SO2 SO6 SO8 
+Method: DP2
+SO3 SO4 SO7 SO8 
+Method: Greedy
+SO4 SO5 SO8 
+
+Best approximation --- method = DP2 --- loss = 0.00753823
+SO3 SO4 SO7 SO8 
+
+---------------------------------------------------
+test/in145
+Bruteforce:
+SO1 SO2 SO4 SO9 SO10 
+Method: DP1
+SO1 SO2 SO4 SO9 SO10 
+Method: DP2
+SO2 SO4 SO7 SO9 SO10 
+Method: Greedy
+SO6 SO7 SO10 
+
+Best approximation --- method = DP1 --- loss = 0
+SO1 SO2 SO4 SO9 SO10 
+
+---------------------------------------------------
+test/in146
+Bruteforce:
+SO4 SO10 
+Method: DP1
+SO4 SO10 
+Method: DP2
+SO2 SO10 
+Method: Greedy
+SO4 SO10 
+
+Best approximation --- method = Greedy --- loss = 0
+SO4 SO10 
+
+---------------------------------------------------
+test/in147
+Bruteforce:
+SO1 SO3 SO5 SO8 SO9 
+Method: DP1
+SO1 SO3 SO8 SO9 
+Method: DP2
+SO3 SO5 SO6 SO8 SO9 
+Method: Greedy
+SO1 SO3 SO5 SO8 
+
+Best approximation --- method = DP2 --- loss = 0.407834
+SO3 SO5 SO6 SO8 SO9 
+
+---------------------------------------------------
+test/in148
+Bruteforce:
+SO1 SO6 SO7 SO8 SO9 SO10 
+Method: DP1
+SO1 SO2 SO4 SO6 SO7 SO9 
+Method: DP2
+SO1 SO2 SO4 SO6 SO7 SO9 
+Method: Greedy
+SO1 SO6 SO7 SO8 SO9 SO10 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO6 SO7 SO8 SO9 SO10 
+
+---------------------------------------------------
+test/in149
+Bruteforce:
+SO1 SO2 SO4 SO5 SO6 
+Method: DP1
+SO1 SO2 SO4 SO5 SO6 
+Method: DP2
+SO1 SO2 SO4 SO5 SO6 
+Method: Greedy
+SO1 SO2 SO4 SO5 SO6 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO4 SO5 SO6 
+
+---------------------------------------------------
+test/in150
+Bruteforce:
+SO1 SO2 SO3 SO4 
+Method: DP1
+SO1 SO2 SO3 SO4 
+Method: DP2
+SO1 SO2 SO3 SO4 
+Method: Greedy
+SO1 SO2 SO3 SO4 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO3 SO4 
+
+---------------------------------------------------
+test/in151
+Bruteforce:
+SO1 SO2 SO3 SO6 SO8 
+Method: DP1
+SO2 SO3 SO5 SO7 
+Method: DP2
+SO1 SO2 SO3 SO6 SO8 
+Method: Greedy
+SO4 SO6 SO7 SO8 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO3 SO6 SO8 
+
+---------------------------------------------------
+test/in152
+Bruteforce:
+SO4 SO5 SO7 SO10 
+Method: DP1
+SO1 SO3 SO4 SO10 
+Method: DP2
+SO1 SO3 SO4 SO10 
+Method: Greedy
+SO5 SO7 SO10 
+
+Best approximation --- method = DP2 --- loss = 0.11489
+SO1 SO3 SO4 SO10 
+
+---------------------------------------------------
+test/in153
+Bruteforce:
+SO4 SO6 SO10 
+Method: DP1
+SO4 SO6 SO10 
+Method: DP2
+SO1 SO4 
+Method: Greedy
+SO2 SO4 
+
+Best approximation --- method = DP1 --- loss = 0
+SO4 SO6 SO10 
+
+---------------------------------------------------
+test/in154
+Bruteforce:
+SO3 SO4 SO5 SO6 SO9 SO10 
+Method: DP1
+SO1 SO2 SO3 SO9 SO10 
+Method: DP2
+SO1 SO3 SO5 SO6 SO9 SO10 
+Method: Greedy
+SO4 SO6 SO7 SO8 SO9 
+
+Best approximation --- method = DP2 --- loss = 0.20754
+SO1 SO3 SO5 SO6 SO9 SO10 
+
+---------------------------------------------------
+test/in155
+Bruteforce:
+SO1 SO2 SO6 
+Method: DP1
+SO1 SO2 SO6 
+Method: DP2
+SO1 SO3 SO7 
+Method: Greedy
+SO1 SO2 SO6 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO2 SO6 
+
+---------------------------------------------------
+test/in156
+Bruteforce:
+SO2 SO4 SO6 SO7 SO9 
+Method: DP1
+SO3 SO4 SO8 SO9 
+Method: DP2
+SO1 SO4 SO7 SO9 SO10 
+Method: Greedy
+SO2 SO4 SO6 SO7 SO9 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO4 SO6 SO7 SO9 
+
+---------------------------------------------------
+test/in157
+Bruteforce:
+SO5 SO7 SO8 SO10 
+Method: DP1
+SO2 SO5 SO6 
+Method: DP2
+SO3 SO5 SO7 SO10 
+Method: Greedy
+SO5 SO6 SO9 
+
+Best approximation --- method = DP2 --- loss = 0.241964
+SO3 SO5 SO7 SO10 
+
+---------------------------------------------------
+test/in158
+Bruteforce:
+SO1 SO2 SO10 
+Method: DP1
+SO1 SO2 SO10 
+Method: DP2
+SO2 SO4 SO8 
+Method: Greedy
+SO3 SO8 
+
+Best approximation --- method = DP1 --- loss = 0
+SO1 SO2 SO10 
+
+---------------------------------------------------
+test/in159
+Bruteforce:
+SO4 SO5 SO9 SO10 
+Method: DP1
+SO1 SO5 SO8 
+Method: DP2
+SO4 SO5 SO9 SO10 
+Method: Greedy
+SO1 SO5 SO8 
+
+Best approximation --- method = DP2 --- loss = 0
+SO4 SO5 SO9 SO10 
+
+---------------------------------------------------
+test/in160
+Bruteforce:
+SO4 SO6 SO7 SO9 SO10 SO14 
+Method: DP1
+SO1 SO3 SO4 SO7 
+Method: DP2
+SO4 SO6 SO7 SO9 SO10 SO14 
+Method: Greedy
+SO6 SO7 SO9 SO10 SO14 
+
+Best approximation --- method = DP2 --- loss = 0
+SO4 SO6 SO7 SO9 SO10 SO14 
+
+---------------------------------------------------
+test/in161
+Bruteforce:
+SO1 SO6 SO7 SO9 SO12 SO13 SO14 SO15 
+Method: DP1
+SO2 SO3 SO6 SO7 SO9 SO13 
+Method: DP2
+SO1 SO6 SO7 SO9 SO12 SO13 SO14 SO15 
+Method: Greedy
+SO1 SO6 SO9 SO12 SO13 SO14 SO15 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO6 SO7 SO9 SO12 SO13 SO14 SO15 
+
+---------------------------------------------------
+test/in162
+Bruteforce:
+SO6 SO7 SO10 SO11 
+Method: DP1
+SO1 SO2 SO8 
+Method: DP2
+SO7 SO8 SO10 SO11 
+Method: Greedy
+SO6 SO11 SO15 
+
+Best approximation --- method = DP2 --- loss = 0.2441
+SO7 SO8 SO10 SO11 
+
+---------------------------------------------------
+test/in163
+Bruteforce:
+SO2 SO6 SO9 SO12 
+Method: DP1
+SO3 SO11 SO12 
+Method: DP2
+SO6 SO7 SO13 
+Method: Greedy
+SO3 SO8 
+
+Best approximation --- method = DP1 --- loss = 1
+SO3 SO11 SO12 
+
+---------------------------------------------------
+test/in164
+Bruteforce:
+SO5 SO12 SO13 SO15 
+Method: DP1
+SO1 SO4 SO12 
+Method: DP2
+SO5 SO9 SO12 SO15 
+Method: Greedy
+SO3 SO13 
+
+Best approximation --- method = DP2 --- loss = 0.327559
+SO5 SO9 SO12 SO15 
+
+---------------------------------------------------
+test/in165
+Bruteforce:
+SO9 SO11 SO15 
+Method: DP1
+SO1 SO4 SO5 
+Method: DP2
+SO4 SO5 SO13 
+Method: Greedy
+SO9 SO11 SO15 
+
+Best approximation --- method = Greedy --- loss = 0
+SO9 SO11 SO15 
+
+---------------------------------------------------
+test/in166
+Bruteforce:
+SO2 SO7 SO8 SO14 
+Method: DP1
+SO3 SO4 SO8 
+Method: DP2
+SO5 SO6 SO8 SO15 
+Method: Greedy
+SO8 SO10 SO12 
+
+Best approximation --- method = DP2 --- loss = 0.213172
+SO5 SO6 SO8 SO15 
+
+---------------------------------------------------
+test/in167
+Bruteforce:
+SO4 SO5 SO7 SO15 
+Method: DP1
+SO2 SO6 SO7 
+Method: DP2
+SO1 SO5 SO11 SO13 
+Method: Greedy
+SO2 SO6 SO7 
+
+Best approximation --- method = DP2 --- loss = 0.385654
+SO1 SO5 SO11 SO13 
+
+---------------------------------------------------
+test/in168
+Bruteforce:
+SO3 SO4 SO6 
+Method: DP1
+SO3 SO4 SO6 
+Method: DP2
+SO3 SO7 SO12 
+Method: Greedy
+SO2 SO9 
+
+Best approximation --- method = DP1 --- loss = 0
+SO3 SO4 SO6 
+
+---------------------------------------------------
+test/in169
+Bruteforce:
+SO1 SO2 SO3 SO4 SO11 SO13 
+Method: DP1
+SO1 SO3 SO4 SO5 SO11 
+Method: DP2
+SO1 SO2 SO3 SO4 SO11 SO13 
+Method: Greedy
+SO5 SO8 SO11 
+
+Best approximation --- method = DP2 --- loss = 0
+SO1 SO2 SO3 SO4 SO11 SO13 
+
+---------------------------------------------------
+test/in170
+Bruteforce:
+SO2 SO3 SO6 SO7 SO10 SO11 SO12 
+Method: DP1
+SO1 SO2 SO4 SO11 SO12 
+Method: DP2
+SO2 SO7 SO10 SO11 SO12 SO13 
+Method: Greedy
+SO3 SO7 SO10 SO11 SO12 SO14 
+
+Best approximation --- method = Greedy --- loss = 1
+SO3 SO7 SO10 SO11 SO12 SO14 
+
+---------------------------------------------------
+test/in171
+Bruteforce:
+SO9 SO10 SO13 SO15 
+Method: DP1
+SO2 SO8 SO10 
+Method: DP2
+SO1 SO3 SO12 
+Method: Greedy
+SO2 SO8 SO10 
+
+Best approximation --- method = Greedy --- loss = 1
+SO2 SO8 SO10 
+
+---------------------------------------------------
+test/in172
+Bruteforce:
+SO2 SO6 SO7 SO8 SO9 SO14 
+Method: DP1
+SO4 SO6 SO7 SO8 
+Method: DP2
+SO2 SO7 SO8 SO9 SO12 
+Method: Greedy
+SO9 SO10 
+
+Best approximation --- method = DP2 --- loss = 1
+SO2 SO7 SO8 SO9 SO12 
+
+---------------------------------------------------
+test/in173
+Bruteforce:
+SO1 SO4 SO8 SO9 SO13 SO15 
+Method: DP1
+SO1 SO2 SO4 SO5 SO8 SO15 
+Method: DP2
+SO1 SO4 SO5 SO8 SO9 SO15 
+Method: Greedy
+SO1 SO4 SO8 SO9 SO13 
+
+Best approximation --- method = DP1 --- loss = 0.337982
+SO1 SO2 SO4 SO5 SO8 SO15 
+
+---------------------------------------------------
+test/in174
+Bruteforce:
+SO1 SO3 SO7 SO14 SO15 
+Method: DP1
+SO6 SO7 SO11 SO14 
+Method: DP2
+SO1 SO7 SO9 SO14 SO15 
+Method: Greedy
+SO3 SO7 SO8 SO15 
+
+Best approximation --- method = DP2 --- loss = 0.265634
+SO1 SO7 SO9 SO14 SO15 
+
+---------------------------------------------------
+test/in175
+Bruteforce:
+SO2 SO3 SO4 SO5 SO7 SO8 SO13 
+Method: DP1
+SO1 SO2 SO4 SO5 SO7 SO13 
+Method: DP2
+SO2 SO3 SO4 SO5 SO7 SO8 SO13 
+Method: Greedy
+SO2 SO3 SO4 SO5 SO7 SO8 SO13 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO3 SO4 SO5 SO7 SO8 SO13 
+
+---------------------------------------------------
+test/in176
+Bruteforce:
+SO2 SO3 SO9 SO11 
+Method: DP1
+SO2 SO3 SO9 SO11 
+Method: DP2
+SO3 SO4 SO7 SO13 
+Method: Greedy
+SO2 SO3 SO9 SO11 
+
+Best approximation --- method = Greedy --- loss = 0
+SO2 SO3 SO9 SO11 
+
+---------------------------------------------------
+test/in177
+Bruteforce:
+SO1 SO3 SO6 SO8 SO14 
+Method: DP1
+SO3 SO4 SO6 SO7 SO14 
+Method: DP2
+SO3 SO6 SO7 SO13 SO14 
+Method: Greedy
+SO1 SO3 SO6 SO8 SO14 
+
+Best approximation --- method = Greedy --- loss = 0
+SO1 SO3 SO6 SO8 SO14 
+
+---------------------------------------------------
+test/in178
+Bruteforce:
+SO5 SO7 SO8 SO9 SO14 
+Method: DP1
+SO3 SO4 SO5 SO7 
+Method: DP2
+SO5 SO7 SO8 SO9 SO14 
+Method: Greedy
+SO3 SO6 SO7 
+
+Best approximation --- method = DP2 --- loss = 0
+SO5 SO7 SO8 SO9 SO14 
+
+---------------------------------------------------
+test/in179
+Bruteforce:
+SO2 SO4 SO5 SO7 SO10 SO11 SO12 
+Method: DP1
+SO1 SO2 SO3 SO4 SO5 SO7 
+Method: DP2
+SO2 SO4 SO5 SO7 SO10 SO11 SO12 
+Method: Greedy
+SO1 SO2 SO4 SO7 SO10 SO11 
+
+Best approximation --- method = DP2 --- loss = 0
+SO2 SO4 SO5 SO7 SO10 SO11 SO12 
+
+---------------------------------------------------
+Evaluation
+N passed tests: 123
+Percent of passed tests: 68.3333
+Mean loss: 0.147947
+
+N tests passed by DP1: 28 15.5556
+N tests passed by DP2: 67 37.2222
+N tests passed by Greedy: 85 47.2222
